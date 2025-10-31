@@ -10,6 +10,10 @@ jobs:
   update-tld-list:
     runs-on: ubuntu-latest
 
+    # Add this permissions block to grant write access to the repository
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
