@@ -9683,6 +9683,7 @@ var publicSuffixList = map[string]bool{
 	"voorloper.cloud": true, // Private suffixes are also considered public for matching purposes
 	"wafflecell.com": true, // Private suffixes are also considered public for matching purposes
 	"wal.app": true, // Private suffixes are also considered public for matching purposes
+	"wasmer.app": true, // Private suffixes are also considered public for matching purposes
 	"webflow.io": true, // Private suffixes are also considered public for matching purposes
 	"webflowtest.io": true, // Private suffixes are also considered public for matching purposes
 	"bookonline.app": true, // Private suffixes are also considered public for matching purposes
@@ -12536,6 +12537,7 @@ var privateSuffixList = map[string]bool{
 	"voorloper.cloud": true,
 	"wafflecell.com": true,
 	"wal.app": true,
+	"wasmer.app": true,
 	"webflow.io": true,
 	"webflowtest.io": true,
 	"bookonline.app": true,
