@@ -880,7 +880,9 @@ var publicSuffixList = map[string]bool{
 	"ac.fj": true,
 	"biz.fj": true,
 	"com.fj": true,
+	"edu.fj": true,
 	"gov.fj": true,
+	"id.fj": true,
 	"info.fj": true,
 	"mil.fj": true,
 	"name.fj": true,
@@ -3960,8 +3962,6 @@ var publicSuffixList = map[string]bool{
 	"bievát.no": true,
 	"bindal.no": true,
 	"birkenes.no": true,
-	"bjarkoy.no": true,
-	"bjarkøy.no": true,
 	"bjerkreim.no": true,
 	"bjugn.no": true,
 	"bodo.no": true,
@@ -4238,7 +4238,6 @@ var publicSuffixList = map[string]bool{
 	"sande.møre-og-romsdal.no": true,
 	"moskenes.no": true,
 	"moss.no": true,
-	"mosvik.no": true,
 	"muosat.no": true,
 	"muosát.no": true,
 	"naamesjevuemie.no": true,
@@ -7617,14 +7616,18 @@ var publicSuffixList = map[string]bool{
 	"ap-southeast-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"ap-southeast-2.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"ap-southeast-3.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
+	"ap-southeast-5.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
+	"ap-southeast-7.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"ca-central-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"eu-central-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"eu-north-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"eu-south-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
+	"eu-south-2.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"eu-west-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"eu-west-2.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"eu-west-3.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"il-central-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
+	"me-central-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"me-south-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"sa-east-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"us-east-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
@@ -7634,6 +7637,28 @@ var publicSuffixList = map[string]bool{
 	"us-west-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"us-west-2.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"awsglobalaccelerator.com": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.af-south-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.ap-east-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.ap-northeast-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.ap-northeast-2.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.ap-northeast-3.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.ap-south-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.ap-southeast-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.ap-southeast-2.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.ap-southeast-3.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.ca-central-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.eu-central-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.eu-north-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.eu-south-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.eu-west-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.eu-west-2.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.eu-west-3.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.me-south-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.sa-east-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.us-east-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.us-east-2.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.us-west-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"lambda-url.us-west-2.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.af-south-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ap-east-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ap-northeast-1.on.aws": true, // Private suffixes are also considered public for matching purposes
@@ -7912,6 +7937,10 @@ var publicSuffixList = map[string]bool{
 	"dedyn.io": true, // Private suffixes are also considered public for matching purposes
 	"deta.app": true, // Private suffixes are also considered public for matching purposes
 	"deta.dev": true, // Private suffixes are also considered public for matching purposes
+	"d6.ply.gg": true, // Private suffixes are also considered public for matching purposes
+	"joinmc.link": true, // Private suffixes are also considered public for matching purposes
+	"playit.plus": true, // Private suffixes are also considered public for matching purposes
+	"with.playit.plus": true, // Private suffixes are also considered public for matching purposes
 	"icp0.io": true, // Private suffixes are also considered public for matching purposes
 	"icp1.io": true, // Private suffixes are also considered public for matching purposes
 	"caffeine.site": true, // Private suffixes are also considered public for matching purposes
@@ -8424,6 +8453,7 @@ var publicSuffixList = map[string]bool{
 	"mydobiss.com": true, // Private suffixes are also considered public for matching purposes
 	"fh-muenster.io": true, // Private suffixes are also considered public for matching purposes
 	"figma.site": true, // Private suffixes are also considered public for matching purposes
+	"figma-gov.site": true, // Private suffixes are also considered public for matching purposes
 	"preview.site": true, // Private suffixes are also considered public for matching purposes
 	"filegear.me": true, // Private suffixes are also considered public for matching purposes
 	"firebaseapp.com": true, // Private suffixes are also considered public for matching purposes
@@ -8750,6 +8780,7 @@ var publicSuffixList = map[string]bool{
 	"test-iserv.de": true, // Private suffixes are also considered public for matching purposes
 	"iserv.dev": true, // Private suffixes are also considered public for matching purposes
 	"iserv.host": true, // Private suffixes are also considered public for matching purposes
+	"ispmanager.name": true, // Private suffixes are also considered public for matching purposes
 	"mel.cloudlets.com.au": true, // Private suffixes are also considered public for matching purposes
 	"cloud.interhostsolutions.be": true, // Private suffixes are also considered public for matching purposes
 	"alp1.ae.flow.ch": true, // Private suffixes are also considered public for matching purposes
@@ -8993,6 +9024,9 @@ var publicSuffixList = map[string]bool{
 	"mittwaldserver.info": true, // Private suffixes are also considered public for matching purposes
 	"typo3server.info": true, // Private suffixes are also considered public for matching purposes
 	"project.space": true, // Private suffixes are also considered public for matching purposes
+	"mocha.app": true, // Private suffixes are also considered public for matching purposes
+	"mochausercontent.com": true, // Private suffixes are also considered public for matching purposes
+	"mocha-sandbox.dev": true, // Private suffixes are also considered public for matching purposes
 	"modx.dev": true, // Private suffixes are also considered public for matching purposes
 	"bmoattachments.org": true, // Private suffixes are also considered public for matching purposes
 	"net.ru": true, // Private suffixes are also considered public for matching purposes
@@ -9016,7 +9050,6 @@ var publicSuffixList = map[string]bool{
 	"cloud.nospamproxy.com": true, // Private suffixes are also considered public for matching purposes
 	"o365.cloud.nospamproxy.com": true, // Private suffixes are also considered public for matching purposes
 	"netlib.re": true, // Private suffixes are also considered public for matching purposes
-	"netfy.app": true, // Private suffixes are also considered public for matching purposes
 	"netlify.app": true, // Private suffixes are also considered public for matching purposes
 	"4u.com": true, // Private suffixes are also considered public for matching purposes
 	"nfshost.com": true, // Private suffixes are also considered public for matching purposes
@@ -10471,14 +10504,18 @@ var privateSuffixList = map[string]bool{
 	"ap-southeast-1.elasticbeanstalk.com": true,
 	"ap-southeast-2.elasticbeanstalk.com": true,
 	"ap-southeast-3.elasticbeanstalk.com": true,
+	"ap-southeast-5.elasticbeanstalk.com": true,
+	"ap-southeast-7.elasticbeanstalk.com": true,
 	"ca-central-1.elasticbeanstalk.com": true,
 	"eu-central-1.elasticbeanstalk.com": true,
 	"eu-north-1.elasticbeanstalk.com": true,
 	"eu-south-1.elasticbeanstalk.com": true,
+	"eu-south-2.elasticbeanstalk.com": true,
 	"eu-west-1.elasticbeanstalk.com": true,
 	"eu-west-2.elasticbeanstalk.com": true,
 	"eu-west-3.elasticbeanstalk.com": true,
 	"il-central-1.elasticbeanstalk.com": true,
+	"me-central-1.elasticbeanstalk.com": true,
 	"me-south-1.elasticbeanstalk.com": true,
 	"sa-east-1.elasticbeanstalk.com": true,
 	"us-east-1.elasticbeanstalk.com": true,
@@ -10488,6 +10525,28 @@ var privateSuffixList = map[string]bool{
 	"us-west-1.elasticbeanstalk.com": true,
 	"us-west-2.elasticbeanstalk.com": true,
 	"awsglobalaccelerator.com": true,
+	"lambda-url.af-south-1.on.aws": true,
+	"lambda-url.ap-east-1.on.aws": true,
+	"lambda-url.ap-northeast-1.on.aws": true,
+	"lambda-url.ap-northeast-2.on.aws": true,
+	"lambda-url.ap-northeast-3.on.aws": true,
+	"lambda-url.ap-south-1.on.aws": true,
+	"lambda-url.ap-southeast-1.on.aws": true,
+	"lambda-url.ap-southeast-2.on.aws": true,
+	"lambda-url.ap-southeast-3.on.aws": true,
+	"lambda-url.ca-central-1.on.aws": true,
+	"lambda-url.eu-central-1.on.aws": true,
+	"lambda-url.eu-north-1.on.aws": true,
+	"lambda-url.eu-south-1.on.aws": true,
+	"lambda-url.eu-west-1.on.aws": true,
+	"lambda-url.eu-west-2.on.aws": true,
+	"lambda-url.eu-west-3.on.aws": true,
+	"lambda-url.me-south-1.on.aws": true,
+	"lambda-url.sa-east-1.on.aws": true,
+	"lambda-url.us-east-1.on.aws": true,
+	"lambda-url.us-east-2.on.aws": true,
+	"lambda-url.us-west-1.on.aws": true,
+	"lambda-url.us-west-2.on.aws": true,
 	"transfer-webapp.af-south-1.on.aws": true,
 	"transfer-webapp.ap-east-1.on.aws": true,
 	"transfer-webapp.ap-northeast-1.on.aws": true,
@@ -10766,6 +10825,10 @@ var privateSuffixList = map[string]bool{
 	"dedyn.io": true,
 	"deta.app": true,
 	"deta.dev": true,
+	"d6.ply.gg": true,
+	"joinmc.link": true,
+	"playit.plus": true,
+	"with.playit.plus": true,
 	"icp0.io": true,
 	"icp1.io": true,
 	"caffeine.site": true,
@@ -11278,6 +11341,7 @@ var privateSuffixList = map[string]bool{
 	"mydobiss.com": true,
 	"fh-muenster.io": true,
 	"figma.site": true,
+	"figma-gov.site": true,
 	"preview.site": true,
 	"filegear.me": true,
 	"firebaseapp.com": true,
@@ -11604,6 +11668,7 @@ var privateSuffixList = map[string]bool{
 	"test-iserv.de": true,
 	"iserv.dev": true,
 	"iserv.host": true,
+	"ispmanager.name": true,
 	"mel.cloudlets.com.au": true,
 	"cloud.interhostsolutions.be": true,
 	"alp1.ae.flow.ch": true,
@@ -11847,6 +11912,9 @@ var privateSuffixList = map[string]bool{
 	"mittwaldserver.info": true,
 	"typo3server.info": true,
 	"project.space": true,
+	"mocha.app": true,
+	"mochausercontent.com": true,
+	"mocha-sandbox.dev": true,
 	"modx.dev": true,
 	"bmoattachments.org": true,
 	"net.ru": true,
@@ -11870,7 +11938,6 @@ var privateSuffixList = map[string]bool{
 	"cloud.nospamproxy.com": true,
 	"o365.cloud.nospamproxy.com": true,
 	"netlib.re": true,
-	"netfy.app": true,
 	"netlify.app": true,
 	"4u.com": true,
 	"nfshost.com": true,
