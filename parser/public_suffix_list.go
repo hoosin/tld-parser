@@ -9666,6 +9666,7 @@ var publicSuffixList = map[string]bool{
 	"webspace.rocks": true, // Private suffixes are also considered public for matching purposes
 	"lima.zone": true, // Private suffixes are also considered public for matching purposes
 	"site.transip.me": true, // Private suffixes are also considered public for matching purposes
+	"tunnelmole.net": true, // Private suffixes are also considered public for matching purposes
 	"tuxfamily.org": true, // Private suffixes are also considered public for matching purposes
 	"dd-dns.de": true, // Private suffixes are also considered public for matching purposes
 	"dray-dns.de": true, // Private suffixes are also considered public for matching purposes
@@ -12554,6 +12555,7 @@ var privateSuffixList = map[string]bool{
 	"webspace.rocks": true,
 	"lima.zone": true,
 	"site.transip.me": true,
+	"tunnelmole.net": true,
 	"tuxfamily.org": true,
 	"dd-dns.de": true,
 	"dray-dns.de": true,
