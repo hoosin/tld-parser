@@ -7956,6 +7956,7 @@ var publicSuffixList = map[string]bool{
 	"discordsays.com": true, // Private suffixes are also considered public for matching purposes
 	"discordsez.com": true, // Private suffixes are also considered public for matching purposes
 	"jozi.biz": true, // Private suffixes are also considered public for matching purposes
+	"de5.net": true, // Private suffixes are also considered public for matching purposes
 	"dnshome.de": true, // Private suffixes are also considered public for matching purposes
 	"online.th": true, // Private suffixes are also considered public for matching purposes
 	"shop.th": true, // Private suffixes are also considered public for matching purposes
@@ -10845,6 +10846,7 @@ var privateSuffixList = map[string]bool{
 	"discordsays.com": true,
 	"discordsez.com": true,
 	"jozi.biz": true,
+	"de5.net": true,
 	"dnshome.de": true,
 	"online.th": true,
 	"shop.th": true,
