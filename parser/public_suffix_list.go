@@ -9048,6 +9048,7 @@ var publicSuffixList = map[string]bool{
 	"cust.retrosnub.co.uk": true, // Private suffixes are also considered public for matching purposes
 	"ui.nabu.casa": true, // Private suffixes are also considered public for matching purposes
 	"needle.run": true, // Private suffixes are also considered public for matching purposes
+	"co.site": true, // Private suffixes are also considered public for matching purposes
 	"cloud.nospamproxy.com": true, // Private suffixes are also considered public for matching purposes
 	"o365.cloud.nospamproxy.com": true, // Private suffixes are also considered public for matching purposes
 	"netlib.re": true, // Private suffixes are also considered public for matching purposes
@@ -11938,6 +11939,7 @@ var privateSuffixList = map[string]bool{
 	"cust.retrosnub.co.uk": true,
 	"ui.nabu.casa": true,
 	"needle.run": true,
+	"co.site": true,
 	"cloud.nospamproxy.com": true,
 	"o365.cloud.nospamproxy.com": true,
 	"netlib.re": true,
