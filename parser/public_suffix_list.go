@@ -8275,6 +8275,8 @@ var publicSuffixList = map[string]bool{
 	"rt.ht": true, // Private suffixes are also considered public for matching purposes
 	"elementor.cloud": true, // Private suffixes are also considered public for matching purposes
 	"elementor.cool": true, // Private suffixes are also considered public for matching purposes
+	"emergent.cloud": true, // Private suffixes are also considered public for matching purposes
+	"emergent.host": true, // Private suffixes are also considered public for matching purposes
 	"en-root.fr": true, // Private suffixes are also considered public for matching purposes
 	"mytuleap.com": true, // Private suffixes are also considered public for matching purposes
 	"tuleap-partners.com": true, // Private suffixes are also considered public for matching purposes
@@ -9691,6 +9693,7 @@ var publicSuffixList = map[string]bool{
 	"ltd.hk": true, // Private suffixes are also considered public for matching purposes
 	"hk.org": true, // Private suffixes are also considered public for matching purposes
 	"it.com": true, // Private suffixes are also considered public for matching purposes
+	"umso.co": true, // Private suffixes are also considered public for matching purposes
 	"unison-services.cloud": true, // Private suffixes are also considered public for matching purposes
 	"virtual-user.de": true, // Private suffixes are also considered public for matching purposes
 	"virtualuser.de": true, // Private suffixes are also considered public for matching purposes
@@ -11166,6 +11169,8 @@ var privateSuffixList = map[string]bool{
 	"rt.ht": true,
 	"elementor.cloud": true,
 	"elementor.cool": true,
+	"emergent.cloud": true,
+	"emergent.host": true,
 	"en-root.fr": true,
 	"mytuleap.com": true,
 	"tuleap-partners.com": true,
@@ -12582,6 +12587,7 @@ var privateSuffixList = map[string]bool{
 	"ltd.hk": true,
 	"hk.org": true,
 	"it.com": true,
+	"umso.co": true,
 	"unison-services.cloud": true,
 	"virtual-user.de": true,
 	"virtualuser.de": true,
