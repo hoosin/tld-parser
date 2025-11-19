@@ -7877,6 +7877,7 @@ var publicSuffixList = map[string]bool{
 	"co.nl": true, // Private suffixes are also considered public for matching purposes
 	"co.no": true, // Private suffixes are also considered public for matching purposes
 	"webhosting.be": true, // Private suffixes are also considered public for matching purposes
+	"prvw.eu": true, // Private suffixes are also considered public for matching purposes
 	"hosting-cluster.nl": true, // Private suffixes are also considered public for matching purposes
 	"ctfcloud.net": true, // Private suffixes are also considered public for matching purposes
 	"convex.app": true, // Private suffixes are also considered public for matching purposes
@@ -9745,8 +9746,6 @@ var publicSuffixList = map[string]bool{
 	"wmcloud.org": true, // Private suffixes are also considered public for matching purposes
 	"beta.wmcloud.org": true, // Private suffixes are also considered public for matching purposes
 	"wmflabs.org": true, // Private suffixes are also considered public for matching purposes
-	"wdh.app": true, // Private suffixes are also considered public for matching purposes
-	"hrsn.au": true, // Private suffixes are also considered public for matching purposes
 	"vps.hrsn.au": true, // Private suffixes are also considered public for matching purposes
 	"hrsn.dev": true, // Private suffixes are also considered public for matching purposes
 	"is-a.dev": true, // Private suffixes are also considered public for matching purposes
@@ -10771,6 +10770,7 @@ var privateSuffixList = map[string]bool{
 	"co.nl": true,
 	"co.no": true,
 	"webhosting.be": true,
+	"prvw.eu": true,
 	"hosting-cluster.nl": true,
 	"ctfcloud.net": true,
 	"convex.app": true,
@@ -12639,8 +12639,6 @@ var privateSuffixList = map[string]bool{
 	"wmcloud.org": true,
 	"beta.wmcloud.org": true,
 	"wmflabs.org": true,
-	"wdh.app": true,
-	"hrsn.au": true,
 	"vps.hrsn.au": true,
 	"hrsn.dev": true,
 	"is-a.dev": true,
