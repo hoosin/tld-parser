@@ -1093,6 +1093,7 @@ var publicSuffixList = map[string]bool{
 	"ponpes.id": true,
 	"sch.id": true,
 	"web.id": true,
+	"ᬩᬮᬶ.id": true,
 	"ie": true,
 	"gov.ie": true,
 	"il": true,
@@ -8658,6 +8659,7 @@ var publicSuffixList = map[string]bool{
 	"gov.nl": true, // Private suffixes are also considered public for matching purposes
 	"grafana-dev.net": true, // Private suffixes are also considered public for matching purposes
 	"grayjayleagues.com": true, // Private suffixes are also considered public for matching purposes
+	"grebedoc.dev": true, // Private suffixes are also considered public for matching purposes
 	"günstigbestellen.de": true, // Private suffixes are also considered public for matching purposes
 	"günstigliefern.de": true, // Private suffixes are also considered public for matching purposes
 	"hackclub.app": true, // Private suffixes are also considered public for matching purposes
@@ -9778,6 +9780,7 @@ var publicSuffixList = map[string]bool{
 	"cistron.nl": true, // Private suffixes are also considered public for matching purposes
 	"demon.nl": true, // Private suffixes are also considered public for matching purposes
 	"xs4all.space": true, // Private suffixes are also considered public for matching purposes
+	"xtooldevice.com": true, // Private suffixes are also considered public for matching purposes
 	"yandexcloud.net": true, // Private suffixes are also considered public for matching purposes
 	"storage.yandexcloud.net": true, // Private suffixes are also considered public for matching purposes
 	"website.yandexcloud.net": true, // Private suffixes are also considered public for matching purposes
@@ -11551,6 +11554,7 @@ var privateSuffixList = map[string]bool{
 	"gov.nl": true,
 	"grafana-dev.net": true,
 	"grayjayleagues.com": true,
+	"grebedoc.dev": true,
 	"günstigbestellen.de": true,
 	"günstigliefern.de": true,
 	"hackclub.app": true,
@@ -12671,6 +12675,7 @@ var privateSuffixList = map[string]bool{
 	"cistron.nl": true,
 	"demon.nl": true,
 	"xs4all.space": true,
+	"xtooldevice.com": true,
 	"yandexcloud.net": true,
 	"storage.yandexcloud.net": true,
 	"website.yandexcloud.net": true,
