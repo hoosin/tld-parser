@@ -7754,6 +7754,7 @@ var publicSuffixList = map[string]bool{
 	"bplaced.net": true, // Private suffixes are also considered public for matching purposes
 	"square7.net": true, // Private suffixes are also considered public for matching purposes
 	"brave.app": true, // Private suffixes are also considered public for matching purposes
+	"brave.dev": true, // Private suffixes are also considered public for matching purposes
 	"brave.io": true, // Private suffixes are also considered public for matching purposes
 	"shop.brendly.ba": true, // Private suffixes are also considered public for matching purposes
 	"shop.brendly.hr": true, // Private suffixes are also considered public for matching purposes
@@ -10649,6 +10650,7 @@ var privateSuffixList = map[string]bool{
 	"bplaced.net": true,
 	"square7.net": true,
 	"brave.app": true,
+	"brave.dev": true,
 	"brave.io": true,
 	"shop.brendly.ba": true,
 	"shop.brendly.hr": true,
