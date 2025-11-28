@@ -8505,6 +8505,8 @@ var publicSuffixList = map[string]bool{
 	"mydns.vc": true, // Private suffixes are also considered public for matching purposes
 	"futurehosting.at": true, // Private suffixes are also considered public for matching purposes
 	"futuremailing.at": true, // Private suffixes are also considered public for matching purposes
+	"gadget.app": true, // Private suffixes are also considered public for matching purposes
+	"gadget.host": true, // Private suffixes are also considered public for matching purposes
 	"aliases121.com": true, // Private suffixes are also considered public for matching purposes
 	"campaign.gov.uk": true, // Private suffixes are also considered public for matching purposes
 	"service.gov.uk": true, // Private suffixes are also considered public for matching purposes
@@ -9016,8 +9018,12 @@ var publicSuffixList = map[string]bool{
 	"azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
 	"cloudapp.net": true, // Private suffixes are also considered public for matching purposes
 	"trafficmanager.net": true, // Private suffixes are also considered public for matching purposes
+	"servicebus.usgovcloudapi.net": true, // Private suffixes are also considered public for matching purposes
+	"usgovcloudapp.net": true, // Private suffixes are also considered public for matching purposes
 	"blob.core.windows.net": true, // Private suffixes are also considered public for matching purposes
 	"servicebus.windows.net": true, // Private suffixes are also considered public for matching purposes
+	"azure-api.us": true, // Private suffixes are also considered public for matching purposes
+	"azurewebsites.us": true, // Private suffixes are also considered public for matching purposes
 	"routingthecloud.com": true, // Private suffixes are also considered public for matching purposes
 	"sn.mynetname.net": true, // Private suffixes are also considered public for matching purposes
 	"routingthecloud.net": true, // Private suffixes are also considered public for matching purposes
@@ -9189,7 +9195,6 @@ var publicSuffixList = map[string]bool{
 	"nerdpol.ovh": true, // Private suffixes are also considered public for matching purposes
 	"nyc.mn": true, // Private suffixes are also considered public for matching purposes
 	"prvcy.page": true, // Private suffixes are also considered public for matching purposes
-	"obl.ong": true, // Private suffixes are also considered public for matching purposes
 	"observablehq.cloud": true, // Private suffixes are also considered public for matching purposes
 	"static.observableusercontent.com": true, // Private suffixes are also considered public for matching purposes
 	"omg.lol": true, // Private suffixes are also considered public for matching purposes
@@ -11401,6 +11406,8 @@ var privateSuffixList = map[string]bool{
 	"mydns.vc": true,
 	"futurehosting.at": true,
 	"futuremailing.at": true,
+	"gadget.app": true,
+	"gadget.host": true,
 	"aliases121.com": true,
 	"campaign.gov.uk": true,
 	"service.gov.uk": true,
@@ -11912,8 +11919,12 @@ var privateSuffixList = map[string]bool{
 	"azurewebsites.net": true,
 	"cloudapp.net": true,
 	"trafficmanager.net": true,
+	"servicebus.usgovcloudapi.net": true,
+	"usgovcloudapp.net": true,
 	"blob.core.windows.net": true,
 	"servicebus.windows.net": true,
+	"azure-api.us": true,
+	"azurewebsites.us": true,
 	"routingthecloud.com": true,
 	"sn.mynetname.net": true,
 	"routingthecloud.net": true,
@@ -12085,7 +12096,6 @@ var privateSuffixList = map[string]bool{
 	"nerdpol.ovh": true,
 	"nyc.mn": true,
 	"prvcy.page": true,
-	"obl.ong": true,
 	"observablehq.cloud": true,
 	"static.observableusercontent.com": true,
 	"omg.lol": true,
