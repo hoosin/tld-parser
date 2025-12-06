@@ -8279,6 +8279,7 @@ var publicSuffixList = map[string]bool{
 	"elementor.cloud": true, // Private suffixes are also considered public for matching purposes
 	"elementor.cool": true, // Private suffixes are also considered public for matching purposes
 	"emergent.cloud": true, // Private suffixes are also considered public for matching purposes
+	"preview.emergentagent.com": true, // Private suffixes are also considered public for matching purposes
 	"emergent.host": true, // Private suffixes are also considered public for matching purposes
 	"en-root.fr": true, // Private suffixes are also considered public for matching purposes
 	"mytuleap.com": true, // Private suffixes are also considered public for matching purposes
@@ -9252,7 +9253,6 @@ var publicSuffixList = map[string]bool{
 	"srv.us": true, // Private suffixes are also considered public for matching purposes
 	"gh.srv.us": true, // Private suffixes are also considered public for matching purposes
 	"gl.srv.us": true, // Private suffixes are also considered public for matching purposes
-	"lk3.ru": true, // Private suffixes are also considered public for matching purposes
 	"mypep.link": true, // Private suffixes are also considered public for matching purposes
 	"perspecta.cloud": true, // Private suffixes are also considered public for matching purposes
 	"support.site": true, // Private suffixes are also considered public for matching purposes
@@ -11180,6 +11180,7 @@ var privateSuffixList = map[string]bool{
 	"elementor.cloud": true,
 	"elementor.cool": true,
 	"emergent.cloud": true,
+	"preview.emergentagent.com": true,
 	"emergent.host": true,
 	"en-root.fr": true,
 	"mytuleap.com": true,
@@ -12153,7 +12154,6 @@ var privateSuffixList = map[string]bool{
 	"srv.us": true,
 	"gh.srv.us": true,
 	"gl.srv.us": true,
-	"lk3.ru": true,
 	"mypep.link": true,
 	"perspecta.cloud": true,
 	"support.site": true,
