@@ -7963,6 +7963,9 @@ var publicSuffixList = map[string]bool{
 	"dnshome.de": true, // Private suffixes are also considered public for matching purposes
 	"online.th": true, // Private suffixes are also considered public for matching purposes
 	"shop.th": true, // Private suffixes are also considered public for matching purposes
+	"co.scot": true, // Private suffixes are also considered public for matching purposes
+	"me.scot": true, // Private suffixes are also considered public for matching purposes
+	"org.scot": true, // Private suffixes are also considered public for matching purposes
 	"drayddns.com": true, // Private suffixes are also considered public for matching purposes
 	"shoparena.pl": true, // Private suffixes are also considered public for matching purposes
 	"dreamhosters.com": true, // Private suffixes are also considered public for matching purposes
@@ -10864,6 +10867,9 @@ var privateSuffixList = map[string]bool{
 	"dnshome.de": true,
 	"online.th": true,
 	"shop.th": true,
+	"co.scot": true,
+	"me.scot": true,
+	"org.scot": true,
 	"drayddns.com": true,
 	"shoparena.pl": true,
 	"dreamhosters.com": true,
