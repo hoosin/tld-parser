@@ -9428,6 +9428,7 @@ var publicSuffixList = map[string]bool{
 	"from.tv": true, // Private suffixes are also considered public for matching purposes
 	"sakura.tv": true, // Private suffixes are also considered public for matching purposes
 	"sandcats.io": true, // Private suffixes are also considered public for matching purposes
+	"sav.case": true, // Private suffixes are also considered public for matching purposes
 	"logoip.com": true, // Private suffixes are also considered public for matching purposes
 	"logoip.de": true, // Private suffixes are also considered public for matching purposes
 	"fr-par-1.baremetal.scw.cloud": true, // Private suffixes are also considered public for matching purposes
@@ -12332,6 +12333,7 @@ var privateSuffixList = map[string]bool{
 	"from.tv": true,
 	"sakura.tv": true,
 	"sandcats.io": true,
+	"sav.case": true,
 	"logoip.com": true,
 	"logoip.de": true,
 	"fr-par-1.baremetal.scw.cloud": true,
