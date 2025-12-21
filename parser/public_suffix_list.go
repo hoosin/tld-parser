@@ -7701,6 +7701,7 @@ var publicSuffixList = map[string]bool{
 	"transfer-webapp.cn-northwest-1.on.amazonwebservices.com.cn": true, // Private suffixes are also considered public for matching purposes
 	"eero.online": true, // Private suffixes are also considered public for matching purposes
 	"eero-stage.online": true, // Private suffixes are also considered public for matching purposes
+	"antagonist.cloud": true, // Private suffixes are also considered public for matching purposes
 	"apigee.io": true, // Private suffixes are also considered public for matching purposes
 	"panel.dev": true, // Private suffixes are also considered public for matching purposes
 	"siiites.com": true, // Private suffixes are also considered public for matching purposes
@@ -8479,8 +8480,6 @@ var publicSuffixList = map[string]bool{
 	"flutterflow.app": true, // Private suffixes are also considered public for matching purposes
 	"sprites.app": true, // Private suffixes are also considered public for matching purposes
 	"fly.dev": true, // Private suffixes are also considered public for matching purposes
-	"forgeblocks.com": true, // Private suffixes are also considered public for matching purposes
-	"id.forgerock.io": true, // Private suffixes are also considered public for matching purposes
 	"e2b.app": true, // Private suffixes are also considered public for matching purposes
 	"framer.ai": true, // Private suffixes are also considered public for matching purposes
 	"framer.app": true, // Private suffixes are also considered public for matching purposes
@@ -9267,6 +9266,8 @@ var publicSuffixList = map[string]bool{
 	"gl.srv.us": true, // Private suffixes are also considered public for matching purposes
 	"mypep.link": true, // Private suffixes are also considered public for matching purposes
 	"perspecta.cloud": true, // Private suffixes are also considered public for matching purposes
+	"forgeblocks.com": true, // Private suffixes are also considered public for matching purposes
+	"id.forgerock.io": true, // Private suffixes are also considered public for matching purposes
 	"support.site": true, // Private suffixes are also considered public for matching purposes
 	"on-web.fr": true, // Private suffixes are also considered public for matching purposes
 	"upsunapp.com": true, // Private suffixes are also considered public for matching purposes
@@ -10610,6 +10611,7 @@ var privateSuffixList = map[string]bool{
 	"transfer-webapp.cn-northwest-1.on.amazonwebservices.com.cn": true,
 	"eero.online": true,
 	"eero-stage.online": true,
+	"antagonist.cloud": true,
 	"apigee.io": true,
 	"panel.dev": true,
 	"siiites.com": true,
@@ -11388,8 +11390,6 @@ var privateSuffixList = map[string]bool{
 	"flutterflow.app": true,
 	"sprites.app": true,
 	"fly.dev": true,
-	"forgeblocks.com": true,
-	"id.forgerock.io": true,
 	"e2b.app": true,
 	"framer.ai": true,
 	"framer.app": true,
@@ -12176,6 +12176,8 @@ var privateSuffixList = map[string]bool{
 	"gl.srv.us": true,
 	"mypep.link": true,
 	"perspecta.cloud": true,
+	"forgeblocks.com": true,
+	"id.forgerock.io": true,
 	"support.site": true,
 	"on-web.fr": true,
 	"upsunapp.com": true,
