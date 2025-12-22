@@ -8726,6 +8726,7 @@ var publicSuffixList = map[string]bool{
 	"iki.fi": true, // Private suffixes are also considered public for matching purposes
 	"ibxos.it": true, // Private suffixes are also considered public for matching purposes
 	"iliadboxos.it": true, // Private suffixes are also considered public for matching purposes
+	"imagine-proxy.work": true, // Private suffixes are also considered public for matching purposes
 	"smushcdn.com": true, // Private suffixes are also considered public for matching purposes
 	"wphostedmail.com": true, // Private suffixes are also considered public for matching purposes
 	"wpmucdn.com": true, // Private suffixes are also considered public for matching purposes
@@ -9205,7 +9206,6 @@ var publicSuffixList = map[string]bool{
 	"freeddns.us": true, // Private suffixes are also considered public for matching purposes
 	"nsupdate.info": true, // Private suffixes are also considered public for matching purposes
 	"nerdpol.ovh": true, // Private suffixes are also considered public for matching purposes
-	"nyc.mn": true, // Private suffixes are also considered public for matching purposes
 	"prvcy.page": true, // Private suffixes are also considered public for matching purposes
 	"observablehq.cloud": true, // Private suffixes are also considered public for matching purposes
 	"static.observableusercontent.com": true, // Private suffixes are also considered public for matching purposes
@@ -9295,6 +9295,7 @@ var publicSuffixList = map[string]bool{
 	"e.id": true, // Private suffixes are also considered public for matching purposes
 	"chirurgiens-dentistes-en-france.fr": true, // Private suffixes are also considered public for matching purposes
 	"byen.site": true, // Private suffixes are also considered public for matching purposes
+	"nyc.mn": true, // Private suffixes are also considered public for matching purposes
 	"pubtls.org": true, // Private suffixes are also considered public for matching purposes
 	"pythonanywhere.com": true, // Private suffixes are also considered public for matching purposes
 	"eu.pythonanywhere.com": true, // Private suffixes are also considered public for matching purposes
@@ -11636,6 +11637,7 @@ var privateSuffixList = map[string]bool{
 	"iki.fi": true,
 	"ibxos.it": true,
 	"iliadboxos.it": true,
+	"imagine-proxy.work": true,
 	"smushcdn.com": true,
 	"wphostedmail.com": true,
 	"wpmucdn.com": true,
@@ -12115,7 +12117,6 @@ var privateSuffixList = map[string]bool{
 	"freeddns.us": true,
 	"nsupdate.info": true,
 	"nerdpol.ovh": true,
-	"nyc.mn": true,
 	"prvcy.page": true,
 	"observablehq.cloud": true,
 	"static.observableusercontent.com": true,
@@ -12205,6 +12206,7 @@ var privateSuffixList = map[string]bool{
 	"e.id": true,
 	"chirurgiens-dentistes-en-france.fr": true,
 	"byen.site": true,
+	"nyc.mn": true,
 	"pubtls.org": true,
 	"pythonanywhere.com": true,
 	"eu.pythonanywhere.com": true,
