@@ -5010,6 +5010,7 @@ var publicSuffixList = map[string]bool{
 	"si": true,
 	"sj": true,
 	"sk": true,
+	"org.sk": true,
 	"sl": true,
 	"com.sl": true,
 	"edu.sl": true,
@@ -8885,6 +8886,7 @@ var publicSuffixList = map[string]bool{
 	"kapsi.fi": true, // Private suffixes are also considered public for matching purposes
 	"ezproxy.kuleuven.be": true, // Private suffixes are also considered public for matching purposes
 	"kuleuven.cloud": true, // Private suffixes are also considered public for matching purposes
+	"ae.kg": true, // Private suffixes are also considered public for matching purposes
 	"keymachine.de": true, // Private suffixes are also considered public for matching purposes
 	"kinghost.net": true, // Private suffixes are also considered public for matching purposes
 	"uni5.net": true, // Private suffixes are also considered public for matching purposes
@@ -9818,6 +9820,7 @@ var publicSuffixList = map[string]bool{
 	"virtualserver.io": true, // Private suffixes are also considered public for matching purposes
 	"enterprisecloud.nu": true, // Private suffixes are also considered public for matching purposes
 	"zone.id": true, // Private suffixes are also considered public for matching purposes
+	"nett.to": true, // Private suffixes are also considered public for matching purposes
 	"zabc.net": true, // Private suffixes are also considered public for matching purposes
 }
 
@@ -11796,6 +11799,7 @@ var privateSuffixList = map[string]bool{
 	"kapsi.fi": true,
 	"ezproxy.kuleuven.be": true,
 	"kuleuven.cloud": true,
+	"ae.kg": true,
 	"keymachine.de": true,
 	"kinghost.net": true,
 	"uni5.net": true,
@@ -12729,5 +12733,6 @@ var privateSuffixList = map[string]bool{
 	"virtualserver.io": true,
 	"enterprisecloud.nu": true,
 	"zone.id": true,
+	"nett.to": true,
 	"zabc.net": true,
 }
