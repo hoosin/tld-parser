@@ -8675,6 +8675,7 @@ var publicSuffixList = map[string]bool{
 	"grebedoc.dev": true, // Private suffixes are also considered public for matching purposes
 	"günstigbestellen.de": true, // Private suffixes are also considered public for matching purposes
 	"günstigliefern.de": true, // Private suffixes are also considered public for matching purposes
+	"gv.uy": true, // Private suffixes are also considered public for matching purposes
 	"hackclub.app": true, // Private suffixes are also considered public for matching purposes
 	"häkkinen.fi": true, // Private suffixes are also considered public for matching purposes
 	"hashbang.sh": true, // Private suffixes are also considered public for matching purposes
@@ -9653,6 +9654,11 @@ var publicSuffixList = map[string]bool{
 	"tche.br": true, // Private suffixes are also considered public for matching purposes
 	"site.tb-hosting.com": true, // Private suffixes are also considered public for matching purposes
 	"directwp.eu": true, // Private suffixes are also considered public for matching purposes
+	"ec.cc": true, // Private suffixes are also considered public for matching purposes
+	"eu.cc": true, // Private suffixes are also considered public for matching purposes
+	"gu.cc": true, // Private suffixes are also considered public for matching purposes
+	"uk.cc": true, // Private suffixes are also considered public for matching purposes
+	"us.cc": true, // Private suffixes are also considered public for matching purposes
 	"edugit.io": true, // Private suffixes are also considered public for matching purposes
 	"s3.teckids.org": true, // Private suffixes are also considered public for matching purposes
 	"telebit.app": true, // Private suffixes are also considered public for matching purposes
@@ -11588,6 +11594,7 @@ var privateSuffixList = map[string]bool{
 	"grebedoc.dev": true,
 	"günstigbestellen.de": true,
 	"günstigliefern.de": true,
+	"gv.uy": true,
 	"hackclub.app": true,
 	"häkkinen.fi": true,
 	"hashbang.sh": true,
@@ -12566,6 +12573,11 @@ var privateSuffixList = map[string]bool{
 	"tche.br": true,
 	"site.tb-hosting.com": true,
 	"directwp.eu": true,
+	"ec.cc": true,
+	"eu.cc": true,
+	"gu.cc": true,
+	"uk.cc": true,
+	"us.cc": true,
 	"edugit.io": true,
 	"s3.teckids.org": true,
 	"telebit.app": true,
