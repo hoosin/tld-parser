@@ -9285,6 +9285,7 @@ var publicSuffixList = map[string]bool{
 	"xen.prgmr.com": true, // Private suffixes are also considered public for matching purposes
 	"priv.at": true, // Private suffixes are also considered public for matching purposes
 	"c01.kr": true, // Private suffixes are also considered public for matching purposes
+	"eliv-api.kr": true, // Private suffixes are also considered public for matching purposes
 	"eliv-cdn.kr": true, // Private suffixes are also considered public for matching purposes
 	"eliv-dns.kr": true, // Private suffixes are also considered public for matching purposes
 	"mmv.kr": true, // Private suffixes are also considered public for matching purposes
@@ -12193,6 +12194,7 @@ var privateSuffixList = map[string]bool{
 	"xen.prgmr.com": true,
 	"priv.at": true,
 	"c01.kr": true,
+	"eliv-api.kr": true,
 	"eliv-cdn.kr": true,
 	"eliv-dns.kr": true,
 	"mmv.kr": true,
