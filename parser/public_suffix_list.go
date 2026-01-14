@@ -9769,6 +9769,8 @@ var publicSuffixList = map[string]bool{
 	"windsurf.build": true, // Private suffixes are also considered public for matching purposes
 	"panel.gg": true, // Private suffixes are also considered public for matching purposes
 	"daemon.panel.gg": true, // Private suffixes are also considered public for matching purposes
+	"base44.app": true, // Private suffixes are also considered public for matching purposes
+	"base44-sandbox.com": true, // Private suffixes are also considered public for matching purposes
 	"wixsite.com": true, // Private suffixes are also considered public for matching purposes
 	"wixstudio.com": true, // Private suffixes are also considered public for matching purposes
 	"editorx.io": true, // Private suffixes are also considered public for matching purposes
@@ -12678,6 +12680,8 @@ var privateSuffixList = map[string]bool{
 	"windsurf.build": true,
 	"panel.gg": true,
 	"daemon.panel.gg": true,
+	"base44.app": true,
+	"base44-sandbox.com": true,
 	"wixsite.com": true,
 	"wixstudio.com": true,
 	"editorx.io": true,
