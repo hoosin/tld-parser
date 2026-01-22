@@ -9553,6 +9553,7 @@ var publicSuffixList = map[string]bool{
 	"my.at": true, // Private suffixes are also considered public for matching purposes
 	"my.de": true, // Private suffixes are also considered public for matching purposes
 	"nx.gw": true, // Private suffixes are also considered public for matching purposes
+	"spawnbase.app": true, // Private suffixes are also considered public for matching purposes
 	"customer.speedpartner.de": true, // Private suffixes are also considered public for matching purposes
 	"myspreadshop.at": true, // Private suffixes are also considered public for matching purposes
 	"myspreadshop.com.au": true, // Private suffixes are also considered public for matching purposes
@@ -12466,6 +12467,7 @@ var privateSuffixList = map[string]bool{
 	"my.at": true,
 	"my.de": true,
 	"nx.gw": true,
+	"spawnbase.app": true,
 	"customer.speedpartner.de": true,
 	"myspreadshop.at": true,
 	"myspreadshop.com.au": true,
