@@ -7811,6 +7811,7 @@ var publicSuffixList = map[string]bool{
 	"ae.org": true, // Private suffixes are also considered public for matching purposes
 	"com.se": true, // Private suffixes are also considered public for matching purposes
 	"cx.ua": true, // Private suffixes are also considered public for matching purposes
+	"discourse.diy": true, // Private suffixes are also considered public for matching purposes
 	"discourse.group": true, // Private suffixes are also considered public for matching purposes
 	"discourse.team": true, // Private suffixes are also considered public for matching purposes
 	"clerk.app": true, // Private suffixes are also considered public for matching purposes
@@ -7891,6 +7892,7 @@ var publicSuffixList = map[string]bool{
 	"gov.ru": true, // Private suffixes are also considered public for matching purposes
 	"int.ru": true, // Private suffixes are also considered public for matching purposes
 	"mil.ru": true, // Private suffixes are also considered public for matching purposes
+	"corespeed.app": true, // Private suffixes are also considered public for matching purposes
 	"dyn.cosidns.de": true, // Private suffixes are also considered public for matching purposes
 	"dnsupdater.de": true, // Private suffixes are also considered public for matching purposes
 	"dynamisches-dns.de": true, // Private suffixes are also considered public for matching purposes
@@ -8897,6 +8899,8 @@ var publicSuffixList = map[string]bool{
 	"krellian.net": true, // Private suffixes are also considered public for matching purposes
 	"oya.to": true, // Private suffixes are also considered public for matching purposes
 	"co.de": true, // Private suffixes are also considered public for matching purposes
+	"shiptoday.app": true, // Private suffixes are also considered public for matching purposes
+	"shiptoday.build": true, // Private suffixes are also considered public for matching purposes
 	"laravel.cloud": true, // Private suffixes are also considered public for matching purposes
 	"on-forge.com": true, // Private suffixes are also considered public for matching purposes
 	"on-vapor.com": true, // Private suffixes are also considered public for matching purposes
@@ -9047,6 +9051,8 @@ var publicSuffixList = map[string]bool{
 	"same-app.com": true, // Private suffixes are also considered public for matching purposes
 	"same-preview.com": true, // Private suffixes are also considered public for matching purposes
 	"csx.cc": true, // Private suffixes are also considered public for matching purposes
+	"miren.app": true, // Private suffixes are also considered public for matching purposes
+	"miren.systems": true, // Private suffixes are also considered public for matching purposes
 	"mydbserver.com": true, // Private suffixes are also considered public for matching purposes
 	"webspaceconfig.de": true, // Private suffixes are also considered public for matching purposes
 	"mittwald.info": true, // Private suffixes are also considered public for matching purposes
@@ -10725,6 +10731,7 @@ var privateSuffixList = map[string]bool{
 	"ae.org": true,
 	"com.se": true,
 	"cx.ua": true,
+	"discourse.diy": true,
 	"discourse.group": true,
 	"discourse.team": true,
 	"clerk.app": true,
@@ -10805,6 +10812,7 @@ var privateSuffixList = map[string]bool{
 	"gov.ru": true,
 	"int.ru": true,
 	"mil.ru": true,
+	"corespeed.app": true,
 	"dyn.cosidns.de": true,
 	"dnsupdater.de": true,
 	"dynamisches-dns.de": true,
@@ -11811,6 +11819,8 @@ var privateSuffixList = map[string]bool{
 	"krellian.net": true,
 	"oya.to": true,
 	"co.de": true,
+	"shiptoday.app": true,
+	"shiptoday.build": true,
 	"laravel.cloud": true,
 	"on-forge.com": true,
 	"on-vapor.com": true,
@@ -11961,6 +11971,8 @@ var privateSuffixList = map[string]bool{
 	"same-app.com": true,
 	"same-preview.com": true,
 	"csx.cc": true,
+	"miren.app": true,
+	"miren.systems": true,
 	"mydbserver.com": true,
 	"webspaceconfig.de": true,
 	"mittwald.info": true,
