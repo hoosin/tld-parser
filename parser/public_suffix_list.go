@@ -7039,6 +7039,7 @@ var publicSuffixList = map[string]bool{
 	"auth-fips.us-west-1.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth.us-west-2.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth-fips.us-west-2.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
+	"auth.cognito-idp.eusc-de-east-1.on.amazonwebservices.eu": true, // Private suffixes are also considered public for matching purposes
 	"us-east-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"emrappui-prod.cn-north-1.amazonaws.com.cn": true, // Private suffixes are also considered public for matching purposes
 	"emrnotebooks-prod.cn-north-1.amazonaws.com.cn": true, // Private suffixes are also considered public for matching purposes
@@ -7404,6 +7405,7 @@ var publicSuffixList = map[string]bool{
 	"s3-accesspoint.dualstack.us-gov-east-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"s3-accesspoint-fips.dualstack.us-gov-east-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"s3-fips.dualstack.us-gov-east-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"s3-website.dualstack.us-gov-east-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"s3.us-gov-east-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"s3-accesspoint.us-gov-east-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"s3-accesspoint-fips.us-gov-east-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
@@ -7414,6 +7416,7 @@ var publicSuffixList = map[string]bool{
 	"s3-accesspoint.dualstack.us-gov-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"s3-accesspoint-fips.dualstack.us-gov-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"s3-fips.dualstack.us-gov-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"s3-website.dualstack.us-gov-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"s3.us-gov-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"s3-accesspoint.us-gov-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"s3-accesspoint-fips.us-gov-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
@@ -7672,6 +7675,7 @@ var publicSuffixList = map[string]bool{
 	"transfer-webapp.ap-southeast-3.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ap-southeast-4.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ap-southeast-5.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"transfer-webapp.ap-southeast-7.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ca-central-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ca-west-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.eu-central-1.on.aws": true, // Private suffixes are also considered public for matching purposes
@@ -7685,6 +7689,7 @@ var publicSuffixList = map[string]bool{
 	"transfer-webapp.il-central-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.me-central-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.me-south-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"transfer-webapp.mx-central-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.sa-east-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.us-east-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.us-east-2.on.aws": true, // Private suffixes are also considered public for matching purposes
@@ -9959,6 +9964,7 @@ var privateSuffixList = map[string]bool{
 	"auth-fips.us-west-1.amazoncognito.com": true,
 	"auth.us-west-2.amazoncognito.com": true,
 	"auth-fips.us-west-2.amazoncognito.com": true,
+	"auth.cognito-idp.eusc-de-east-1.on.amazonwebservices.eu": true,
 	"us-east-1.amazonaws.com": true,
 	"emrappui-prod.cn-north-1.amazonaws.com.cn": true,
 	"emrnotebooks-prod.cn-north-1.amazonaws.com.cn": true,
@@ -10324,6 +10330,7 @@ var privateSuffixList = map[string]bool{
 	"s3-accesspoint.dualstack.us-gov-east-1.amazonaws.com": true,
 	"s3-accesspoint-fips.dualstack.us-gov-east-1.amazonaws.com": true,
 	"s3-fips.dualstack.us-gov-east-1.amazonaws.com": true,
+	"s3-website.dualstack.us-gov-east-1.amazonaws.com": true,
 	"s3.us-gov-east-1.amazonaws.com": true,
 	"s3-accesspoint.us-gov-east-1.amazonaws.com": true,
 	"s3-accesspoint-fips.us-gov-east-1.amazonaws.com": true,
@@ -10334,6 +10341,7 @@ var privateSuffixList = map[string]bool{
 	"s3-accesspoint.dualstack.us-gov-west-1.amazonaws.com": true,
 	"s3-accesspoint-fips.dualstack.us-gov-west-1.amazonaws.com": true,
 	"s3-fips.dualstack.us-gov-west-1.amazonaws.com": true,
+	"s3-website.dualstack.us-gov-west-1.amazonaws.com": true,
 	"s3.us-gov-west-1.amazonaws.com": true,
 	"s3-accesspoint.us-gov-west-1.amazonaws.com": true,
 	"s3-accesspoint-fips.us-gov-west-1.amazonaws.com": true,
@@ -10592,6 +10600,7 @@ var privateSuffixList = map[string]bool{
 	"transfer-webapp.ap-southeast-3.on.aws": true,
 	"transfer-webapp.ap-southeast-4.on.aws": true,
 	"transfer-webapp.ap-southeast-5.on.aws": true,
+	"transfer-webapp.ap-southeast-7.on.aws": true,
 	"transfer-webapp.ca-central-1.on.aws": true,
 	"transfer-webapp.ca-west-1.on.aws": true,
 	"transfer-webapp.eu-central-1.on.aws": true,
@@ -10605,6 +10614,7 @@ var privateSuffixList = map[string]bool{
 	"transfer-webapp.il-central-1.on.aws": true,
 	"transfer-webapp.me-central-1.on.aws": true,
 	"transfer-webapp.me-south-1.on.aws": true,
+	"transfer-webapp.mx-central-1.on.aws": true,
 	"transfer-webapp.sa-east-1.on.aws": true,
 	"transfer-webapp.us-east-1.on.aws": true,
 	"transfer-webapp.us-east-2.on.aws": true,
