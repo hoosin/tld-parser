@@ -9557,6 +9557,7 @@ var publicSuffixList = map[string]bool{
 	"streamlitapp.com": true, // Private suffixes are also considered public for matching purposes
 	"try-snowplow.com": true, // Private suffixes are also considered public for matching purposes
 	"mafelo.net": true, // Private suffixes are also considered public for matching purposes
+	"sol.site": true, // Private suffixes are also considered public for matching purposes
 	"playstation-cloud.com": true, // Private suffixes are also considered public for matching purposes
 	"srht.site": true, // Private suffixes are also considered public for matching purposes
 	"apps.lair.io": true, // Private suffixes are also considered public for matching purposes
@@ -12482,6 +12483,7 @@ var privateSuffixList = map[string]bool{
 	"streamlitapp.com": true,
 	"try-snowplow.com": true,
 	"mafelo.net": true,
+	"sol.site": true,
 	"playstation-cloud.com": true,
 	"srht.site": true,
 	"apps.lair.io": true,
