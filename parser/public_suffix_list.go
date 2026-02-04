@@ -6916,9 +6916,6 @@ var publicSuffixList = map[string]bool{
 	"poznan.pl": true, // Private suffixes are also considered public for matching purposes
 	"wroc.pl": true, // Private suffixes are also considered public for matching purposes
 	"zakopane.pl": true, // Private suffixes are also considered public for matching purposes
-	"12chars.dev": true, // Private suffixes are also considered public for matching purposes
-	"12chars.it": true, // Private suffixes are also considered public for matching purposes
-	"12chars.pro": true, // Private suffixes are also considered public for matching purposes
 	"cc.ua": true, // Private suffixes are also considered public for matching purposes
 	"inf.ua": true, // Private suffixes are also considered public for matching purposes
 	"ltd.ua": true, // Private suffixes are also considered public for matching purposes
@@ -9048,8 +9045,14 @@ var publicSuffixList = map[string]bool{
 	"cloudapp.net": true, // Private suffixes are also considered public for matching purposes
 	"trafficmanager.net": true, // Private suffixes are also considered public for matching purposes
 	"servicebus.usgovcloudapi.net": true, // Private suffixes are also considered public for matching purposes
+	"blob.core.usgovcloudapi.net": true, // Private suffixes are also considered public for matching purposes
+	"file.core.usgovcloudapi.net": true, // Private suffixes are also considered public for matching purposes
+	"web.core.usgovcloudapi.net": true, // Private suffixes are also considered public for matching purposes
 	"usgovcloudapp.net": true, // Private suffixes are also considered public for matching purposes
+	"usgovtrafficmanager.net": true, // Private suffixes are also considered public for matching purposes
 	"blob.core.windows.net": true, // Private suffixes are also considered public for matching purposes
+	"file.core.windows.net": true, // Private suffixes are also considered public for matching purposes
+	"web.core.windows.net": true, // Private suffixes are also considered public for matching purposes
 	"servicebus.windows.net": true, // Private suffixes are also considered public for matching purposes
 	"azure-api.us": true, // Private suffixes are also considered public for matching purposes
 	"azurewebsites.us": true, // Private suffixes are also considered public for matching purposes
@@ -9846,9 +9849,6 @@ var privateSuffixList = map[string]bool{
 	"poznan.pl": true,
 	"wroc.pl": true,
 	"zakopane.pl": true,
-	"12chars.dev": true,
-	"12chars.it": true,
-	"12chars.pro": true,
 	"cc.ua": true,
 	"inf.ua": true,
 	"ltd.ua": true,
@@ -11978,8 +11978,14 @@ var privateSuffixList = map[string]bool{
 	"cloudapp.net": true,
 	"trafficmanager.net": true,
 	"servicebus.usgovcloudapi.net": true,
+	"blob.core.usgovcloudapi.net": true,
+	"file.core.usgovcloudapi.net": true,
+	"web.core.usgovcloudapi.net": true,
 	"usgovcloudapp.net": true,
+	"usgovtrafficmanager.net": true,
 	"blob.core.windows.net": true,
+	"file.core.windows.net": true,
+	"web.core.windows.net": true,
 	"servicebus.windows.net": true,
 	"azure-api.us": true,
 	"azurewebsites.us": true,
