@@ -9044,10 +9044,10 @@ var publicSuffixList = map[string]bool{
 	"azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
 	"cloudapp.net": true, // Private suffixes are also considered public for matching purposes
 	"trafficmanager.net": true, // Private suffixes are also considered public for matching purposes
-	"servicebus.usgovcloudapi.net": true, // Private suffixes are also considered public for matching purposes
 	"blob.core.usgovcloudapi.net": true, // Private suffixes are also considered public for matching purposes
 	"file.core.usgovcloudapi.net": true, // Private suffixes are also considered public for matching purposes
 	"web.core.usgovcloudapi.net": true, // Private suffixes are also considered public for matching purposes
+	"servicebus.usgovcloudapi.net": true, // Private suffixes are also considered public for matching purposes
 	"usgovcloudapp.net": true, // Private suffixes are also considered public for matching purposes
 	"usgovtrafficmanager.net": true, // Private suffixes are also considered public for matching purposes
 	"blob.core.windows.net": true, // Private suffixes are also considered public for matching purposes
@@ -11977,10 +11977,10 @@ var privateSuffixList = map[string]bool{
 	"azurewebsites.net": true,
 	"cloudapp.net": true,
 	"trafficmanager.net": true,
-	"servicebus.usgovcloudapi.net": true,
 	"blob.core.usgovcloudapi.net": true,
 	"file.core.usgovcloudapi.net": true,
 	"web.core.usgovcloudapi.net": true,
+	"servicebus.usgovcloudapi.net": true,
 	"usgovcloudapp.net": true,
 	"usgovtrafficmanager.net": true,
 	"blob.core.windows.net": true,
