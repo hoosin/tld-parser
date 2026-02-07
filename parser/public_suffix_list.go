@@ -8262,20 +8262,32 @@ var publicSuffixList = map[string]bool{
 	"stuff-4-sale.us": true, // Private suffixes are also considered public for matching purposes
 	"dyndns.ws": true, // Private suffixes are also considered public for matching purposes
 	"mypets.ws": true, // Private suffixes are also considered public for matching purposes
+	"1cooldns.com": true, // Private suffixes are also considered public for matching purposes
+	"bumbleshrimp.com": true, // Private suffixes are also considered public for matching purposes
 	"ddnsfree.com": true, // Private suffixes are also considered public for matching purposes
 	"ddnsgeek.com": true, // Private suffixes are also considered public for matching purposes
+	"ddnsguru.com": true, // Private suffixes are also considered public for matching purposes
+	"dynuddns.com": true, // Private suffixes are also considered public for matching purposes
+	"dynuhosting.com": true, // Private suffixes are also considered public for matching purposes
 	"giize.com": true, // Private suffixes are also considered public for matching purposes
 	"gleeze.com": true, // Private suffixes are also considered public for matching purposes
 	"kozow.com": true, // Private suffixes are also considered public for matching purposes
 	"loseyourip.com": true, // Private suffixes are also considered public for matching purposes
 	"ooguy.com": true, // Private suffixes are also considered public for matching purposes
+	"pivohosting.com": true, // Private suffixes are also considered public for matching purposes
 	"theworkpc.com": true, // Private suffixes are also considered public for matching purposes
+	"wiredbladehosting.com": true, // Private suffixes are also considered public for matching purposes
 	"casacam.net": true, // Private suffixes are also considered public for matching purposes
 	"dynu.net": true, // Private suffixes are also considered public for matching purposes
+	"dynuddns.net": true, // Private suffixes are also considered public for matching purposes
+	"mysynology.net": true, // Private suffixes are also considered public for matching purposes
+	"opik.net": true, // Private suffixes are also considered public for matching purposes
+	"spryt.net": true, // Private suffixes are also considered public for matching purposes
 	"accesscam.org": true, // Private suffixes are also considered public for matching purposes
 	"camdvr.org": true, // Private suffixes are also considered public for matching purposes
 	"freeddns.org": true, // Private suffixes are also considered public for matching purposes
 	"mywire.org": true, // Private suffixes are also considered public for matching purposes
+	"roxa.org": true, // Private suffixes are also considered public for matching purposes
 	"webredirect.org": true, // Private suffixes are also considered public for matching purposes
 	"myddns.rocks": true, // Private suffixes are also considered public for matching purposes
 	"dynv6.net": true, // Private suffixes are also considered public for matching purposes
@@ -11195,20 +11207,32 @@ var privateSuffixList = map[string]bool{
 	"stuff-4-sale.us": true,
 	"dyndns.ws": true,
 	"mypets.ws": true,
+	"1cooldns.com": true,
+	"bumbleshrimp.com": true,
 	"ddnsfree.com": true,
 	"ddnsgeek.com": true,
+	"ddnsguru.com": true,
+	"dynuddns.com": true,
+	"dynuhosting.com": true,
 	"giize.com": true,
 	"gleeze.com": true,
 	"kozow.com": true,
 	"loseyourip.com": true,
 	"ooguy.com": true,
+	"pivohosting.com": true,
 	"theworkpc.com": true,
+	"wiredbladehosting.com": true,
 	"casacam.net": true,
 	"dynu.net": true,
+	"dynuddns.net": true,
+	"mysynology.net": true,
+	"opik.net": true,
+	"spryt.net": true,
 	"accesscam.org": true,
 	"camdvr.org": true,
 	"freeddns.org": true,
 	"mywire.org": true,
+	"roxa.org": true,
 	"webredirect.org": true,
 	"myddns.rocks": true,
 	"dynv6.net": true,
