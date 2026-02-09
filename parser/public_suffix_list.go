@@ -6193,7 +6193,6 @@ var publicSuffixList = map[string]bool{
 	"gold": true,
 	"goldpoint": true,
 	"golf": true,
-	"goo": true,
 	"goodyear": true,
 	"goog": true,
 	"google": true,
