@@ -5621,6 +5621,7 @@ var publicSuffixList = map[string]bool{
 	"hatinh.vn": true,
 	"haugiang.vn": true,
 	"hoabinh.vn": true,
+	"hue.vn": true,
 	"hungyen.vn": true,
 	"khanhhoa.vn": true,
 	"kiengiang.vn": true,
@@ -7941,6 +7942,7 @@ var publicSuffixList = map[string]bool{
 	"deno.dev": true, // Private suffixes are also considered public for matching purposes
 	"deno-staging.dev": true, // Private suffixes are also considered public for matching purposes
 	"deno.net": true, // Private suffixes are also considered public for matching purposes
+	"sandbox.deno.net": true, // Private suffixes are also considered public for matching purposes
 	"dedyn.io": true, // Private suffixes are also considered public for matching purposes
 	"deta.app": true, // Private suffixes are also considered public for matching purposes
 	"deta.dev": true, // Private suffixes are also considered public for matching purposes
@@ -10886,6 +10888,7 @@ var privateSuffixList = map[string]bool{
 	"deno.dev": true,
 	"deno-staging.dev": true,
 	"deno.net": true,
+	"sandbox.deno.net": true,
 	"dedyn.io": true,
 	"deta.app": true,
 	"deta.dev": true,
