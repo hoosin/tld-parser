@@ -7888,7 +7888,11 @@ var publicSuffixList = map[string]bool{
 	"ctfcloud.net": true, // Private suffixes are also considered public for matching purposes
 	"convex.app": true, // Private suffixes are also considered public for matching purposes
 	"convex.cloud": true, // Private suffixes are also considered public for matching purposes
+	"eu-west-1.convex.cloud": true, // Private suffixes are also considered public for matching purposes
+	"us-east-1.convex.cloud": true, // Private suffixes are also considered public for matching purposes
 	"convex.site": true, // Private suffixes are also considered public for matching purposes
+	"eu-west-1.convex.site": true, // Private suffixes are also considered public for matching purposes
+	"us-east-1.convex.site": true, // Private suffixes are also considered public for matching purposes
 	"ac.ru": true, // Private suffixes are also considered public for matching purposes
 	"edu.ru": true, // Private suffixes are also considered public for matching purposes
 	"gov.ru": true, // Private suffixes are also considered public for matching purposes
@@ -8744,6 +8748,7 @@ var publicSuffixList = map[string]bool{
 	"iki.fi": true, // Private suffixes are also considered public for matching purposes
 	"ibxos.it": true, // Private suffixes are also considered public for matching purposes
 	"iliadboxos.it": true, // Private suffixes are also considered public for matching purposes
+	"imagine.diy": true, // Private suffixes are also considered public for matching purposes
 	"imagine-proxy.work": true, // Private suffixes are also considered public for matching purposes
 	"smushcdn.com": true, // Private suffixes are also considered public for matching purposes
 	"wphostedmail.com": true, // Private suffixes are also considered public for matching purposes
@@ -10834,7 +10839,11 @@ var privateSuffixList = map[string]bool{
 	"ctfcloud.net": true,
 	"convex.app": true,
 	"convex.cloud": true,
+	"eu-west-1.convex.cloud": true,
+	"us-east-1.convex.cloud": true,
 	"convex.site": true,
+	"eu-west-1.convex.site": true,
+	"us-east-1.convex.site": true,
 	"ac.ru": true,
 	"edu.ru": true,
 	"gov.ru": true,
@@ -11690,6 +11699,7 @@ var privateSuffixList = map[string]bool{
 	"iki.fi": true,
 	"ibxos.it": true,
 	"iliadboxos.it": true,
+	"imagine.diy": true,
 	"imagine-proxy.work": true,
 	"smushcdn.com": true,
 	"wphostedmail.com": true,
