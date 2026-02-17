@@ -6789,7 +6789,6 @@ var publicSuffixList = map[string]bool{
 	"wine": true,
 	"winners": true,
 	"wme": true,
-	"wolterskluwer": true,
 	"woodside": true,
 	"work": true,
 	"works": true,
