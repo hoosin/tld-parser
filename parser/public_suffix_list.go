@@ -8904,6 +8904,7 @@ var publicSuffixList = map[string]bool{
 	"kaas.gg": true, // Private suffixes are also considered public for matching purposes
 	"khplay.nl": true, // Private suffixes are also considered public for matching purposes
 	"kapsi.fi": true, // Private suffixes are also considered public for matching purposes
+	"kdns.fr": true, // Private suffixes are also considered public for matching purposes
 	"ezproxy.kuleuven.be": true, // Private suffixes are also considered public for matching purposes
 	"kuleuven.cloud": true, // Private suffixes are also considered public for matching purposes
 	"keenetic.io": true, // Private suffixes are also considered public for matching purposes
@@ -11855,6 +11856,7 @@ var privateSuffixList = map[string]bool{
 	"kaas.gg": true,
 	"khplay.nl": true,
 	"kapsi.fi": true,
+	"kdns.fr": true,
 	"ezproxy.kuleuven.be": true,
 	"kuleuven.cloud": true,
 	"keenetic.io": true,
