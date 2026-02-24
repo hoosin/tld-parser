@@ -9807,6 +9807,8 @@ var publicSuffixList = map[string]bool{
 	"localcert.net": true, // Private suffixes are also considered public for matching purposes
 	"windsurf.app": true, // Private suffixes are also considered public for matching purposes
 	"windsurf.build": true, // Private suffixes are also considered public for matching purposes
+	"drive-platform.com": true, // Private suffixes are also considered public for matching purposes
+	"drive-platform.io": true, // Private suffixes are also considered public for matching purposes
 	"panel.gg": true, // Private suffixes are also considered public for matching purposes
 	"daemon.panel.gg": true, // Private suffixes are also considered public for matching purposes
 	"base44.app": true, // Private suffixes are also considered public for matching purposes
@@ -12759,6 +12761,8 @@ var privateSuffixList = map[string]bool{
 	"localcert.net": true,
 	"windsurf.app": true,
 	"windsurf.build": true,
+	"drive-platform.com": true,
+	"drive-platform.io": true,
 	"panel.gg": true,
 	"daemon.panel.gg": true,
 	"base44.app": true,
