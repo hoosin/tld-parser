@@ -7959,6 +7959,10 @@ var publicSuffixList = map[string]bool{
 	"icp1.io": true, // Private suffixes are also considered public for matching purposes
 	"caffeine.site": true, // Private suffixes are also considered public for matching purposes
 	"caffeine.xyz": true, // Private suffixes are also considered public for matching purposes
+	"mybox.company": true, // Private suffixes are also considered public for matching purposes
+	"intouch.email": true, // Private suffixes are also considered public for matching purposes
+	"mybox.me": true, // Private suffixes are also considered public for matching purposes
+	"mybox.page": true, // Private suffixes are also considered public for matching purposes
 	"dfirma.pl": true, // Private suffixes are also considered public for matching purposes
 	"dkonto.pl": true, // Private suffixes are also considered public for matching purposes
 	"you2.pl": true, // Private suffixes are also considered public for matching purposes
@@ -10913,6 +10917,10 @@ var privateSuffixList = map[string]bool{
 	"icp1.io": true,
 	"caffeine.site": true,
 	"caffeine.xyz": true,
+	"mybox.company": true,
+	"intouch.email": true,
+	"mybox.me": true,
+	"mybox.page": true,
 	"dfirma.pl": true,
 	"dkonto.pl": true,
 	"you2.pl": true,
