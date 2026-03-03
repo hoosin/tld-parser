@@ -6964,6 +6964,8 @@ var publicSuffixList = map[string]bool{
 	"edgesuite-staging.net": true, // Private suffixes are also considered public for matching purposes
 	"barsy.ca": true, // Private suffixes are also considered public for matching purposes
 	"alibabacloudcs.com": true, // Private suffixes are also considered public for matching purposes
+	"ms.fun": true, // Private suffixes are also considered public for matching purposes
+	"ms.show": true, // Private suffixes are also considered public for matching purposes
 	"kasserver.com": true, // Private suffixes are also considered public for matching purposes
 	"altervista.org": true, // Private suffixes are also considered public for matching purposes
 	"alwaysdata.net": true, // Private suffixes are also considered public for matching purposes
@@ -9107,6 +9109,7 @@ var publicSuffixList = map[string]bool{
 	"net.ru": true, // Private suffixes are also considered public for matching purposes
 	"org.ru": true, // Private suffixes are also considered public for matching purposes
 	"pp.ru": true, // Private suffixes are also considered public for matching purposes
+	"my.be": true, // Private suffixes are also considered public for matching purposes
 	"hostedpi.com": true, // Private suffixes are also considered public for matching purposes
 	"caracal.mythic-beasts.com": true, // Private suffixes are also considered public for matching purposes
 	"customer.mythic-beasts.com": true, // Private suffixes are also considered public for matching purposes
@@ -9922,6 +9925,8 @@ var privateSuffixList = map[string]bool{
 	"edgesuite-staging.net": true,
 	"barsy.ca": true,
 	"alibabacloudcs.com": true,
+	"ms.fun": true,
+	"ms.show": true,
 	"kasserver.com": true,
 	"altervista.org": true,
 	"alwaysdata.net": true,
@@ -12065,6 +12070,7 @@ var privateSuffixList = map[string]bool{
 	"net.ru": true,
 	"org.ru": true,
 	"pp.ru": true,
+	"my.be": true,
 	"hostedpi.com": true,
 	"caracal.mythic-beasts.com": true,
 	"customer.mythic-beasts.com": true,
