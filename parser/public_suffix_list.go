@@ -8396,7 +8396,9 @@ var publicSuffixList = map[string]bool{
 	"relay.evervault.app": true, // Private suffixes are also considered public for matching purposes
 	"relay.evervault.dev": true, // Private suffixes are also considered public for matching purposes
 	"expo.app": true, // Private suffixes are also considered public for matching purposes
+	"on.expo.app": true, // Private suffixes are also considered public for matching purposes
 	"staging.expo.app": true, // Private suffixes are also considered public for matching purposes
+	"on.staging.expo.app": true, // Private suffixes are also considered public for matching purposes
 	"onfabrica.com": true, // Private suffixes are also considered public for matching purposes
 	"ru.net": true, // Private suffixes are also considered public for matching purposes
 	"adygeya.ru": true, // Private suffixes are also considered public for matching purposes
@@ -11356,7 +11358,9 @@ var privateSuffixList = map[string]bool{
 	"relay.evervault.app": true,
 	"relay.evervault.dev": true,
 	"expo.app": true,
+	"on.expo.app": true,
 	"staging.expo.app": true,
+	"on.staging.expo.app": true,
 	"onfabrica.com": true,
 	"ru.net": true,
 	"adygeya.ru": true,
