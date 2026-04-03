@@ -8502,6 +8502,7 @@ var publicSuffixList = map[string]bool{
 	"app.os.stg.fedoraproject.org": true, // Private suffixes are also considered public for matching purposes
 	"mydobiss.com": true, // Private suffixes are also considered public for matching purposes
 	"fh-muenster.io": true, // Private suffixes are also considered public for matching purposes
+	"payload.dev": true, // Private suffixes are also considered public for matching purposes
 	"figma.site": true, // Private suffixes are also considered public for matching purposes
 	"figma-gov.site": true, // Private suffixes are also considered public for matching purposes
 	"preview.site": true, // Private suffixes are also considered public for matching purposes
@@ -9318,6 +9319,7 @@ var publicSuffixList = map[string]bool{
 	"gh.srv.us": true, // Private suffixes are also considered public for matching purposes
 	"gl.srv.us": true, // Private suffixes are also considered public for matching purposes
 	"mypep.link": true, // Private suffixes are also considered public for matching purposes
+	"pplx.app": true, // Private suffixes are also considered public for matching purposes
 	"perspecta.cloud": true, // Private suffixes are also considered public for matching purposes
 	"forgeblocks.com": true, // Private suffixes are also considered public for matching purposes
 	"id.forgerock.io": true, // Private suffixes are also considered public for matching purposes
@@ -11465,6 +11467,7 @@ var privateSuffixList = map[string]bool{
 	"app.os.stg.fedoraproject.org": true,
 	"mydobiss.com": true,
 	"fh-muenster.io": true,
+	"payload.dev": true,
 	"figma.site": true,
 	"figma-gov.site": true,
 	"preview.site": true,
@@ -12281,6 +12284,7 @@ var privateSuffixList = map[string]bool{
 	"gh.srv.us": true,
 	"gl.srv.us": true,
 	"mypep.link": true,
+	"pplx.app": true,
 	"perspecta.cloud": true,
 	"forgeblocks.com": true,
 	"id.forgerock.io": true,
