@@ -7707,6 +7707,7 @@ var publicSuffixList = map[string]bool{
 	"transfer-webapp.cn-northwest-1.on.amazonwebservices.com.cn": true, // Private suffixes are also considered public for matching purposes
 	"eero.online": true, // Private suffixes are also considered public for matching purposes
 	"eero-stage.online": true, // Private suffixes are also considered public for matching purposes
+	"opentunnel.xyz": true, // Private suffixes are also considered public for matching purposes
 	"antagonist.cloud": true, // Private suffixes are also considered public for matching purposes
 	"apigee.io": true, // Private suffixes are also considered public for matching purposes
 	"panel.dev": true, // Private suffixes are also considered public for matching purposes
@@ -8738,6 +8739,7 @@ var publicSuffixList = map[string]bool{
 	"hidns.co": true, // Private suffixes are also considered public for matching purposes
 	"hidns.vip": true, // Private suffixes are also considered public for matching purposes
 	"homesklep.pl": true, // Private suffixes are also considered public for matching purposes
+	"seprox.hooc.me": true, // Private suffixes are also considered public for matching purposes
 	"hoplix.shop": true, // Private suffixes are also considered public for matching purposes
 	"orx.biz": true, // Private suffixes are also considered public for matching purposes
 	"biz.ng": true, // Private suffixes are also considered public for matching purposes
@@ -9638,6 +9640,7 @@ var publicSuffixList = map[string]bool{
 	"stackit.rocks": true, // Private suffixes are also considered public for matching purposes
 	"stackit.run": true, // Private suffixes are also considered public for matching purposes
 	"stackit.zone": true, // Private suffixes are also considered public for matching purposes
+	"sryze.cc": true, // Private suffixes are also considered public for matching purposes
 	"indevs.in": true, // Private suffixes are also considered public for matching purposes
 	"musician.io": true, // Private suffixes are also considered public for matching purposes
 	"novecore.site": true, // Private suffixes are also considered public for matching purposes
@@ -10672,6 +10675,7 @@ var privateSuffixList = map[string]bool{
 	"transfer-webapp.cn-northwest-1.on.amazonwebservices.com.cn": true,
 	"eero.online": true,
 	"eero-stage.online": true,
+	"opentunnel.xyz": true,
 	"antagonist.cloud": true,
 	"apigee.io": true,
 	"panel.dev": true,
@@ -11703,6 +11707,7 @@ var privateSuffixList = map[string]bool{
 	"hidns.co": true,
 	"hidns.vip": true,
 	"homesklep.pl": true,
+	"seprox.hooc.me": true,
 	"hoplix.shop": true,
 	"orx.biz": true,
 	"biz.ng": true,
@@ -12603,6 +12608,7 @@ var privateSuffixList = map[string]bool{
 	"stackit.rocks": true,
 	"stackit.run": true,
 	"stackit.zone": true,
+	"sryze.cc": true,
 	"indevs.in": true,
 	"musician.io": true,
 	"novecore.site": true,
