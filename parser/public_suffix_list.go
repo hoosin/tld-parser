@@ -9312,7 +9312,6 @@ var publicSuffixList = map[string]bool{
 	"ox.rs": true, // Private suffixes are also considered public for matching purposes
 	"oy.lc": true, // Private suffixes are also considered public for matching purposes
 	"pgfog.com": true, // Private suffixes are also considered public for matching purposes
-	"pagexl.com": true, // Private suffixes are also considered public for matching purposes
 	"gotpantheon.com": true, // Private suffixes are also considered public for matching purposes
 	"pantheonsite.io": true, // Private suffixes are also considered public for matching purposes
 	"xmit.dev": true, // Private suffixes are also considered public for matching purposes
@@ -12280,7 +12279,6 @@ var privateSuffixList = map[string]bool{
 	"ox.rs": true,
 	"oy.lc": true,
 	"pgfog.com": true,
-	"pagexl.com": true,
 	"gotpantheon.com": true,
 	"pantheonsite.io": true,
 	"xmit.dev": true,
