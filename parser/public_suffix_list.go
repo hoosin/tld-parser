@@ -7955,6 +7955,7 @@ var publicSuffixList = map[string]bool{
 	"deno-staging.dev": true, // Private suffixes are also considered public for matching purposes
 	"deno.net": true, // Private suffixes are also considered public for matching purposes
 	"sandbox.deno.net": true, // Private suffixes are also considered public for matching purposes
+	"deployagent.com": true, // Private suffixes are also considered public for matching purposes
 	"dedyn.io": true, // Private suffixes are also considered public for matching purposes
 	"deta.app": true, // Private suffixes are also considered public for matching purposes
 	"deta.dev": true, // Private suffixes are also considered public for matching purposes
@@ -8919,6 +8920,15 @@ var publicSuffixList = map[string]bool{
 	"webadorsite.com": true, // Private suffixes are also considered public for matching purposes
 	"jouwweb.site": true, // Private suffixes are also considered public for matching purposes
 	"js.org": true, // Private suffixes are also considered public for matching purposes
+	"elastic.k2.cloud": true, // Private suffixes are also considered public for matching purposes
+	"lb.ru-msk.k2.cloud": true, // Private suffixes are also considered public for matching purposes
+	"s3.ru-msk.k2.cloud": true, // Private suffixes are also considered public for matching purposes
+	"website.ru-msk.k2.cloud": true, // Private suffixes are also considered public for matching purposes
+	"lb.ru-spb.k2.cloud": true, // Private suffixes are also considered public for matching purposes
+	"s3.ru-spb.k2.cloud": true, // Private suffixes are also considered public for matching purposes
+	"website.ru-spb.k2.cloud": true, // Private suffixes are also considered public for matching purposes
+	"s3.k2.cloud": true, // Private suffixes are also considered public for matching purposes
+	"website.k2.cloud": true, // Private suffixes are also considered public for matching purposes
 	"kaas.gg": true, // Private suffixes are also considered public for matching purposes
 	"khplay.nl": true, // Private suffixes are also considered public for matching purposes
 	"kapsi.fi": true, // Private suffixes are also considered public for matching purposes
@@ -9243,6 +9253,31 @@ var publicSuffixList = map[string]bool{
 	"pointto.us": true, // Private suffixes are also considered public for matching purposes
 	"stage.nodeart.io": true, // Private suffixes are also considered public for matching purposes
 	"noop.app": true, // Private suffixes are also considered public for matching purposes
+	"aberdeen.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"bainbridge-isl.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"bellevue.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"bremerton.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"centralia.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"chehalis.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"forks.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"gig-harbor.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"hoquiam.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"keyport.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"kingston.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"olympia.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"port-angeles.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"port-ludlow.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"port-orchard.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"port-townsend.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"poulsbo.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"redmond.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"renton.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"sea.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"seattle.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"sequim.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"shelton.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"silverdale.wa.us": true, // Private suffixes are also considered public for matching purposes
+	"yarrow-point.wa.us": true, // Private suffixes are also considered public for matching purposes
 	"noticeable.news": true, // Private suffixes are also considered public for matching purposes
 	"notion.site": true, // Private suffixes are also considered public for matching purposes
 	"dnsking.ch": true, // Private suffixes are also considered public for matching purposes
@@ -9796,6 +9831,8 @@ var publicSuffixList = map[string]bool{
 	"v-info.info": true, // Private suffixes are also considered public for matching purposes
 	"vistablog.ir": true, // Private suffixes are also considered public for matching purposes
 	"deus-canvas.com": true, // Private suffixes are also considered public for matching purposes
+	"vivenushop.com": true, // Private suffixes are also considered public for matching purposes
+	"vivenushop.dev": true, // Private suffixes are also considered public for matching purposes
 	"voorloper.cloud": true, // Private suffixes are also considered public for matching purposes
 	"wafflecell.com": true, // Private suffixes are also considered public for matching purposes
 	"wal.app": true, // Private suffixes are also considered public for matching purposes
@@ -10922,6 +10959,7 @@ var privateSuffixList = map[string]bool{
 	"deno-staging.dev": true,
 	"deno.net": true,
 	"sandbox.deno.net": true,
+	"deployagent.com": true,
 	"dedyn.io": true,
 	"deta.app": true,
 	"deta.dev": true,
@@ -11886,6 +11924,15 @@ var privateSuffixList = map[string]bool{
 	"webadorsite.com": true,
 	"jouwweb.site": true,
 	"js.org": true,
+	"elastic.k2.cloud": true,
+	"lb.ru-msk.k2.cloud": true,
+	"s3.ru-msk.k2.cloud": true,
+	"website.ru-msk.k2.cloud": true,
+	"lb.ru-spb.k2.cloud": true,
+	"s3.ru-spb.k2.cloud": true,
+	"website.ru-spb.k2.cloud": true,
+	"s3.k2.cloud": true,
+	"website.k2.cloud": true,
 	"kaas.gg": true,
 	"khplay.nl": true,
 	"kapsi.fi": true,
@@ -12210,6 +12257,31 @@ var privateSuffixList = map[string]bool{
 	"pointto.us": true,
 	"stage.nodeart.io": true,
 	"noop.app": true,
+	"aberdeen.wa.us": true,
+	"bainbridge-isl.wa.us": true,
+	"bellevue.wa.us": true,
+	"bremerton.wa.us": true,
+	"centralia.wa.us": true,
+	"chehalis.wa.us": true,
+	"forks.wa.us": true,
+	"gig-harbor.wa.us": true,
+	"hoquiam.wa.us": true,
+	"keyport.wa.us": true,
+	"kingston.wa.us": true,
+	"olympia.wa.us": true,
+	"port-angeles.wa.us": true,
+	"port-ludlow.wa.us": true,
+	"port-orchard.wa.us": true,
+	"port-townsend.wa.us": true,
+	"poulsbo.wa.us": true,
+	"redmond.wa.us": true,
+	"renton.wa.us": true,
+	"sea.wa.us": true,
+	"seattle.wa.us": true,
+	"sequim.wa.us": true,
+	"shelton.wa.us": true,
+	"silverdale.wa.us": true,
+	"yarrow-point.wa.us": true,
 	"noticeable.news": true,
 	"notion.site": true,
 	"dnsking.ch": true,
@@ -12763,6 +12835,8 @@ var privateSuffixList = map[string]bool{
 	"v-info.info": true,
 	"vistablog.ir": true,
 	"deus-canvas.com": true,
+	"vivenushop.com": true,
+	"vivenushop.dev": true,
 	"voorloper.cloud": true,
 	"wafflecell.com": true,
 	"wal.app": true,
