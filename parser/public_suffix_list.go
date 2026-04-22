@@ -7709,6 +7709,7 @@ var publicSuffixList = map[string]bool{
 	"eero-stage.online": true, // Private suffixes are also considered public for matching purposes
 	"opentunnel.xyz": true, // Private suffixes are also considered public for matching purposes
 	"antagonist.cloud": true, // Private suffixes are also considered public for matching purposes
+	"claude.app": true, // Private suffixes are also considered public for matching purposes
 	"apigee.io": true, // Private suffixes are also considered public for matching purposes
 	"panel.dev": true, // Private suffixes are also considered public for matching purposes
 	"siiites.com": true, // Private suffixes are also considered public for matching purposes
@@ -8701,8 +8702,6 @@ var publicSuffixList = map[string]bool{
 	"cloudfunctions.net": true, // Private suffixes are also considered public for matching purposes
 	"goupile.fr": true, // Private suffixes are also considered public for matching purposes
 	"pymnt.uk": true, // Private suffixes are also considered public for matching purposes
-	"cloudapps.digital": true, // Private suffixes are also considered public for matching purposes
-	"london.cloudapps.digital": true, // Private suffixes are also considered public for matching purposes
 	"gov.nl": true, // Private suffixes are also considered public for matching purposes
 	"grafana-dev.net": true, // Private suffixes are also considered public for matching purposes
 	"grayjayleagues.com": true, // Private suffixes are also considered public for matching purposes
@@ -10713,6 +10712,7 @@ var privateSuffixList = map[string]bool{
 	"eero-stage.online": true,
 	"opentunnel.xyz": true,
 	"antagonist.cloud": true,
+	"claude.app": true,
 	"apigee.io": true,
 	"panel.dev": true,
 	"siiites.com": true,
@@ -11705,8 +11705,6 @@ var privateSuffixList = map[string]bool{
 	"cloudfunctions.net": true,
 	"goupile.fr": true,
 	"pymnt.uk": true,
-	"cloudapps.digital": true,
-	"london.cloudapps.digital": true,
 	"gov.nl": true,
 	"grafana-dev.net": true,
 	"grayjayleagues.com": true,
