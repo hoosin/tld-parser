@@ -7957,6 +7957,8 @@ var publicSuffixList = map[string]bool{
 	"deno.net": true, // Private suffixes are also considered public for matching purposes
 	"sandbox.deno.net": true, // Private suffixes are also considered public for matching purposes
 	"deployagent.com": true, // Private suffixes are also considered public for matching purposes
+	"piebox.site": true, // Private suffixes are also considered public for matching purposes
+	"deployagent.space": true, // Private suffixes are also considered public for matching purposes
 	"dedyn.io": true, // Private suffixes are also considered public for matching purposes
 	"deta.app": true, // Private suffixes are also considered public for matching purposes
 	"deta.dev": true, // Private suffixes are also considered public for matching purposes
@@ -8404,6 +8406,7 @@ var publicSuffixList = map[string]bool{
 	"staging.expo.app": true, // Private suffixes are also considered public for matching purposes
 	"on.staging.expo.app": true, // Private suffixes are also considered public for matching purposes
 	"onfabrica.com": true, // Private suffixes are also considered public for matching purposes
+	"fspages.org": true, // Private suffixes are also considered public for matching purposes
 	"ru.net": true, // Private suffixes are also considered public for matching purposes
 	"adygeya.ru": true, // Private suffixes are also considered public for matching purposes
 	"bashkiria.ru": true, // Private suffixes are also considered public for matching purposes
@@ -10960,6 +10963,8 @@ var privateSuffixList = map[string]bool{
 	"deno.net": true,
 	"sandbox.deno.net": true,
 	"deployagent.com": true,
+	"piebox.site": true,
+	"deployagent.space": true,
 	"dedyn.io": true,
 	"deta.app": true,
 	"deta.dev": true,
@@ -11407,6 +11412,7 @@ var privateSuffixList = map[string]bool{
 	"staging.expo.app": true,
 	"on.staging.expo.app": true,
 	"onfabrica.com": true,
+	"fspages.org": true,
 	"ru.net": true,
 	"adygeya.ru": true,
 	"bashkiria.ru": true,
