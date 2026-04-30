@@ -9608,6 +9608,9 @@ var publicSuffixList = map[string]bool{
 	"co.ua": true, // Private suffixes are also considered public for matching purposes
 	"pp.ua": true, // Private suffixes are also considered public for matching purposes
 	"as.sh.cn": true, // Private suffixes are also considered public for matching purposes
+	"vicp.fun": true, // Private suffixes are also considered public for matching purposes
+	"yicp.fun": true, // Private suffixes are also considered public for matching purposes
+	"zicp.fun": true, // Private suffixes are also considered public for matching purposes
 	"sheezy.games": true, // Private suffixes are also considered public for matching purposes
 	"myshopblocks.com": true, // Private suffixes are also considered public for matching purposes
 	"myshopify.com": true, // Private suffixes are also considered public for matching purposes
@@ -12614,6 +12617,9 @@ var privateSuffixList = map[string]bool{
 	"co.ua": true,
 	"pp.ua": true,
 	"as.sh.cn": true,
+	"vicp.fun": true,
+	"yicp.fun": true,
+	"zicp.fun": true,
 	"sheezy.games": true,
 	"myshopblocks.com": true,
 	"myshopify.com": true,
