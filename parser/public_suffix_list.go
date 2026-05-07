@@ -7919,7 +7919,6 @@ var publicSuffixList = map[string]bool{
 	"static-access.net": true, // Private suffixes are also considered public for matching purposes
 	"craft.me": true, // Private suffixes are also considered public for matching purposes
 	"realm.cz": true, // Private suffixes are also considered public for matching purposes
-	"on.crisp.email": true, // Private suffixes are also considered public for matching purposes
 	"cfolks.pl": true, // Private suffixes are also considered public for matching purposes
 	"cyon.link": true, // Private suffixes are also considered public for matching purposes
 	"cyon.site": true, // Private suffixes are also considered public for matching purposes
@@ -10928,7 +10927,6 @@ var privateSuffixList = map[string]bool{
 	"static-access.net": true,
 	"craft.me": true,
 	"realm.cz": true,
-	"on.crisp.email": true,
 	"cfolks.pl": true,
 	"cyon.link": true,
 	"cyon.site": true,
