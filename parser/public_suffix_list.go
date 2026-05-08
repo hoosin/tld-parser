@@ -9911,6 +9911,7 @@ var publicSuffixList = map[string]bool{
 	"za.org": true, // Private suffixes are also considered public for matching purposes
 	"zap.cloud": true, // Private suffixes are also considered public for matching purposes
 	"zeabur.app": true, // Private suffixes are also considered public for matching purposes
+	"prg1-zerops.zone": true, // Private suffixes are also considered public for matching purposes
 	"bss.design": true, // Private suffixes are also considered public for matching purposes
 	"basicserver.io": true, // Private suffixes are also considered public for matching purposes
 	"virtualserver.io": true, // Private suffixes are also considered public for matching purposes
@@ -12919,6 +12920,7 @@ var privateSuffixList = map[string]bool{
 	"za.org": true,
 	"zap.cloud": true,
 	"zeabur.app": true,
+	"prg1-zerops.zone": true,
 	"bss.design": true,
 	"basicserver.io": true,
 	"virtualserver.io": true,
