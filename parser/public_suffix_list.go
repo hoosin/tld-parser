@@ -5470,8 +5470,6 @@ var publicSuffixList = map[string]bool{
 	"lib.mt.us": true,
 	"cc.nc.us": true,
 	"lib.nc.us": true,
-	"cc.nd.us": true,
-	"lib.nd.us": true,
 	"cc.ne.us": true,
 	"lib.ne.us": true,
 	"cc.nh.us": true,
@@ -8756,6 +8754,7 @@ var publicSuffixList = map[string]bool{
 	"ltd.ng": true, // Private suffixes are also considered public for matching purposes
 	"ngo.ng": true, // Private suffixes are also considered public for matching purposes
 	"plc.ng": true, // Private suffixes are also considered public for matching purposes
+	"hstgr.cloud": true, // Private suffixes are also considered public for matching purposes
 	"hostyhosting.io": true, // Private suffixes are also considered public for matching purposes
 	"hf.space": true, // Private suffixes are also considered public for matching purposes
 	"static.hf.space": true, // Private suffixes are also considered public for matching purposes
@@ -9771,6 +9770,8 @@ var publicSuffixList = map[string]bool{
 	"cust.testing.thingdust.io": true, // Private suffixes are also considered public for matching purposes
 	"reservd.testing.thingdust.io": true, // Private suffixes are also considered public for matching purposes
 	"tickets.io": true, // Private suffixes are also considered public for matching purposes
+	"t3.storage.dev": true, // Private suffixes are also considered public for matching purposes
+	"t3.storageapi.dev": true, // Private suffixes are also considered public for matching purposes
 	"arvo.network": true, // Private suffixes are also considered public for matching purposes
 	"azimuth.network": true, // Private suffixes are also considered public for matching purposes
 	"tlon.network": true, // Private suffixes are also considered public for matching purposes
@@ -11765,6 +11766,7 @@ var privateSuffixList = map[string]bool{
 	"ltd.ng": true,
 	"ngo.ng": true,
 	"plc.ng": true,
+	"hstgr.cloud": true,
 	"hostyhosting.io": true,
 	"hf.space": true,
 	"static.hf.space": true,
@@ -12780,6 +12782,8 @@ var privateSuffixList = map[string]bool{
 	"cust.testing.thingdust.io": true,
 	"reservd.testing.thingdust.io": true,
 	"tickets.io": true,
+	"t3.storage.dev": true,
+	"t3.storageapi.dev": true,
 	"arvo.network": true,
 	"azimuth.network": true,
 	"tlon.network": true,
