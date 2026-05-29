@@ -1081,6 +1081,7 @@ var publicSuffixList = map[string]bool{
 	"video.hu": true,
 	"id": true,
 	"ac.id": true,
+	"ai.id": true,
 	"biz.id": true,
 	"co.id": true,
 	"desa.id": true,
@@ -9844,10 +9845,9 @@ var publicSuffixList = map[string]bool{
 	"wasmer.app": true, // Private suffixes are also considered public for matching purposes
 	"webflow.io": true, // Private suffixes are also considered public for matching purposes
 	"webflowtest.io": true, // Private suffixes are also considered public for matching purposes
-	"bookonline.app": true, // Private suffixes are also considered public for matching purposes
 	"hotelwithflight.com": true, // Private suffixes are also considered public for matching purposes
-	"reserve-online.com": true, // Private suffixes are also considered public for matching purposes
 	"reserve-online.net": true, // Private suffixes are also considered public for matching purposes
+	"book.online": true, // Private suffixes are also considered public for matching purposes
 	"cprapid.com": true, // Private suffixes are also considered public for matching purposes
 	"pleskns.com": true, // Private suffixes are also considered public for matching purposes
 	"wp2.host": true, // Private suffixes are also considered public for matching purposes
@@ -12856,10 +12856,9 @@ var privateSuffixList = map[string]bool{
 	"wasmer.app": true,
 	"webflow.io": true,
 	"webflowtest.io": true,
-	"bookonline.app": true,
 	"hotelwithflight.com": true,
-	"reserve-online.com": true,
 	"reserve-online.net": true,
+	"book.online": true,
 	"cprapid.com": true,
 	"pleskns.com": true,
 	"wp2.host": true,
