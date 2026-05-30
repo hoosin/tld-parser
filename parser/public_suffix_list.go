@@ -7781,10 +7781,12 @@ var publicSuffixList = map[string]bool{
 	"cafjs.com": true, // Private suffixes are also considered public for matching purposes
 	"canva-apps.cn": true, // Private suffixes are also considered public for matching purposes
 	"my.canvasite.cn": true, // Private suffixes are also considered public for matching purposes
+	"khsj.cn": true, // Private suffixes are also considered public for matching purposes
 	"canva-apps.com": true, // Private suffixes are also considered public for matching purposes
 	"canva-hosted-embed.com": true, // Private suffixes are also considered public for matching purposes
 	"canvacode.com": true, // Private suffixes are also considered public for matching purposes
 	"rice-labs.com": true, // Private suffixes are also considered public for matching purposes
+	"canva.link": true, // Private suffixes are also considered public for matching purposes
 	"canva.run": true, // Private suffixes are also considered public for matching purposes
 	"my.canva.site": true, // Private suffixes are also considered public for matching purposes
 	"drr.ac": true, // Private suffixes are also considered public for matching purposes
@@ -10792,10 +10794,12 @@ var privateSuffixList = map[string]bool{
 	"cafjs.com": true,
 	"canva-apps.cn": true,
 	"my.canvasite.cn": true,
+	"khsj.cn": true,
 	"canva-apps.com": true,
 	"canva-hosted-embed.com": true,
 	"canvacode.com": true,
 	"rice-labs.com": true,
+	"canva.link": true,
 	"canva.run": true,
 	"my.canva.site": true,
 	"drr.ac": true,
