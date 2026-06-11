@@ -8689,6 +8689,7 @@ var publicSuffixList = map[string]bool{
 	"whitesnow.jp": true, // Private suffixes are also considered public for matching purposes
 	"zombie.jp": true, // Private suffixes are also considered public for matching purposes
 	"heteml.net": true, // Private suffixes are also considered public for matching purposes
+	"vibehost.space": true, // Private suffixes are also considered public for matching purposes
 	"graphic.design": true, // Private suffixes are also considered public for matching purposes
 	"goip.de": true, // Private suffixes are also considered public for matching purposes
 	"web.app": true, // Private suffixes are also considered public for matching purposes
@@ -9334,6 +9335,7 @@ var publicSuffixList = map[string]bool{
 	"localplayer.dev": true, // Private suffixes are also considered public for matching purposes
 	"is-local.org": true, // Private suffixes are also considered public for matching purposes
 	"opensocial.site": true, // Private suffixes are also considered public for matching purposes
+	"chatgpt.site": true, // Private suffixes are also considered public for matching purposes
 	"opencraft.hosting": true, // Private suffixes are also considered public for matching purposes
 	"16-b.it": true, // Private suffixes are also considered public for matching purposes
 	"32-b.it": true, // Private suffixes are also considered public for matching purposes
@@ -11702,6 +11704,7 @@ var privateSuffixList = map[string]bool{
 	"whitesnow.jp": true,
 	"zombie.jp": true,
 	"heteml.net": true,
+	"vibehost.space": true,
 	"graphic.design": true,
 	"goip.de": true,
 	"web.app": true,
@@ -12347,6 +12350,7 @@ var privateSuffixList = map[string]bool{
 	"localplayer.dev": true,
 	"is-local.org": true,
 	"opensocial.site": true,
+	"chatgpt.site": true,
 	"opencraft.hosting": true,
 	"16-b.it": true,
 	"32-b.it": true,
