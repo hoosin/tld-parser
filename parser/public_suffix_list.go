@@ -9120,6 +9120,7 @@ var publicSuffixList = map[string]bool{
 	"mittwaldserver.info": true, // Private suffixes are also considered public for matching purposes
 	"typo3server.info": true, // Private suffixes are also considered public for matching purposes
 	"project.space": true, // Private suffixes are also considered public for matching purposes
+	"mkm.fan": true, // Private suffixes are also considered public for matching purposes
 	"mocha.app": true, // Private suffixes are also considered public for matching purposes
 	"mochausercontent.com": true, // Private suffixes are also considered public for matching purposes
 	"mocha-sandbox.dev": true, // Private suffixes are also considered public for matching purposes
@@ -12135,6 +12136,7 @@ var privateSuffixList = map[string]bool{
 	"mittwaldserver.info": true,
 	"typo3server.info": true,
 	"project.space": true,
+	"mkm.fan": true,
 	"mocha.app": true,
 	"mochausercontent.com": true,
 	"mocha-sandbox.dev": true,
