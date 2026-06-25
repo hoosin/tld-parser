@@ -7991,7 +7991,20 @@ var publicSuffixList = map[string]bool{
 	"cc.cd": true, // Private suffixes are also considered public for matching purposes
 	"us.ci": true, // Private suffixes are also considered public for matching purposes
 	"de5.net": true, // Private suffixes are also considered public for matching purposes
+	"dnshome.at": true, // Private suffixes are also considered public for matching purposes
+	"resolve.bar": true, // Private suffixes are also considered public for matching purposes
+	"ddns.berlin": true, // Private suffixes are also considered public for matching purposes
+	"dnshome.cloud": true, // Private suffixes are also considered public for matching purposes
+	"ddnssec.de": true, // Private suffixes are also considered public for matching purposes
 	"dnshome.de": true, // Private suffixes are also considered public for matching purposes
+	"dyndnssec.de": true, // Private suffixes are also considered public for matching purposes
+	"heimdns.de": true, // Private suffixes are also considered public for matching purposes
+	"srvdns.de": true, // Private suffixes are also considered public for matching purposes
+	"dnshome.eu": true, // Private suffixes are also considered public for matching purposes
+	"dnshome.it": true, // Private suffixes are also considered public for matching purposes
+	"dyn.now": true, // Private suffixes are also considered public for matching purposes
+	"heimdns.online": true, // Private suffixes are also considered public for matching purposes
+	"ddns.wtf": true, // Private suffixes are also considered public for matching purposes
 	"online.th": true, // Private suffixes are also considered public for matching purposes
 	"shop.th": true, // Private suffixes are also considered public for matching purposes
 	"co.scot": true, // Private suffixes are also considered public for matching purposes
@@ -9395,6 +9408,9 @@ var publicSuffixList = map[string]bool{
 	"byen.site": true, // Private suffixes are also considered public for matching purposes
 	"nyc.mn": true, // Private suffixes are also considered public for matching purposes
 	"pubtls.org": true, // Private suffixes are also considered public for matching purposes
+	"puter.app": true, // Private suffixes are also considered public for matching purposes
+	"puter.site": true, // Private suffixes are also considered public for matching purposes
+	"puter.work": true, // Private suffixes are also considered public for matching purposes
 	"pythonanywhere.com": true, // Private suffixes are also considered public for matching purposes
 	"eu.pythonanywhere.com": true, // Private suffixes are also considered public for matching purposes
 	"qa2.com": true, // Private suffixes are also considered public for matching purposes
@@ -11007,7 +11023,20 @@ var privateSuffixList = map[string]bool{
 	"cc.cd": true,
 	"us.ci": true,
 	"de5.net": true,
+	"dnshome.at": true,
+	"resolve.bar": true,
+	"ddns.berlin": true,
+	"dnshome.cloud": true,
+	"ddnssec.de": true,
 	"dnshome.de": true,
+	"dyndnssec.de": true,
+	"heimdns.de": true,
+	"srvdns.de": true,
+	"dnshome.eu": true,
+	"dnshome.it": true,
+	"dyn.now": true,
+	"heimdns.online": true,
+	"ddns.wtf": true,
 	"online.th": true,
 	"shop.th": true,
 	"co.scot": true,
@@ -12411,6 +12440,9 @@ var privateSuffixList = map[string]bool{
 	"byen.site": true,
 	"nyc.mn": true,
 	"pubtls.org": true,
+	"puter.app": true,
+	"puter.site": true,
+	"puter.work": true,
 	"pythonanywhere.com": true,
 	"eu.pythonanywhere.com": true,
 	"qa2.com": true,
