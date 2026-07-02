@@ -9066,7 +9066,6 @@ var publicSuffixList = map[string]bool{
 	"mwcloudnonprod.com": true, // Private suffixes are also considered public for matching purposes
 	"polyspace.com": true, // Private suffixes are also considered public for matching purposes
 	"mayfirst.info": true, // Private suffixes are also considered public for matching purposes
-	"mayfirst.org": true, // Private suffixes are also considered public for matching purposes
 	"mcdir.me": true, // Private suffixes are also considered public for matching purposes
 	"mcdir.ru": true, // Private suffixes are also considered public for matching purposes
 	"vps.mcdir.ru": true, // Private suffixes are also considered public for matching purposes
@@ -12098,7 +12097,6 @@ var privateSuffixList = map[string]bool{
 	"mwcloudnonprod.com": true,
 	"polyspace.com": true,
 	"mayfirst.info": true,
-	"mayfirst.org": true,
 	"mcdir.me": true,
 	"mcdir.ru": true,
 	"vps.mcdir.ru": true,
