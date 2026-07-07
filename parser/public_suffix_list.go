@@ -8801,8 +8801,6 @@ var publicSuffixList = map[string]bool{
 	"in-dsl.org": true, // Private suffixes are also considered public for matching purposes
 	"in-vpn.org": true, // Private suffixes are also considered public for matching purposes
 	"oninferno.net": true, // Private suffixes are also considered public for matching purposes
-	"biz.at": true, // Private suffixes are also considered public for matching purposes
-	"info.at": true, // Private suffixes are also considered public for matching purposes
 	"info.cx": true, // Private suffixes are also considered public for matching purposes
 	"ac.leg.br": true, // Private suffixes are also considered public for matching purposes
 	"al.leg.br": true, // Private suffixes are also considered public for matching purposes
@@ -9911,6 +9909,7 @@ var publicSuffixList = map[string]bool{
 	"weeklylottery.org.uk": true, // Private suffixes are also considered public for matching purposes
 	"wpenginepowered.com": true, // Private suffixes are also considered public for matching purposes
 	"js.wpenginepowered.com": true, // Private suffixes are also considered public for matching purposes
+	"grok.me": true, // Private suffixes are also considered public for matching purposes
 	"half.host": true, // Private suffixes are also considered public for matching purposes
 	"xnbay.com": true, // Private suffixes are also considered public for matching purposes
 	"u2.xnbay.com": true, // Private suffixes are also considered public for matching purposes
@@ -11832,8 +11831,6 @@ var privateSuffixList = map[string]bool{
 	"in-dsl.org": true,
 	"in-vpn.org": true,
 	"oninferno.net": true,
-	"biz.at": true,
-	"info.at": true,
 	"info.cx": true,
 	"ac.leg.br": true,
 	"al.leg.br": true,
@@ -12942,6 +12939,7 @@ var privateSuffixList = map[string]bool{
 	"weeklylottery.org.uk": true,
 	"wpenginepowered.com": true,
 	"js.wpenginepowered.com": true,
+	"grok.me": true,
 	"half.host": true,
 	"xnbay.com": true,
 	"u2.xnbay.com": true,
