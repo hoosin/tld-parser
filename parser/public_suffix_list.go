@@ -7887,6 +7887,9 @@ var publicSuffixList = map[string]bool{
 	"cnpy.gdn": true, // Private suffixes are also considered public for matching purposes
 	"co.ca": true, // Private suffixes are also considered public for matching purposes
 	"co.com": true, // Private suffixes are also considered public for matching purposes
+	"sch.ac": true, // Private suffixes are also considered public for matching purposes
+	"dev.cv": true, // Private suffixes are also considered public for matching purposes
+	"store.cv": true, // Private suffixes are also considered public for matching purposes
 	"codeberg.page": true, // Private suffixes are also considered public for matching purposes
 	"csb.app": true, // Private suffixes are also considered public for matching purposes
 	"preview.csb.app": true, // Private suffixes are also considered public for matching purposes
@@ -10917,6 +10920,9 @@ var privateSuffixList = map[string]bool{
 	"cnpy.gdn": true,
 	"co.ca": true,
 	"co.com": true,
+	"sch.ac": true,
+	"dev.cv": true,
+	"store.cv": true,
 	"codeberg.page": true,
 	"csb.app": true,
 	"preview.csb.app": true,
