@@ -913,12 +913,16 @@ var publicSuffixList = map[string]bool{
 	"gov.gd": true,
 	"ge": true,
 	"com.ge": true,
+	"cyb.ge": true,
 	"edu.ge": true,
 	"gov.ge": true,
+	"llc.ge": true,
 	"net.ge": true,
+	"online.ge": true,
 	"org.ge": true,
 	"pvt.ge": true,
 	"school.ge": true,
+	"tnx.ge": true,
 	"gf": true,
 	"gg": true,
 	"co.gg": true,
@@ -1125,7 +1129,9 @@ var publicSuffixList = map[string]bool{
 	"5g.in": true,
 	"6g.in": true,
 	"ac.in": true,
+	"aero.in": true,
 	"ai.in": true,
+	"alumni.in": true,
 	"am.in": true,
 	"bank.in": true,
 	"bihar.in": true,
@@ -1160,8 +1166,10 @@ var publicSuffixList = map[string]bool{
 	"post.in": true,
 	"pro.in": true,
 	"res.in": true,
+	"school.in": true,
 	"travel.in": true,
 	"tv.in": true,
+	"ub.in": true,
 	"uk.in": true,
 	"up.in": true,
 	"us.in": true,
@@ -3785,13 +3793,17 @@ var publicSuffixList = map[string]bool{
 	"fhs.no": true,
 	"folkebibl.no": true,
 	"fylkesbibl.no": true,
+	"gielda.no": true,
+	"herad.no": true,
 	"idrett.no": true,
+	"kommune.no": true,
 	"museum.no": true,
 	"priv.no": true,
+	"suohkan.no": true,
+	"tjielte.no": true,
+	"uenorge.no": true,
 	"vgs.no": true,
 	"dep.no": true,
-	"herad.no": true,
-	"kommune.no": true,
 	"mil.no": true,
 	"stat.no": true,
 	"aa.no": true,
@@ -3927,7 +3939,7 @@ var publicSuffixList = map[string]bool{
 	"askvoll.no": true,
 	"asnes.no": true,
 	"åsnes.no": true,
-	"audnedaln.no": true,
+	"audnedal.no": true,
 	"aukra.no": true,
 	"aure.no": true,
 	"aurland.no": true,
@@ -4038,7 +4050,6 @@ var publicSuffixList = map[string]bool{
 	"fosnes.no": true,
 	"fræna.no": true,
 	"frana.no": true,
-	"frei.no": true,
 	"frogn.no": true,
 	"froland.no": true,
 	"frosta.no": true,
@@ -4089,6 +4100,7 @@ var publicSuffixList = map[string]bool{
 	"halsa.no": true,
 	"hamar.no": true,
 	"hamaroy.no": true,
+	"hamarøy.no": true,
 	"hammarfeasta.no": true,
 	"hámmárfeasta.no": true,
 	"hammerfest.no": true,
@@ -4143,6 +4155,7 @@ var publicSuffixList = map[string]bool{
 	"kárášjohka.no": true,
 	"karasjok.no": true,
 	"karlsoy.no": true,
+	"karlsøy.no": true,
 	"karmoy.no": true,
 	"karmøy.no": true,
 	"kautokeino.no": true,
@@ -4331,6 +4344,7 @@ var publicSuffixList = map[string]bool{
 	"rana.no": true,
 	"randaberg.no": true,
 	"rauma.no": true,
+	"re.no": true,
 	"rendalen.no": true,
 	"rennebu.no": true,
 	"rennesoy.no": true,
@@ -4488,6 +4502,7 @@ var publicSuffixList = map[string]bool{
 	"tysvar.no": true,
 	"ullensaker.no": true,
 	"ullensvang.no": true,
+	"ulstein.no": true,
 	"ulvik.no": true,
 	"unjarga.no": true,
 	"unjárga.no": true,
@@ -8848,6 +8863,9 @@ var publicSuffixList = map[string]bool{
 	"app-ionos.space": true, // Private suffixes are also considered public for matching purposes
 	"iopsys.se": true, // Private suffixes are also considered public for matching purposes
 	"ipifony.net": true, // Private suffixes are also considered public for matching purposes
+	"home64.de": true, // Private suffixes are also considered public for matching purposes
+	"ipv64.de": true, // Private suffixes are also considered public for matching purposes
+	"ipv64.net": true, // Private suffixes are also considered public for matching purposes
 	"ir.md": true, // Private suffixes are also considered public for matching purposes
 	"is-a-good.dev": true, // Private suffixes are also considered public for matching purposes
 	"iservschule.de": true, // Private suffixes are also considered public for matching purposes
@@ -9607,6 +9625,7 @@ var publicSuffixList = map[string]bool{
 	"schokokeks.net": true, // Private suffixes are also considered public for matching purposes
 	"gov.scot": true, // Private suffixes are also considered public for matching purposes
 	"service.gov.scot": true, // Private suffixes are also considered public for matching purposes
+	"mygov.scot": true, // Private suffixes are also considered public for matching purposes
 	"scrysec.com": true, // Private suffixes are also considered public for matching purposes
 	"client.scrypted.io": true, // Private suffixes are also considered public for matching purposes
 	"firewall-gateway.com": true, // Private suffixes are also considered public for matching purposes
@@ -11881,6 +11900,9 @@ var privateSuffixList = map[string]bool{
 	"app-ionos.space": true,
 	"iopsys.se": true,
 	"ipifony.net": true,
+	"home64.de": true,
+	"ipv64.de": true,
+	"ipv64.net": true,
 	"ir.md": true,
 	"is-a-good.dev": true,
 	"iservschule.de": true,
@@ -12640,6 +12662,7 @@ var privateSuffixList = map[string]bool{
 	"schokokeks.net": true,
 	"gov.scot": true,
 	"service.gov.scot": true,
+	"mygov.scot": true,
 	"scrysec.com": true,
 	"client.scrypted.io": true,
 	"firewall-gateway.com": true,
