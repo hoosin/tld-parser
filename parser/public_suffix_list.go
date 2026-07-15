@@ -5108,7 +5108,6 @@ var publicSuffixList = map[string]bool{
 	"net.th": true,
 	"or.th": true,
 	"tj": true,
-	"ac.tj": true,
 	"biz.tj": true,
 	"co.tj": true,
 	"com.tj": true,
