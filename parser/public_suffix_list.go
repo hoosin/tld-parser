@@ -1264,7 +1264,6 @@ var publicSuffixList = map[string]bool{
 	"trentin-südtirol.it": true,
 	"trentin-sued-tirol.it": true,
 	"trentin-suedtirol.it": true,
-	"trentino.it": true,
 	"trentino-a-adige.it": true,
 	"trentino-aadige.it": true,
 	"trentino-alto-adige.it": true,
@@ -1285,7 +1284,6 @@ var publicSuffixList = map[string]bool{
 	"trentinostirol.it": true,
 	"trentinosud-tirol.it": true,
 	"trentinosüd-tirol.it": true,
-	"trentinosudtirol.it": true,
 	"trentinosüdtirol.it": true,
 	"trentinosued-tirol.it": true,
 	"trentinosuedtirol.it": true,
@@ -1301,7 +1299,6 @@ var publicSuffixList = map[string]bool{
 	"val-d-aosta.it": true,
 	"val-daosta.it": true,
 	"vald-aosta.it": true,
-	"valdaosta.it": true,
 	"valle-aosta.it": true,
 	"valle-d-aosta.it": true,
 	"valle-daosta.it": true,
@@ -1337,7 +1334,6 @@ var publicSuffixList = map[string]bool{
 	"aoste.it": true,
 	"ap.it": true,
 	"aq.it": true,
-	"aquila.it": true,
 	"ar.it": true,
 	"arezzo.it": true,
 	"ascoli-piceno.it": true,
@@ -1561,6 +1557,9 @@ var publicSuffixList = map[string]bool{
 	"sp.it": true,
 	"sr.it": true,
 	"ss.it": true,
+	"su.it": true,
+	"sud-sardegna.it": true,
+	"sudsardegna.it": true,
 	"südtirol.it": true,
 	"suedtirol.it": true,
 	"sv.it": true,
@@ -1581,6 +1580,7 @@ var publicSuffixList = map[string]bool{
 	"traniandriabarletta.it": true,
 	"tranibarlettaandria.it": true,
 	"trapani.it": true,
+	"trentino.it": true,
 	"trento.it": true,
 	"treviso.it": true,
 	"trieste.it": true,
@@ -1599,6 +1599,7 @@ var publicSuffixList = map[string]bool{
 	"venezia.it": true,
 	"venice.it": true,
 	"verbania.it": true,
+	"verbano-cusio-ossola.it": true,
 	"vercelli.it": true,
 	"verona.it": true,
 	"vi.it": true,
@@ -9418,7 +9419,6 @@ var publicSuffixList = map[string]bool{
 	"mmv.kr": true, // Private suffixes are also considered public for matching purposes
 	"vki.kr": true, // Private suffixes are also considered public for matching purposes
 	"dev.project-study.com": true, // Private suffixes are also considered public for matching purposes
-	"protonet.io": true, // Private suffixes are also considered public for matching purposes
 	"platter-app.dev": true, // Private suffixes are also considered public for matching purposes
 	"e.id": true, // Private suffixes are also considered public for matching purposes
 	"chirurgiens-dentistes-en-france.fr": true, // Private suffixes are also considered public for matching purposes
@@ -9497,7 +9497,6 @@ var publicSuffixList = map[string]bool{
 	"repl.run": true, // Private suffixes are also considered public for matching purposes
 	"resindevice.io": true, // Private suffixes are also considered public for matching purposes
 	"devices.resinstaging.io": true, // Private suffixes are also considered public for matching purposes
-	"hzc.io": true, // Private suffixes are also considered public for matching purposes
 	"adimo.co.uk": true, // Private suffixes are also considered public for matching purposes
 	"itcouldbewor.se": true, // Private suffixes are also considered public for matching purposes
 	"aus.basketball": true, // Private suffixes are also considered public for matching purposes
@@ -9721,7 +9720,6 @@ var publicSuffixList = map[string]bool{
 	"indevs.in": true, // Private suffixes are also considered public for matching purposes
 	"musician.io": true, // Private suffixes are also considered public for matching purposes
 	"novecore.site": true, // Private suffixes are also considered public for matching purposes
-	"api.stdlib.com": true, // Private suffixes are also considered public for matching purposes
 	"statichost.page": true, // Private suffixes are also considered public for matching purposes
 	"feedback.ac": true, // Private suffixes are also considered public for matching purposes
 	"forms.ac": true, // Private suffixes are also considered public for matching purposes
@@ -9736,7 +9734,6 @@ var publicSuffixList = map[string]bool{
 	"ipfs.storacha.link": true, // Private suffixes are also considered public for matching purposes
 	"ipfs.w3s.link": true, // Private suffixes are also considered public for matching purposes
 	"storebase.store": true, // Private suffixes are also considered public for matching purposes
-	"storj.farm": true, // Private suffixes are also considered public for matching purposes
 	"strapiapp.com": true, // Private suffixes are also considered public for matching purposes
 	"media.strapiapp.com": true, // Private suffixes are also considered public for matching purposes
 	"vps-host.net": true, // Private suffixes are also considered public for matching purposes
@@ -12455,7 +12452,6 @@ var privateSuffixList = map[string]bool{
 	"mmv.kr": true,
 	"vki.kr": true,
 	"dev.project-study.com": true,
-	"protonet.io": true,
 	"platter-app.dev": true,
 	"e.id": true,
 	"chirurgiens-dentistes-en-france.fr": true,
@@ -12534,7 +12530,6 @@ var privateSuffixList = map[string]bool{
 	"repl.run": true,
 	"resindevice.io": true,
 	"devices.resinstaging.io": true,
-	"hzc.io": true,
 	"adimo.co.uk": true,
 	"itcouldbewor.se": true,
 	"aus.basketball": true,
@@ -12758,7 +12753,6 @@ var privateSuffixList = map[string]bool{
 	"indevs.in": true,
 	"musician.io": true,
 	"novecore.site": true,
-	"api.stdlib.com": true,
 	"statichost.page": true,
 	"feedback.ac": true,
 	"forms.ac": true,
@@ -12773,7 +12767,6 @@ var privateSuffixList = map[string]bool{
 	"ipfs.storacha.link": true,
 	"ipfs.w3s.link": true,
 	"storebase.store": true,
-	"storj.farm": true,
 	"strapiapp.com": true,
 	"media.strapiapp.com": true,
 	"vps-host.net": true,
