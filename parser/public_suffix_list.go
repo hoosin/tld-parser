@@ -7790,9 +7790,6 @@ var publicSuffixList = map[string]bool{
 	"radio.fm": true, // Private suffixes are also considered public for matching purposes
 	"cdn.bubble.io": true, // Private suffixes are also considered public for matching purposes
 	"bubbleapps.io": true, // Private suffixes are also considered public for matching purposes
-	"uk0.bigv.io": true, // Private suffixes are also considered public for matching purposes
-	"dh.bytemark.co.uk": true, // Private suffixes are also considered public for matching purposes
-	"vm.bytemark.co.uk": true, // Private suffixes are also considered public for matching purposes
 	"cafjs.com": true, // Private suffixes are also considered public for matching purposes
 	"canva-apps.cn": true, // Private suffixes are also considered public for matching purposes
 	"my.canvasite.cn": true, // Private suffixes are also considered public for matching purposes
@@ -8436,7 +8433,6 @@ var publicSuffixList = map[string]bool{
 	"on.expo.app": true, // Private suffixes are also considered public for matching purposes
 	"staging.expo.app": true, // Private suffixes are also considered public for matching purposes
 	"on.staging.expo.app": true, // Private suffixes are also considered public for matching purposes
-	"onfabrica.com": true, // Private suffixes are also considered public for matching purposes
 	"fspages.org": true, // Private suffixes are also considered public for matching purposes
 	"ru.net": true, // Private suffixes are also considered public for matching purposes
 	"adygeya.ru": true, // Private suffixes are also considered public for matching purposes
@@ -10823,9 +10819,6 @@ var privateSuffixList = map[string]bool{
 	"radio.fm": true,
 	"cdn.bubble.io": true,
 	"bubbleapps.io": true,
-	"uk0.bigv.io": true,
-	"dh.bytemark.co.uk": true,
-	"vm.bytemark.co.uk": true,
 	"cafjs.com": true,
 	"canva-apps.cn": true,
 	"my.canvasite.cn": true,
@@ -11469,7 +11462,6 @@ var privateSuffixList = map[string]bool{
 	"on.expo.app": true,
 	"staging.expo.app": true,
 	"on.staging.expo.app": true,
-	"onfabrica.com": true,
 	"fspages.org": true,
 	"ru.net": true,
 	"adygeya.ru": true,
