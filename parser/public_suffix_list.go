@@ -7975,8 +7975,6 @@ var publicSuffixList = map[string]bool{
 	"piebox.site": true, // Private suffixes are also considered public for matching purposes
 	"deployagent.space": true, // Private suffixes are also considered public for matching purposes
 	"dedyn.io": true, // Private suffixes are also considered public for matching purposes
-	"deta.app": true, // Private suffixes are also considered public for matching purposes
-	"deta.dev": true, // Private suffixes are also considered public for matching purposes
 	"deuxfleurs.eu": true, // Private suffixes are also considered public for matching purposes
 	"deuxfleurs.page": true, // Private suffixes are also considered public for matching purposes
 	"d6.ply.gg": true, // Private suffixes are also considered public for matching purposes
@@ -9398,6 +9396,7 @@ var publicSuffixList = map[string]bool{
 	"ent.platform.sh": true, // Private suffixes are also considered public for matching purposes
 	"eu.platform.sh": true, // Private suffixes are also considered public for matching purposes
 	"us.platform.sh": true, // Private suffixes are also considered public for matching purposes
+	"playcode.site": true, // Private suffixes are also considered public for matching purposes
 	"pley.games": true, // Private suffixes are also considered public for matching purposes
 	"onporter.run": true, // Private suffixes are also considered public for matching purposes
 	"co.bn": true, // Private suffixes are also considered public for matching purposes
@@ -11004,8 +11003,6 @@ var privateSuffixList = map[string]bool{
 	"piebox.site": true,
 	"deployagent.space": true,
 	"dedyn.io": true,
-	"deta.app": true,
-	"deta.dev": true,
 	"deuxfleurs.eu": true,
 	"deuxfleurs.page": true,
 	"d6.ply.gg": true,
@@ -12427,6 +12424,7 @@ var privateSuffixList = map[string]bool{
 	"ent.platform.sh": true,
 	"eu.platform.sh": true,
 	"us.platform.sh": true,
+	"playcode.site": true,
 	"pley.games": true,
 	"onporter.run": true,
 	"co.bn": true,
