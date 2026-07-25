@@ -6793,6 +6793,7 @@ var publicSuffixList = map[string]bool{
 	"watches": true,
 	"weather": true,
 	"weatherchannel": true,
+	"web": true,
 	"webcam": true,
 	"weber": true,
 	"website": true,
