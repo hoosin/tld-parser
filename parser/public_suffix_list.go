@@ -9894,9 +9894,9 @@ var publicSuffixList = map[string]bool{
 	"wmcloud.org": true, // Private suffixes are also considered public for matching purposes
 	"beta.wmcloud.org": true, // Private suffixes are also considered public for matching purposes
 	"wmflabs.org": true, // Private suffixes are also considered public for matching purposes
-	"vps.hrsn.au": true, // Private suffixes are also considered public for matching purposes
 	"hrsn.dev": true, // Private suffixes are also considered public for matching purposes
 	"is-a.dev": true, // Private suffixes are also considered public for matching purposes
+	"vps.hrsn.net": true, // Private suffixes are also considered public for matching purposes
 	"localcert.net": true, // Private suffixes are also considered public for matching purposes
 	"windsurf.app": true, // Private suffixes are also considered public for matching purposes
 	"windsurf.build": true, // Private suffixes are also considered public for matching purposes
@@ -12922,9 +12922,9 @@ var privateSuffixList = map[string]bool{
 	"wmcloud.org": true,
 	"beta.wmcloud.org": true,
 	"wmflabs.org": true,
-	"vps.hrsn.au": true,
 	"hrsn.dev": true,
 	"is-a.dev": true,
+	"vps.hrsn.net": true,
 	"localcert.net": true,
 	"windsurf.app": true,
 	"windsurf.build": true,
