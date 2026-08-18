@@ -6943,7 +6943,6 @@ var publicSuffixList = map[string]bool{
 	"a2hosted.com": true, // Private suffixes are also considered public for matching purposes
 	"cpserver.com": true, // Private suffixes are also considered public for matching purposes
 	"activetrail.biz": true, // Private suffixes are also considered public for matching purposes
-	"adaptable.app": true, // Private suffixes are also considered public for matching purposes
 	"myaddr.dev": true, // Private suffixes are also considered public for matching purposes
 	"myaddr.io": true, // Private suffixes are also considered public for matching purposes
 	"dyn.addr.tools": true, // Private suffixes are also considered public for matching purposes
@@ -7904,6 +7903,8 @@ var publicSuffixList = map[string]bool{
 	"dev.cv": true, // Private suffixes are also considered public for matching purposes
 	"store.cv": true, // Private suffixes are also considered public for matching purposes
 	"codeberg.page": true, // Private suffixes are also considered public for matching purposes
+	"codepen.app": true, // Private suffixes are also considered public for matching purposes
+	"codepen.dev": true, // Private suffixes are also considered public for matching purposes
 	"csb.app": true, // Private suffixes are also considered public for matching purposes
 	"preview.csb.app": true, // Private suffixes are also considered public for matching purposes
 	"co.nl": true, // Private suffixes are also considered public for matching purposes
@@ -8759,6 +8760,7 @@ var publicSuffixList = map[string]bool{
 	"onhercules.app": true, // Private suffixes are also considered public for matching purposes
 	"hercules-app.com": true, // Private suffixes are also considered public for matching purposes
 	"hercules-dev.com": true, // Private suffixes are also considered public for matching purposes
+	"here.now": true, // Private suffixes are also considered public for matching purposes
 	"herokuapp.com": true, // Private suffixes are also considered public for matching purposes
 	"heyflow.page": true, // Private suffixes are also considered public for matching purposes
 	"heyflow.site": true, // Private suffixes are also considered public for matching purposes
@@ -8850,6 +8852,7 @@ var publicSuffixList = map[string]bool{
 	"botdash.net": true, // Private suffixes are also considered public for matching purposes
 	"botda.sh": true, // Private suffixes are also considered public for matching purposes
 	"botdash.xyz": true, // Private suffixes are also considered public for matching purposes
+	"online-server.cloud": true, // Private suffixes are also considered public for matching purposes
 	"apps-1and1.com": true, // Private suffixes are also considered public for matching purposes
 	"live-website.com": true, // Private suffixes are also considered public for matching purposes
 	"webspace-host.com": true, // Private suffixes are also considered public for matching purposes
@@ -9616,6 +9619,9 @@ var publicSuffixList = map[string]bool{
 	"scalebook.scw.cloud": true, // Private suffixes are also considered public for matching purposes
 	"smartlabeling.scw.cloud": true, // Private suffixes are also considered public for matching purposes
 	"dedibox.fr": true, // Private suffixes are also considered public for matching purposes
+	"scw.site": true, // Private suffixes are also considered public for matching purposes
+	"ams.scw.site": true, // Private suffixes are also considered public for matching purposes
+	"waw.scw.site": true, // Private suffixes are also considered public for matching purposes
 	"schokokeks.net": true, // Private suffixes are also considered public for matching purposes
 	"gov.scot": true, // Private suffixes are also considered public for matching purposes
 	"service.gov.scot": true, // Private suffixes are also considered public for matching purposes
@@ -9971,7 +9977,6 @@ var privateSuffixList = map[string]bool{
 	"a2hosted.com": true,
 	"cpserver.com": true,
 	"activetrail.biz": true,
-	"adaptable.app": true,
 	"myaddr.dev": true,
 	"myaddr.io": true,
 	"dyn.addr.tools": true,
@@ -10932,6 +10937,8 @@ var privateSuffixList = map[string]bool{
 	"dev.cv": true,
 	"store.cv": true,
 	"codeberg.page": true,
+	"codepen.app": true,
+	"codepen.dev": true,
 	"csb.app": true,
 	"preview.csb.app": true,
 	"co.nl": true,
@@ -11787,6 +11794,7 @@ var privateSuffixList = map[string]bool{
 	"onhercules.app": true,
 	"hercules-app.com": true,
 	"hercules-dev.com": true,
+	"here.now": true,
 	"herokuapp.com": true,
 	"heyflow.page": true,
 	"heyflow.site": true,
@@ -11878,6 +11886,7 @@ var privateSuffixList = map[string]bool{
 	"botdash.net": true,
 	"botda.sh": true,
 	"botdash.xyz": true,
+	"online-server.cloud": true,
 	"apps-1and1.com": true,
 	"live-website.com": true,
 	"webspace-host.com": true,
@@ -12644,6 +12653,9 @@ var privateSuffixList = map[string]bool{
 	"scalebook.scw.cloud": true,
 	"smartlabeling.scw.cloud": true,
 	"dedibox.fr": true,
+	"scw.site": true,
+	"ams.scw.site": true,
+	"waw.scw.site": true,
 	"schokokeks.net": true,
 	"gov.scot": true,
 	"service.gov.scot": true,
