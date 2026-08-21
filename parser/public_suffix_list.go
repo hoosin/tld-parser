@@ -6960,7 +6960,6 @@ var publicSuffixList = map[string]bool{
 	"africa.com": true, // Private suffixes are also considered public for matching purposes
 	"beep.pl": true, // Private suffixes are also considered public for matching purposes
 	"aiven.app": true, // Private suffixes are also considered public for matching purposes
-	"aivencloud.com": true, // Private suffixes are also considered public for matching purposes
 	"akadns.net": true, // Private suffixes are also considered public for matching purposes
 	"akamai.net": true, // Private suffixes are also considered public for matching purposes
 	"akamai-staging.net": true, // Private suffixes are also considered public for matching purposes
@@ -7724,6 +7723,8 @@ var publicSuffixList = map[string]bool{
 	"opentunnel.xyz": true, // Private suffixes are also considered public for matching purposes
 	"antagonist.cloud": true, // Private suffixes are also considered public for matching purposes
 	"claude.app": true, // Private suffixes are also considered public for matching purposes
+	"claudeusercontent.com": true, // Private suffixes are also considered public for matching purposes
+	"frame.claudeusercontent.com": true, // Private suffixes are also considered public for matching purposes
 	"apigee.io": true, // Private suffixes are also considered public for matching purposes
 	"panel.dev": true, // Private suffixes are also considered public for matching purposes
 	"siiites.com": true, // Private suffixes are also considered public for matching purposes
@@ -9994,7 +9995,6 @@ var privateSuffixList = map[string]bool{
 	"africa.com": true,
 	"beep.pl": true,
 	"aiven.app": true,
-	"aivencloud.com": true,
 	"akadns.net": true,
 	"akamai.net": true,
 	"akamai-staging.net": true,
@@ -10758,6 +10758,8 @@ var privateSuffixList = map[string]bool{
 	"opentunnel.xyz": true,
 	"antagonist.cloud": true,
 	"claude.app": true,
+	"claudeusercontent.com": true,
+	"frame.claudeusercontent.com": true,
 	"apigee.io": true,
 	"panel.dev": true,
 	"siiites.com": true,
