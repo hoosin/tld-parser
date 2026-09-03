@@ -7793,6 +7793,7 @@ var publicSuffixList = map[string]bool{
 	"bubbleapps.io": true, // Private suffixes are also considered public for matching purposes
 	"cafjs.com": true, // Private suffixes are also considered public for matching purposes
 	"canva-apps.cn": true, // Private suffixes are also considered public for matching purposes
+	"canva-code.cn": true, // Private suffixes are also considered public for matching purposes
 	"my.canvasite.cn": true, // Private suffixes are also considered public for matching purposes
 	"khsj.cn": true, // Private suffixes are also considered public for matching purposes
 	"canva-apps.com": true, // Private suffixes are also considered public for matching purposes
@@ -8912,8 +8913,6 @@ var publicSuffixList = map[string]bool{
 	"j.scaleforce.com.cy": true, // Private suffixes are also considered public for matching purposes
 	"jelastic.dogado.eu": true, // Private suffixes are also considered public for matching purposes
 	"fi.cloudplatform.fi": true, // Private suffixes are also considered public for matching purposes
-	"demo.datacenter.fi": true, // Private suffixes are also considered public for matching purposes
-	"paas.datacenter.fi": true, // Private suffixes are also considered public for matching purposes
 	"jele.host": true, // Private suffixes are also considered public for matching purposes
 	"mircloud.host": true, // Private suffixes are also considered public for matching purposes
 	"paas.beebyte.io": true, // Private suffixes are also considered public for matching purposes
@@ -9504,6 +9503,7 @@ var publicSuffixList = map[string]bool{
 	"subsc-pay.com": true, // Private suffixes are also considered public for matching purposes
 	"subsc-pay.net": true, // Private suffixes are also considered public for matching purposes
 	"git-pages.rit.edu": true, // Private suffixes are also considered public for matching purposes
+	"rocketpreview.app": true, // Private suffixes are also considered public for matching purposes
 	"rocky.page": true, // Private suffixes are also considered public for matching purposes
 	"rub.de": true, // Private suffixes are also considered public for matching purposes
 	"ruhr-uni-bochum.de": true, // Private suffixes are also considered public for matching purposes
@@ -9870,6 +9870,7 @@ var publicSuffixList = map[string]bool{
 	"v0.build": true, // Private suffixes are also considered public for matching purposes
 	"vercel.dev": true, // Private suffixes are also considered public for matching purposes
 	"vusercontent.net": true, // Private suffixes are also considered public for matching purposes
+	"tmp.now": true, // Private suffixes are also considered public for matching purposes
 	"vercel.run": true, // Private suffixes are also considered public for matching purposes
 	"now.sh": true, // Private suffixes are also considered public for matching purposes
 	"2038.io": true, // Private suffixes are also considered public for matching purposes
@@ -9932,9 +9933,6 @@ var publicSuffixList = map[string]bool{
 	"js.wpenginepowered.com": true, // Private suffixes are also considered public for matching purposes
 	"grok.me": true, // Private suffixes are also considered public for matching purposes
 	"half.host": true, // Private suffixes are also considered public for matching purposes
-	"xnbay.com": true, // Private suffixes are also considered public for matching purposes
-	"u2.xnbay.com": true, // Private suffixes are also considered public for matching purposes
-	"u2-local.xnbay.com": true, // Private suffixes are also considered public for matching purposes
 	"cistron.nl": true, // Private suffixes are also considered public for matching purposes
 	"demon.nl": true, // Private suffixes are also considered public for matching purposes
 	"xs4all.space": true, // Private suffixes are also considered public for matching purposes
@@ -10828,6 +10826,7 @@ var privateSuffixList = map[string]bool{
 	"bubbleapps.io": true,
 	"cafjs.com": true,
 	"canva-apps.cn": true,
+	"canva-code.cn": true,
 	"my.canvasite.cn": true,
 	"khsj.cn": true,
 	"canva-apps.com": true,
@@ -11947,8 +11946,6 @@ var privateSuffixList = map[string]bool{
 	"j.scaleforce.com.cy": true,
 	"jelastic.dogado.eu": true,
 	"fi.cloudplatform.fi": true,
-	"demo.datacenter.fi": true,
-	"paas.datacenter.fi": true,
 	"jele.host": true,
 	"mircloud.host": true,
 	"paas.beebyte.io": true,
@@ -12539,6 +12536,7 @@ var privateSuffixList = map[string]bool{
 	"subsc-pay.com": true,
 	"subsc-pay.net": true,
 	"git-pages.rit.edu": true,
+	"rocketpreview.app": true,
 	"rocky.page": true,
 	"rub.de": true,
 	"ruhr-uni-bochum.de": true,
@@ -12905,6 +12903,7 @@ var privateSuffixList = map[string]bool{
 	"v0.build": true,
 	"vercel.dev": true,
 	"vusercontent.net": true,
+	"tmp.now": true,
 	"vercel.run": true,
 	"now.sh": true,
 	"2038.io": true,
@@ -12967,9 +12966,6 @@ var privateSuffixList = map[string]bool{
 	"js.wpenginepowered.com": true,
 	"grok.me": true,
 	"half.host": true,
-	"xnbay.com": true,
-	"u2.xnbay.com": true,
-	"u2-local.xnbay.com": true,
 	"cistron.nl": true,
 	"demon.nl": true,
 	"xs4all.space": true,
