@@ -9120,6 +9120,77 @@ var publicSuffixList = map[string]bool{
 	"westeurope.azurestaticapps.net": true, // Private suffixes are also considered public for matching purposes
 	"westus2.azurestaticapps.net": true, // Private suffixes are also considered public for matching purposes
 	"azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"australiacentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"australiacentral2-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"australiaeast-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"australiasoutheast-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"austriaeast-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"belgiumcentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"brazilsouth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"brazilsoutheast-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"canadacentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"canadaeast-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"centralindia-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"centralus-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"centraluseuap-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"chilecentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"denmarkeast-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"eastasia-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"eastasiastage-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"eastus-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"eastus2-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"eastus2euap-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"eastus3-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"francecentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"francesouth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"germanynorth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"germanywestcentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"indiasouthcentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"indonesiacentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"israelcentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"israelnorthwest-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"italynorth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"japaneast-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"japanwest-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"jioindiacentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"jioindiawest-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"koreacentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"koreasouth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"malaysiawest-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"mexicocentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"newzealandnorth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"northcentralus-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"northcentralusstage-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"northeastus5-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"northeurope-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"norwayeast-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"norwaywest-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"polandcentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"qatarcentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"southafricanorth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"southafricawest-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"southcentralus-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"southcentralus2-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"southeastasia-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"southeastus5-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"southindia-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"spaincentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"swedencentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"swedensouth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"switzerlandnorth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"switzerlandwest-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"taiwannorth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"taiwannorthwest-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"uaecentral-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"uaenorth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"uksouth-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"ukwest-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"westcentralus-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"westeurope-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"westindia-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"westus-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"westus2-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
+	"westus3-01.azurewebsites.net": true, // Private suffixes are also considered public for matching purposes
 	"cloudapp.net": true, // Private suffixes are also considered public for matching purposes
 	"trafficmanager.net": true, // Private suffixes are also considered public for matching purposes
 	"blob.core.usgovcloudapi.net": true, // Private suffixes are also considered public for matching purposes
@@ -12153,6 +12224,77 @@ var privateSuffixList = map[string]bool{
 	"westeurope.azurestaticapps.net": true,
 	"westus2.azurestaticapps.net": true,
 	"azurewebsites.net": true,
+	"australiacentral-01.azurewebsites.net": true,
+	"australiacentral2-01.azurewebsites.net": true,
+	"australiaeast-01.azurewebsites.net": true,
+	"australiasoutheast-01.azurewebsites.net": true,
+	"austriaeast-01.azurewebsites.net": true,
+	"belgiumcentral-01.azurewebsites.net": true,
+	"brazilsouth-01.azurewebsites.net": true,
+	"brazilsoutheast-01.azurewebsites.net": true,
+	"canadacentral-01.azurewebsites.net": true,
+	"canadaeast-01.azurewebsites.net": true,
+	"centralindia-01.azurewebsites.net": true,
+	"centralus-01.azurewebsites.net": true,
+	"centraluseuap-01.azurewebsites.net": true,
+	"chilecentral-01.azurewebsites.net": true,
+	"denmarkeast-01.azurewebsites.net": true,
+	"eastasia-01.azurewebsites.net": true,
+	"eastasiastage-01.azurewebsites.net": true,
+	"eastus-01.azurewebsites.net": true,
+	"eastus2-01.azurewebsites.net": true,
+	"eastus2euap-01.azurewebsites.net": true,
+	"eastus3-01.azurewebsites.net": true,
+	"francecentral-01.azurewebsites.net": true,
+	"francesouth-01.azurewebsites.net": true,
+	"germanynorth-01.azurewebsites.net": true,
+	"germanywestcentral-01.azurewebsites.net": true,
+	"indiasouthcentral-01.azurewebsites.net": true,
+	"indonesiacentral-01.azurewebsites.net": true,
+	"israelcentral-01.azurewebsites.net": true,
+	"israelnorthwest-01.azurewebsites.net": true,
+	"italynorth-01.azurewebsites.net": true,
+	"japaneast-01.azurewebsites.net": true,
+	"japanwest-01.azurewebsites.net": true,
+	"jioindiacentral-01.azurewebsites.net": true,
+	"jioindiawest-01.azurewebsites.net": true,
+	"koreacentral-01.azurewebsites.net": true,
+	"koreasouth-01.azurewebsites.net": true,
+	"malaysiawest-01.azurewebsites.net": true,
+	"mexicocentral-01.azurewebsites.net": true,
+	"newzealandnorth-01.azurewebsites.net": true,
+	"northcentralus-01.azurewebsites.net": true,
+	"northcentralusstage-01.azurewebsites.net": true,
+	"northeastus5-01.azurewebsites.net": true,
+	"northeurope-01.azurewebsites.net": true,
+	"norwayeast-01.azurewebsites.net": true,
+	"norwaywest-01.azurewebsites.net": true,
+	"polandcentral-01.azurewebsites.net": true,
+	"qatarcentral-01.azurewebsites.net": true,
+	"southafricanorth-01.azurewebsites.net": true,
+	"southafricawest-01.azurewebsites.net": true,
+	"southcentralus-01.azurewebsites.net": true,
+	"southcentralus2-01.azurewebsites.net": true,
+	"southeastasia-01.azurewebsites.net": true,
+	"southeastus5-01.azurewebsites.net": true,
+	"southindia-01.azurewebsites.net": true,
+	"spaincentral-01.azurewebsites.net": true,
+	"swedencentral-01.azurewebsites.net": true,
+	"swedensouth-01.azurewebsites.net": true,
+	"switzerlandnorth-01.azurewebsites.net": true,
+	"switzerlandwest-01.azurewebsites.net": true,
+	"taiwannorth-01.azurewebsites.net": true,
+	"taiwannorthwest-01.azurewebsites.net": true,
+	"uaecentral-01.azurewebsites.net": true,
+	"uaenorth-01.azurewebsites.net": true,
+	"uksouth-01.azurewebsites.net": true,
+	"ukwest-01.azurewebsites.net": true,
+	"westcentralus-01.azurewebsites.net": true,
+	"westeurope-01.azurewebsites.net": true,
+	"westindia-01.azurewebsites.net": true,
+	"westus-01.azurewebsites.net": true,
+	"westus2-01.azurewebsites.net": true,
+	"westus3-01.azurewebsites.net": true,
 	"cloudapp.net": true,
 	"trafficmanager.net": true,
 	"blob.core.usgovcloudapi.net": true,
