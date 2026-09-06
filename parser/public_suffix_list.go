@@ -7987,6 +7987,7 @@ var publicSuffixList = map[string]bool{
 	"with.playit.plus": true, // Private suffixes are also considered public for matching purposes
 	"icp0.io": true, // Private suffixes are also considered public for matching purposes
 	"icp1.io": true, // Private suffixes are also considered public for matching purposes
+	"opencloud.me": true, // Private suffixes are also considered public for matching purposes
 	"caffeine.site": true, // Private suffixes are also considered public for matching purposes
 	"caffeine.xyz": true, // Private suffixes are also considered public for matching purposes
 	"mybox.company": true, // Private suffixes are also considered public for matching purposes
@@ -11091,6 +11092,7 @@ var privateSuffixList = map[string]bool{
 	"with.playit.plus": true,
 	"icp0.io": true,
 	"icp1.io": true,
+	"opencloud.me": true,
 	"caffeine.site": true,
 	"caffeine.xyz": true,
 	"mybox.company": true,
