@@ -8735,6 +8735,8 @@ var publicSuffixList = map[string]bool{
 	"cloud.goog": true, // Private suffixes are also considered public for matching purposes
 	"translate.goog": true, // Private suffixes are also considered public for matching purposes
 	"cloudfunctions.net": true, // Private suffixes are also considered public for matching purposes
+	"cloud.run": true, // Private suffixes are also considered public for matching purposes
+	"ai.studio": true, // Private suffixes are also considered public for matching purposes
 	"goupile.fr": true, // Private suffixes are also considered public for matching purposes
 	"pymnt.uk": true, // Private suffixes are also considered public for matching purposes
 	"gov.nl": true, // Private suffixes are also considered public for matching purposes
@@ -11840,6 +11842,8 @@ var privateSuffixList = map[string]bool{
 	"cloud.goog": true,
 	"translate.goog": true,
 	"cloudfunctions.net": true,
+	"cloud.run": true,
+	"ai.studio": true,
 	"goupile.fr": true,
 	"pymnt.uk": true,
 	"gov.nl": true,
