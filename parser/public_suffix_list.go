@@ -9507,8 +9507,6 @@ var publicSuffixList = map[string]bool{
 	"qa2.com": true, // Private suffixes are also considered public for matching purposes
 	"qcx.io": true, // Private suffixes are also considered public for matching purposes
 	"myqnapcloud.cn": true, // Private suffixes are also considered public for matching purposes
-	"alpha-myqnapcloud.com": true, // Private suffixes are also considered public for matching purposes
-	"dev-myqnapcloud.com": true, // Private suffixes are also considered public for matching purposes
 	"mycloudnas.com": true, // Private suffixes are also considered public for matching purposes
 	"mynascloud.com": true, // Private suffixes are also considered public for matching purposes
 	"myqnapcloud.com": true, // Private suffixes are also considered public for matching purposes
@@ -12614,8 +12612,6 @@ var privateSuffixList = map[string]bool{
 	"qa2.com": true,
 	"qcx.io": true,
 	"myqnapcloud.cn": true,
-	"alpha-myqnapcloud.com": true,
-	"dev-myqnapcloud.com": true,
 	"mycloudnas.com": true,
 	"mynascloud.com": true,
 	"myqnapcloud.com": true,
