@@ -8544,6 +8544,7 @@ var publicSuffixList = map[string]bool{
 	"figma-gov.site": true, // Private suffixes are also considered public for matching purposes
 	"preview.site": true, // Private suffixes are also considered public for matching purposes
 	"filegear.me": true, // Private suffixes are also considered public for matching purposes
+	"hosted-by-files.com": true, // Private suffixes are also considered public for matching purposes
 	"firebaseapp.com": true, // Private suffixes are also considered public for matching purposes
 	"fldrv.com": true, // Private suffixes are also considered public for matching purposes
 	"on-fleek.app": true, // Private suffixes are also considered public for matching purposes
@@ -11649,6 +11650,7 @@ var privateSuffixList = map[string]bool{
 	"figma-gov.site": true,
 	"preview.site": true,
 	"filegear.me": true,
+	"hosted-by-files.com": true,
 	"firebaseapp.com": true,
 	"fldrv.com": true,
 	"on-fleek.app": true,
