@@ -9829,6 +9829,7 @@ var publicSuffixList = map[string]bool{
 	"storage.supabase.co": true, // Private suffixes are also considered public for matching purposes
 	"supabase.in": true, // Private suffixes are also considered public for matching purposes
 	"supabase.net": true, // Private suffixes are also considered public for matching purposes
+	"surge.sh": true, // Private suffixes are also considered public for matching purposes
 	"syncloud.it": true, // Private suffixes are also considered public for matching purposes
 	"dscloud.biz": true, // Private suffixes are also considered public for matching purposes
 	"direct.quickconnect.cn": true, // Private suffixes are also considered public for matching purposes
@@ -12935,6 +12936,7 @@ var privateSuffixList = map[string]bool{
 	"storage.supabase.co": true,
 	"supabase.in": true,
 	"supabase.net": true,
+	"surge.sh": true,
 	"syncloud.it": true,
 	"dscloud.biz": true,
 	"direct.quickconnect.cn": true,
