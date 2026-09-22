@@ -7951,6 +7951,9 @@ var publicSuffixList = map[string]bool{
 	"dyndns.dappnode.io": true, // Private suffixes are also considered public for matching purposes
 	"builtwithdark.com": true, // Private suffixes are also considered public for matching purposes
 	"darklang.io": true, // Private suffixes are also considered public for matching purposes
+	"aws.databricksapps.com": true, // Private suffixes are also considered public for matching purposes
+	"gcp.databricksapps.com": true, // Private suffixes are also considered public for matching purposes
+	"aws-gov.databricksapps.us": true, // Private suffixes are also considered public for matching purposes
 	"demo.datadetect.com": true, // Private suffixes are also considered public for matching purposes
 	"instance.datadetect.com": true, // Private suffixes are also considered public for matching purposes
 	"edgestack.me": true, // Private suffixes are also considered public for matching purposes
@@ -11058,6 +11061,9 @@ var privateSuffixList = map[string]bool{
 	"dyndns.dappnode.io": true,
 	"builtwithdark.com": true,
 	"darklang.io": true,
+	"aws.databricksapps.com": true,
+	"gcp.databricksapps.com": true,
+	"aws-gov.databricksapps.us": true,
 	"demo.datadetect.com": true,
 	"instance.datadetect.com": true,
 	"edgestack.me": true,
