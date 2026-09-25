@@ -7913,8 +7913,10 @@ var publicSuffixList = map[string]bool{
 	"co.nl": true, // Private suffixes are also considered public for matching purposes
 	"co.no": true, // Private suffixes are also considered public for matching purposes
 	"webhosting.be": true, // Private suffixes are also considered public for matching purposes
+	"site.webhosting.be": true, // Private suffixes are also considered public for matching purposes
 	"prvw.eu": true, // Private suffixes are also considered public for matching purposes
 	"hosting-cluster.nl": true, // Private suffixes are also considered public for matching purposes
+	"site.hosting-cluster.nl": true, // Private suffixes are also considered public for matching purposes
 	"ctfcloud.net": true, // Private suffixes are also considered public for matching purposes
 	"convex.app": true, // Private suffixes are also considered public for matching purposes
 	"convex.cloud": true, // Private suffixes are also considered public for matching purposes
@@ -8874,6 +8876,7 @@ var publicSuffixList = map[string]bool{
 	"home64.de": true, // Private suffixes are also considered public for matching purposes
 	"ipv64.de": true, // Private suffixes are also considered public for matching purposes
 	"ipv64.net": true, // Private suffixes are also considered public for matching purposes
+	"iqhs.pl": true, // Private suffixes are also considered public for matching purposes
 	"ir.md": true, // Private suffixes are also considered public for matching purposes
 	"is-a-good.dev": true, // Private suffixes are also considered public for matching purposes
 	"iservschule.de": true, // Private suffixes are also considered public for matching purposes
@@ -11023,8 +11026,10 @@ var privateSuffixList = map[string]bool{
 	"co.nl": true,
 	"co.no": true,
 	"webhosting.be": true,
+	"site.webhosting.be": true,
 	"prvw.eu": true,
 	"hosting-cluster.nl": true,
+	"site.hosting-cluster.nl": true,
 	"ctfcloud.net": true,
 	"convex.app": true,
 	"convex.cloud": true,
@@ -11984,6 +11989,7 @@ var privateSuffixList = map[string]bool{
 	"home64.de": true,
 	"ipv64.de": true,
 	"ipv64.net": true,
+	"iqhs.pl": true,
 	"ir.md": true,
 	"is-a-good.dev": true,
 	"iservschule.de": true,
