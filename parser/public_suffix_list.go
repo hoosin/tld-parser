@@ -6317,7 +6317,6 @@ var publicSuffixList = map[string]bool{
 	"jpmorgan": true,
 	"jprs": true,
 	"juegos": true,
-	"juniper": true,
 	"kaufen": true,
 	"kddi": true,
 	"kerryhotels": true,
