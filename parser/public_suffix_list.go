@@ -7020,6 +7020,7 @@ var publicSuffixList = map[string]bool{
 	"cloudfront.net": true, // Private suffixes are also considered public for matching purposes
 	"auth.af-south-1.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth.ap-east-1.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
+	"auth.ap-east-2.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth.ap-northeast-1.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth.ap-northeast-2.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth.ap-northeast-3.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
@@ -7030,6 +7031,7 @@ var publicSuffixList = map[string]bool{
 	"auth.ap-southeast-3.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth.ap-southeast-4.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth.ap-southeast-5.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
+	"auth.ap-southeast-6.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth.ap-southeast-7.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth.ca-central-1.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth.ca-west-1.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
@@ -7157,6 +7159,7 @@ var publicSuffixList = map[string]bool{
 	"emrappui-prod.us-west-2.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"emrnotebooks-prod.us-west-2.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"emrstudio-prod.us-west-2.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"amazonlightsail.com": true, // Private suffixes are also considered public for matching purposes
 	"s3.dualstack.cn-north-1.amazonaws.com.cn": true, // Private suffixes are also considered public for matching purposes
 	"s3-accesspoint.dualstack.cn-north-1.amazonaws.com.cn": true, // Private suffixes are also considered public for matching purposes
 	"s3-website.dualstack.cn-north-1.amazonaws.com.cn": true, // Private suffixes are also considered public for matching purposes
@@ -7634,13 +7637,18 @@ var publicSuffixList = map[string]bool{
 	"ap-northeast-2.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"ap-northeast-3.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"ap-south-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
+	"ap-south-2.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"ap-southeast-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"ap-southeast-2.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"ap-southeast-3.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
+	"ap-southeast-4.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"ap-southeast-5.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
+	"ap-southeast-6.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"ap-southeast-7.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"ca-central-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
+	"ca-west-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"eu-central-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
+	"eu-central-2.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"eu-north-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"eu-south-1.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
 	"eu-south-2.elasticbeanstalk.com": true, // Private suffixes are also considered public for matching purposes
@@ -9576,6 +9584,7 @@ var publicSuffixList = map[string]bool{
 	"repl.run": true, // Private suffixes are also considered public for matching purposes
 	"resindevice.io": true, // Private suffixes are also considered public for matching purposes
 	"devices.resinstaging.io": true, // Private suffixes are also considered public for matching purposes
+	"retool.app": true, // Private suffixes are also considered public for matching purposes
 	"adimo.co.uk": true, // Private suffixes are also considered public for matching purposes
 	"itcouldbewor.se": true, // Private suffixes are also considered public for matching purposes
 	"aus.basketball": true, // Private suffixes are also considered public for matching purposes
@@ -10134,6 +10143,7 @@ var privateSuffixList = map[string]bool{
 	"cloudfront.net": true,
 	"auth.af-south-1.amazoncognito.com": true,
 	"auth.ap-east-1.amazoncognito.com": true,
+	"auth.ap-east-2.amazoncognito.com": true,
 	"auth.ap-northeast-1.amazoncognito.com": true,
 	"auth.ap-northeast-2.amazoncognito.com": true,
 	"auth.ap-northeast-3.amazoncognito.com": true,
@@ -10144,6 +10154,7 @@ var privateSuffixList = map[string]bool{
 	"auth.ap-southeast-3.amazoncognito.com": true,
 	"auth.ap-southeast-4.amazoncognito.com": true,
 	"auth.ap-southeast-5.amazoncognito.com": true,
+	"auth.ap-southeast-6.amazoncognito.com": true,
 	"auth.ap-southeast-7.amazoncognito.com": true,
 	"auth.ca-central-1.amazoncognito.com": true,
 	"auth.ca-west-1.amazoncognito.com": true,
@@ -10271,6 +10282,7 @@ var privateSuffixList = map[string]bool{
 	"emrappui-prod.us-west-2.amazonaws.com": true,
 	"emrnotebooks-prod.us-west-2.amazonaws.com": true,
 	"emrstudio-prod.us-west-2.amazonaws.com": true,
+	"amazonlightsail.com": true,
 	"s3.dualstack.cn-north-1.amazonaws.com.cn": true,
 	"s3-accesspoint.dualstack.cn-north-1.amazonaws.com.cn": true,
 	"s3-website.dualstack.cn-north-1.amazonaws.com.cn": true,
@@ -10748,13 +10760,18 @@ var privateSuffixList = map[string]bool{
 	"ap-northeast-2.elasticbeanstalk.com": true,
 	"ap-northeast-3.elasticbeanstalk.com": true,
 	"ap-south-1.elasticbeanstalk.com": true,
+	"ap-south-2.elasticbeanstalk.com": true,
 	"ap-southeast-1.elasticbeanstalk.com": true,
 	"ap-southeast-2.elasticbeanstalk.com": true,
 	"ap-southeast-3.elasticbeanstalk.com": true,
+	"ap-southeast-4.elasticbeanstalk.com": true,
 	"ap-southeast-5.elasticbeanstalk.com": true,
+	"ap-southeast-6.elasticbeanstalk.com": true,
 	"ap-southeast-7.elasticbeanstalk.com": true,
 	"ca-central-1.elasticbeanstalk.com": true,
+	"ca-west-1.elasticbeanstalk.com": true,
 	"eu-central-1.elasticbeanstalk.com": true,
+	"eu-central-2.elasticbeanstalk.com": true,
 	"eu-north-1.elasticbeanstalk.com": true,
 	"eu-south-1.elasticbeanstalk.com": true,
 	"eu-south-2.elasticbeanstalk.com": true,
@@ -12690,6 +12707,7 @@ var privateSuffixList = map[string]bool{
 	"repl.run": true,
 	"resindevice.io": true,
 	"devices.resinstaging.io": true,
+	"retool.app": true,
 	"adimo.co.uk": true,
 	"itcouldbewor.se": true,
 	"aus.basketball": true,
