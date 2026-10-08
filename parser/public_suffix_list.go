@@ -9554,33 +9554,6 @@ var publicSuffixList = map[string]bool{
 	"id.firewalledreplit.co": true, // Private suffixes are also considered public for matching purposes
 	"repl.co": true, // Private suffixes are also considered public for matching purposes
 	"id.repl.co": true, // Private suffixes are also considered public for matching purposes
-	"replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"archer.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"bones.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"canary.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"global.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"hacker.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"id.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"janeway.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"kim.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"kira.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"kirk.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"odo.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"paris.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"picard.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"pike.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"prerelease.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"reed.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"riker.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"sisko.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"spock.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"staging.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"sulu.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"tarpit.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"teams.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"tucker.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"wesley.replit.dev": true, // Private suffixes are also considered public for matching purposes
-	"worf.replit.dev": true, // Private suffixes are also considered public for matching purposes
 	"repl.run": true, // Private suffixes are also considered public for matching purposes
 	"resindevice.io": true, // Private suffixes are also considered public for matching purposes
 	"devices.resinstaging.io": true, // Private suffixes are also considered public for matching purposes
@@ -12677,33 +12650,6 @@ var privateSuffixList = map[string]bool{
 	"id.firewalledreplit.co": true,
 	"repl.co": true,
 	"id.repl.co": true,
-	"replit.dev": true,
-	"archer.replit.dev": true,
-	"bones.replit.dev": true,
-	"canary.replit.dev": true,
-	"global.replit.dev": true,
-	"hacker.replit.dev": true,
-	"id.replit.dev": true,
-	"janeway.replit.dev": true,
-	"kim.replit.dev": true,
-	"kira.replit.dev": true,
-	"kirk.replit.dev": true,
-	"odo.replit.dev": true,
-	"paris.replit.dev": true,
-	"picard.replit.dev": true,
-	"pike.replit.dev": true,
-	"prerelease.replit.dev": true,
-	"reed.replit.dev": true,
-	"riker.replit.dev": true,
-	"sisko.replit.dev": true,
-	"spock.replit.dev": true,
-	"staging.replit.dev": true,
-	"sulu.replit.dev": true,
-	"tarpit.replit.dev": true,
-	"teams.replit.dev": true,
-	"tucker.replit.dev": true,
-	"wesley.replit.dev": true,
-	"worf.replit.dev": true,
 	"repl.run": true,
 	"resindevice.io": true,
 	"devices.resinstaging.io": true,
