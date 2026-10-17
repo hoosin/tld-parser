@@ -7017,6 +7017,28 @@ var publicSuffixList = map[string]bool{
 	"execute-api.us-gov-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"execute-api.us-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"execute-api.us-west-2.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.ap-northeast-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.ap-northeast-2.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.ap-south-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.ap-south-2.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.ap-southeast-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.ap-southeast-2.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.ap-southeast-5.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.ap-southeast-7.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.ca-central-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.eu-central-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.eu-north-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.eu-south-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.eu-south-2.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.eu-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.eu-west-2.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.eu-west-3.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.sa-east-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.us-east-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.us-east-2.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.us-gov-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.us-west-1.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
+	"consent-portal.bedrock-agentcore.us-west-2.amazonaws.com": true, // Private suffixes are also considered public for matching purposes
 	"cloudfront.net": true, // Private suffixes are also considered public for matching purposes
 	"auth.af-south-1.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
 	"auth.ap-east-1.amazoncognito.com": true, // Private suffixes are also considered public for matching purposes
@@ -7690,6 +7712,7 @@ var publicSuffixList = map[string]bool{
 	"lambda-url.us-west-2.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.af-south-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ap-east-1.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"transfer-webapp.ap-east-2.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ap-northeast-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ap-northeast-2.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ap-northeast-3.on.aws": true, // Private suffixes are also considered public for matching purposes
@@ -7700,6 +7723,7 @@ var publicSuffixList = map[string]bool{
 	"transfer-webapp.ap-southeast-3.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ap-southeast-4.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ap-southeast-5.on.aws": true, // Private suffixes are also considered public for matching purposes
+	"transfer-webapp.ap-southeast-6.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ap-southeast-7.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ca-central-1.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.ca-west-1.on.aws": true, // Private suffixes are also considered public for matching purposes
@@ -7726,6 +7750,7 @@ var publicSuffixList = map[string]bool{
 	"transfer-webapp.us-west-2.on.aws": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.cn-north-1.on.amazonwebservices.com.cn": true, // Private suffixes are also considered public for matching purposes
 	"transfer-webapp.cn-northwest-1.on.amazonwebservices.com.cn": true, // Private suffixes are also considered public for matching purposes
+	"transfer-webapp.eusc-de-east-1.on.amazonwebservices.eu": true, // Private suffixes are also considered public for matching purposes
 	"eero.online": true, // Private suffixes are also considered public for matching purposes
 	"eero-stage.online": true, // Private suffixes are also considered public for matching purposes
 	"opentunnel.xyz": true, // Private suffixes are also considered public for matching purposes
@@ -8998,7 +9023,6 @@ var publicSuffixList = map[string]bool{
 	"kiloapps.io": true, // Private suffixes are also considered public for matching purposes
 	"kinghost.net": true, // Private suffixes are also considered public for matching purposes
 	"uni5.net": true, // Private suffixes are also considered public for matching purposes
-	"knightpoint.systems": true, // Private suffixes are also considered public for matching purposes
 	"koobin.events": true, // Private suffixes are also considered public for matching purposes
 	"webthings.io": true, // Private suffixes are also considered public for matching purposes
 	"krellian.net": true, // Private suffixes are also considered public for matching purposes
@@ -9263,6 +9287,45 @@ var publicSuffixList = map[string]bool{
 	"yali.mythic-beasts.com": true, // Private suffixes are also considered public for matching purposes
 	"cust.retrosnub.co.uk": true, // Private suffixes are also considered public for matching purposes
 	"ui.nabu.casa": true, // Private suffixes are also considered public for matching purposes
+	"kr.object.fin-ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"s3-website.kr.object.fin-ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr.object.private.fin-ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr.gov-ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr-private.gov-ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr.object.gov-ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"s3-website.kr.object.gov-ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"krs.object.gov-ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"s3-website.krs.object.gov-ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr.object.private.gov-ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"krs.object.private.gov-ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr.objectstorage.ncloud.com": true, // Private suffixes are also considered public for matching purposes
+	"sg.objectstorage.ncloud.com": true, // Private suffixes are also considered public for matching purposes
+	"kr.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr-naver.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr-naver-dev.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr-private.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"de.object.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"s3-website.de.object.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr.object.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"s3-website.kr.object.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"sg.object.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"s3-website.sg.object.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"us.object.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"s3-website.us.object.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr.object.private.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"sg.object.private.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr.website.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr-naver.website.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr-naver-dev.website.ncloudstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"jp.object.ncpstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"jp.jp4.object.ncpstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"jp.jp5.object.ncpstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr.object.ncpstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"s3-website-jp.object.ncpstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"jp.object.private.ncpstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"jp.jp4.object.private.ncpstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"jp.jp5.object.private.ncpstorage.com": true, // Private suffixes are also considered public for matching purposes
+	"kr.object.private.ncpstorage.com": true, // Private suffixes are also considered public for matching purposes
 	"needle.run": true, // Private suffixes are also considered public for matching purposes
 	"co.site": true, // Private suffixes are also considered public for matching purposes
 	"cloud.nospamproxy.com": true, // Private suffixes are also considered public for matching purposes
@@ -9481,7 +9544,6 @@ var publicSuffixList = map[string]bool{
 	"gl.srv.us": true, // Private suffixes are also considered public for matching purposes
 	"mypep.link": true, // Private suffixes are also considered public for matching purposes
 	"pplx.app": true, // Private suffixes are also considered public for matching purposes
-	"perspecta.cloud": true, // Private suffixes are also considered public for matching purposes
 	"forgeblocks.com": true, // Private suffixes are also considered public for matching purposes
 	"id.forgerock.io": true, // Private suffixes are also considered public for matching purposes
 	"support.site": true, // Private suffixes are also considered public for matching purposes
@@ -10113,6 +10175,28 @@ var privateSuffixList = map[string]bool{
 	"execute-api.us-gov-west-1.amazonaws.com": true,
 	"execute-api.us-west-1.amazonaws.com": true,
 	"execute-api.us-west-2.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.ap-northeast-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.ap-northeast-2.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.ap-south-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.ap-south-2.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.ap-southeast-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.ap-southeast-2.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.ap-southeast-5.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.ap-southeast-7.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.ca-central-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.eu-central-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.eu-north-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.eu-south-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.eu-south-2.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.eu-west-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.eu-west-2.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.eu-west-3.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.sa-east-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.us-east-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.us-east-2.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.us-gov-west-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.us-west-1.amazonaws.com": true,
+	"consent-portal.bedrock-agentcore.us-west-2.amazonaws.com": true,
 	"cloudfront.net": true,
 	"auth.af-south-1.amazoncognito.com": true,
 	"auth.ap-east-1.amazoncognito.com": true,
@@ -10786,6 +10870,7 @@ var privateSuffixList = map[string]bool{
 	"lambda-url.us-west-2.on.aws": true,
 	"transfer-webapp.af-south-1.on.aws": true,
 	"transfer-webapp.ap-east-1.on.aws": true,
+	"transfer-webapp.ap-east-2.on.aws": true,
 	"transfer-webapp.ap-northeast-1.on.aws": true,
 	"transfer-webapp.ap-northeast-2.on.aws": true,
 	"transfer-webapp.ap-northeast-3.on.aws": true,
@@ -10796,6 +10881,7 @@ var privateSuffixList = map[string]bool{
 	"transfer-webapp.ap-southeast-3.on.aws": true,
 	"transfer-webapp.ap-southeast-4.on.aws": true,
 	"transfer-webapp.ap-southeast-5.on.aws": true,
+	"transfer-webapp.ap-southeast-6.on.aws": true,
 	"transfer-webapp.ap-southeast-7.on.aws": true,
 	"transfer-webapp.ca-central-1.on.aws": true,
 	"transfer-webapp.ca-west-1.on.aws": true,
@@ -10822,6 +10908,7 @@ var privateSuffixList = map[string]bool{
 	"transfer-webapp.us-west-2.on.aws": true,
 	"transfer-webapp.cn-north-1.on.amazonwebservices.com.cn": true,
 	"transfer-webapp.cn-northwest-1.on.amazonwebservices.com.cn": true,
+	"transfer-webapp.eusc-de-east-1.on.amazonwebservices.eu": true,
 	"eero.online": true,
 	"eero-stage.online": true,
 	"opentunnel.xyz": true,
@@ -12094,7 +12181,6 @@ var privateSuffixList = map[string]bool{
 	"kiloapps.io": true,
 	"kinghost.net": true,
 	"uni5.net": true,
-	"knightpoint.systems": true,
 	"koobin.events": true,
 	"webthings.io": true,
 	"krellian.net": true,
@@ -12359,6 +12445,45 @@ var privateSuffixList = map[string]bool{
 	"yali.mythic-beasts.com": true,
 	"cust.retrosnub.co.uk": true,
 	"ui.nabu.casa": true,
+	"kr.object.fin-ncloudstorage.com": true,
+	"s3-website.kr.object.fin-ncloudstorage.com": true,
+	"kr.object.private.fin-ncloudstorage.com": true,
+	"kr.gov-ncloudstorage.com": true,
+	"kr-private.gov-ncloudstorage.com": true,
+	"kr.object.gov-ncloudstorage.com": true,
+	"s3-website.kr.object.gov-ncloudstorage.com": true,
+	"krs.object.gov-ncloudstorage.com": true,
+	"s3-website.krs.object.gov-ncloudstorage.com": true,
+	"kr.object.private.gov-ncloudstorage.com": true,
+	"krs.object.private.gov-ncloudstorage.com": true,
+	"kr.objectstorage.ncloud.com": true,
+	"sg.objectstorage.ncloud.com": true,
+	"kr.ncloudstorage.com": true,
+	"kr-naver.ncloudstorage.com": true,
+	"kr-naver-dev.ncloudstorage.com": true,
+	"kr-private.ncloudstorage.com": true,
+	"de.object.ncloudstorage.com": true,
+	"s3-website.de.object.ncloudstorage.com": true,
+	"kr.object.ncloudstorage.com": true,
+	"s3-website.kr.object.ncloudstorage.com": true,
+	"sg.object.ncloudstorage.com": true,
+	"s3-website.sg.object.ncloudstorage.com": true,
+	"us.object.ncloudstorage.com": true,
+	"s3-website.us.object.ncloudstorage.com": true,
+	"kr.object.private.ncloudstorage.com": true,
+	"sg.object.private.ncloudstorage.com": true,
+	"kr.website.ncloudstorage.com": true,
+	"kr-naver.website.ncloudstorage.com": true,
+	"kr-naver-dev.website.ncloudstorage.com": true,
+	"jp.object.ncpstorage.com": true,
+	"jp.jp4.object.ncpstorage.com": true,
+	"jp.jp5.object.ncpstorage.com": true,
+	"kr.object.ncpstorage.com": true,
+	"s3-website-jp.object.ncpstorage.com": true,
+	"jp.object.private.ncpstorage.com": true,
+	"jp.jp4.object.private.ncpstorage.com": true,
+	"jp.jp5.object.private.ncpstorage.com": true,
+	"kr.object.private.ncpstorage.com": true,
 	"needle.run": true,
 	"co.site": true,
 	"cloud.nospamproxy.com": true,
@@ -12577,7 +12702,6 @@ var privateSuffixList = map[string]bool{
 	"gl.srv.us": true,
 	"mypep.link": true,
 	"pplx.app": true,
-	"perspecta.cloud": true,
 	"forgeblocks.com": true,
 	"id.forgerock.io": true,
 	"support.site": true,
