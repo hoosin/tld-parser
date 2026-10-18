@@ -8646,7 +8646,6 @@ var publicSuffixList = map[string]bool{
 	"githubpreview.dev": true, // Private suffixes are also considered public for matching purposes
 	"github.io": true, // Private suffixes are also considered public for matching purposes
 	"gitlab.io": true, // Private suffixes are also considered public for matching purposes
-	"gitapp.si": true, // Private suffixes are also considered public for matching purposes
 	"gitpage.si": true, // Private suffixes are also considered public for matching purposes
 	"glideos.app": true, // Private suffixes are also considered public for matching purposes
 	"nog.community": true, // Private suffixes are also considered public for matching purposes
@@ -11804,7 +11803,6 @@ var privateSuffixList = map[string]bool{
 	"githubpreview.dev": true,
 	"github.io": true,
 	"gitlab.io": true,
-	"gitapp.si": true,
 	"gitpage.si": true,
 	"glideos.app": true,
 	"nog.community": true,
