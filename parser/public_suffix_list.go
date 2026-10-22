@@ -8624,7 +8624,6 @@ var publicSuffixList = map[string]bool{
 	"futuremailing.at": true, // Private suffixes are also considered public for matching purposes
 	"gadget.app": true, // Private suffixes are also considered public for matching purposes
 	"gadget.host": true, // Private suffixes are also considered public for matching purposes
-	"aliases121.com": true, // Private suffixes are also considered public for matching purposes
 	"campaign.gov.uk": true, // Private suffixes are also considered public for matching purposes
 	"service.gov.uk": true, // Private suffixes are also considered public for matching purposes
 	"independent-commission.uk": true, // Private suffixes are also considered public for matching purposes
@@ -9025,7 +9024,6 @@ var publicSuffixList = map[string]bool{
 	"koobin.events": true, // Private suffixes are also considered public for matching purposes
 	"webthings.io": true, // Private suffixes are also considered public for matching purposes
 	"krellian.net": true, // Private suffixes are also considered public for matching purposes
-	"oya.to": true, // Private suffixes are also considered public for matching purposes
 	"co.de": true, // Private suffixes are also considered public for matching purposes
 	"shiptoday.app": true, // Private suffixes are also considered public for matching purposes
 	"shiptoday.build": true, // Private suffixes are also considered public for matching purposes
@@ -11781,7 +11779,6 @@ var privateSuffixList = map[string]bool{
 	"futuremailing.at": true,
 	"gadget.app": true,
 	"gadget.host": true,
-	"aliases121.com": true,
 	"campaign.gov.uk": true,
 	"service.gov.uk": true,
 	"independent-commission.uk": true,
@@ -12182,7 +12179,6 @@ var privateSuffixList = map[string]bool{
 	"koobin.events": true,
 	"webthings.io": true,
 	"krellian.net": true,
-	"oya.to": true,
 	"co.de": true,
 	"shiptoday.app": true,
 	"shiptoday.build": true,
