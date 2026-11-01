@@ -6242,7 +6242,6 @@ var publicSuffixList = map[string]bool{
 	"health": true,
 	"healthcare": true,
 	"help": true,
-	"helsinki": true,
 	"here": true,
 	"hermes": true,
 	"hiphop": true,
