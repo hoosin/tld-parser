@@ -7802,8 +7802,10 @@ var publicSuffixList = map[string]bool{
 	"pages.gay": true, // Private suffixes are also considered public for matching purposes
 	"bnr.la": true, // Private suffixes are also considered public for matching purposes
 	"bitbucket.io": true, // Private suffixes are also considered public for matching purposes
+	"ship.place": true, // Private suffixes are also considered public for matching purposes
 	"blackbaudcdn.net": true, // Private suffixes are also considered public for matching purposes
 	"of.je": true, // Private suffixes are also considered public for matching purposes
+	"prod.page": true, // Private suffixes are also considered public for matching purposes
 	"square.site": true, // Private suffixes are also considered public for matching purposes
 	"bluebite.io": true, // Private suffixes are also considered public for matching purposes
 	"boomla.net": true, // Private suffixes are also considered public for matching purposes
@@ -10965,8 +10967,10 @@ var privateSuffixList = map[string]bool{
 	"pages.gay": true,
 	"bnr.la": true,
 	"bitbucket.io": true,
+	"ship.place": true,
 	"blackbaudcdn.net": true,
 	"of.je": true,
+	"prod.page": true,
 	"square.site": true,
 	"bluebite.io": true,
 	"boomla.net": true,
