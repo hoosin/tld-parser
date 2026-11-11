@@ -6944,6 +6944,7 @@ var publicSuffixList = map[string]bool{
 	"611.to": true, // Private suffixes are also considered public for matching purposes
 	"a2hosted.com": true, // Private suffixes are also considered public for matching purposes
 	"cpserver.com": true, // Private suffixes are also considered public for matching purposes
+	"abyme.dev": true, // Private suffixes are also considered public for matching purposes
 	"activetrail.biz": true, // Private suffixes are also considered public for matching purposes
 	"myaddr.dev": true, // Private suffixes are also considered public for matching purposes
 	"myaddr.io": true, // Private suffixes are also considered public for matching purposes
@@ -7935,6 +7936,7 @@ var publicSuffixList = map[string]bool{
 	"objects.rma.cloudscale.ch": true, // Private suffixes are also considered public for matching purposes
 	"lpg.objectstorage.ch": true, // Private suffixes are also considered public for matching purposes
 	"rma.objectstorage.ch": true, // Private suffixes are also considered public for matching purposes
+	"cloudzyro.app": true, // Private suffixes are also considered public for matching purposes
 	"wnext.app": true, // Private suffixes are also considered public for matching purposes
 	"cnpy.gdn": true, // Private suffixes are also considered public for matching purposes
 	"co.ca": true, // Private suffixes are also considered public for matching purposes
@@ -8782,6 +8784,7 @@ var publicSuffixList = map[string]bool{
 	"ai.studio": true, // Private suffixes are also considered public for matching purposes
 	"goupile.fr": true, // Private suffixes are also considered public for matching purposes
 	"pymnt.uk": true, // Private suffixes are also considered public for matching purposes
+	"gov.de": true, // Private suffixes are also considered public for matching purposes
 	"gov.nl": true, // Private suffixes are also considered public for matching purposes
 	"grafana-dev.net": true, // Private suffixes are also considered public for matching purposes
 	"grayjayleagues.com": true, // Private suffixes are also considered public for matching purposes
@@ -10109,6 +10112,7 @@ var privateSuffixList = map[string]bool{
 	"611.to": true,
 	"a2hosted.com": true,
 	"cpserver.com": true,
+	"abyme.dev": true,
 	"activetrail.biz": true,
 	"myaddr.dev": true,
 	"myaddr.io": true,
@@ -11100,6 +11104,7 @@ var privateSuffixList = map[string]bool{
 	"objects.rma.cloudscale.ch": true,
 	"lpg.objectstorage.ch": true,
 	"rma.objectstorage.ch": true,
+	"cloudzyro.app": true,
 	"wnext.app": true,
 	"cnpy.gdn": true,
 	"co.ca": true,
@@ -11947,6 +11952,7 @@ var privateSuffixList = map[string]bool{
 	"ai.studio": true,
 	"goupile.fr": true,
 	"pymnt.uk": true,
+	"gov.de": true,
 	"gov.nl": true,
 	"grafana-dev.net": true,
 	"grayjayleagues.com": true,
