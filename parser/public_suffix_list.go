@@ -9142,6 +9142,7 @@ var publicSuffixList = map[string]bool{
 	"mediatech.dev": true, // Private suffixes are also considered public for matching purposes
 	"hra.health": true, // Private suffixes are also considered public for matching purposes
 	"medusajs.app": true, // Private suffixes are also considered public for matching purposes
+	"medusajs.site": true, // Private suffixes are also considered public for matching purposes
 	"miniserver.com": true, // Private suffixes are also considered public for matching purposes
 	"memset.net": true, // Private suffixes are also considered public for matching purposes
 	"messerli.app": true, // Private suffixes are also considered public for matching purposes
@@ -9275,6 +9276,9 @@ var publicSuffixList = map[string]bool{
 	"mocha.app": true, // Private suffixes are also considered public for matching purposes
 	"mochausercontent.com": true, // Private suffixes are also considered public for matching purposes
 	"mocha-sandbox.dev": true, // Private suffixes are also considered public for matching purposes
+	"modelence.app": true, // Private suffixes are also considered public for matching purposes
+	"cloud.modelence.app": true, // Private suffixes are also considered public for matching purposes
+	"sandbox.modelence.app": true, // Private suffixes are also considered public for matching purposes
 	"modx.dev": true, // Private suffixes are also considered public for matching purposes
 	"bmoattachments.org": true, // Private suffixes are also considered public for matching purposes
 	"net.ru": true, // Private suffixes are also considered public for matching purposes
@@ -9615,6 +9619,7 @@ var publicSuffixList = map[string]bool{
 	"ravpage.co.il": true, // Private suffixes are also considered public for matching purposes
 	"readthedocs-hosted.com": true, // Private suffixes are also considered public for matching purposes
 	"readthedocs.io": true, // Private suffixes are also considered public for matching purposes
+	"rwx.run": true, // Private suffixes are also considered public for matching purposes
 	"rhcloud.com": true, // Private suffixes are also considered public for matching purposes
 	"instances.spawn.cc": true, // Private suffixes are also considered public for matching purposes
 	"onrender.com": true, // Private suffixes are also considered public for matching purposes
@@ -10012,6 +10017,7 @@ var publicSuffixList = map[string]bool{
 	"vercel.run": true, // Private suffixes are also considered public for matching purposes
 	"now.sh": true, // Private suffixes are also considered public for matching purposes
 	"2038.io": true, // Private suffixes are also considered public for matching purposes
+	"vibekit.page": true, // Private suffixes are also considered public for matching purposes
 	"v-info.info": true, // Private suffixes are also considered public for matching purposes
 	"vistablog.ir": true, // Private suffixes are also considered public for matching purposes
 	"deus-canvas.com": true, // Private suffixes are also considered public for matching purposes
@@ -12310,6 +12316,7 @@ var privateSuffixList = map[string]bool{
 	"mediatech.dev": true,
 	"hra.health": true,
 	"medusajs.app": true,
+	"medusajs.site": true,
 	"miniserver.com": true,
 	"memset.net": true,
 	"messerli.app": true,
@@ -12443,6 +12450,9 @@ var privateSuffixList = map[string]bool{
 	"mocha.app": true,
 	"mochausercontent.com": true,
 	"mocha-sandbox.dev": true,
+	"modelence.app": true,
+	"cloud.modelence.app": true,
+	"sandbox.modelence.app": true,
 	"modx.dev": true,
 	"bmoattachments.org": true,
 	"net.ru": true,
@@ -12783,6 +12793,7 @@ var privateSuffixList = map[string]bool{
 	"ravpage.co.il": true,
 	"readthedocs-hosted.com": true,
 	"readthedocs.io": true,
+	"rwx.run": true,
 	"rhcloud.com": true,
 	"instances.spawn.cc": true,
 	"onrender.com": true,
@@ -13180,6 +13191,7 @@ var privateSuffixList = map[string]bool{
 	"vercel.run": true,
 	"now.sh": true,
 	"2038.io": true,
+	"vibekit.page": true,
 	"v-info.info": true,
 	"vistablog.ir": true,
 	"deus-canvas.com": true,
