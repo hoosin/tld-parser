@@ -7756,6 +7756,10 @@ var publicSuffixList = map[string]bool{
 	"transfer-webapp.eusc-de-east-1.on.amazonwebservices.eu": true, // Private suffixes are also considered public for matching purposes
 	"eero.online": true, // Private suffixes are also considered public for matching purposes
 	"eero-stage.online": true, // Private suffixes are also considered public for matching purposes
+	"app.amba.host": true, // Private suffixes are also considered public for matching purposes
+	"cdn.amba.host": true, // Private suffixes are also considered public for matching purposes
+	"fn.amba.host": true, // Private suffixes are also considered public for matching purposes
+	"go.amba.host": true, // Private suffixes are also considered public for matching purposes
 	"opentunnel.xyz": true, // Private suffixes are also considered public for matching purposes
 	"antagonist.cloud": true, // Private suffixes are also considered public for matching purposes
 	"claude.app": true, // Private suffixes are also considered public for matching purposes
@@ -7981,6 +7985,7 @@ var publicSuffixList = map[string]bool{
 	"static-access.net": true, // Private suffixes are also considered public for matching purposes
 	"craft.me": true, // Private suffixes are also considered public for matching purposes
 	"realm.cz": true, // Private suffixes are also considered public for matching purposes
+	"crbts.app": true, // Private suffixes are also considered public for matching purposes
 	"cfolks.pl": true, // Private suffixes are also considered public for matching purposes
 	"cyon.link": true, // Private suffixes are also considered public for matching purposes
 	"cyon.site": true, // Private suffixes are also considered public for matching purposes
@@ -10930,6 +10935,10 @@ var privateSuffixList = map[string]bool{
 	"transfer-webapp.eusc-de-east-1.on.amazonwebservices.eu": true,
 	"eero.online": true,
 	"eero-stage.online": true,
+	"app.amba.host": true,
+	"cdn.amba.host": true,
+	"fn.amba.host": true,
+	"go.amba.host": true,
 	"opentunnel.xyz": true,
 	"antagonist.cloud": true,
 	"claude.app": true,
@@ -11155,6 +11164,7 @@ var privateSuffixList = map[string]bool{
 	"static-access.net": true,
 	"craft.me": true,
 	"realm.cz": true,
+	"crbts.app": true,
 	"cfolks.pl": true,
 	"cyon.link": true,
 	"cyon.site": true,
