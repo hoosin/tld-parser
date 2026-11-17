@@ -7768,6 +7768,7 @@ var publicSuffixList = map[string]bool{
 	"frame.claudeusercontent.com": true, // Private suffixes are also considered public for matching purposes
 	"apigee.io": true, // Private suffixes are also considered public for matching purposes
 	"panel.dev": true, // Private suffixes are also considered public for matching purposes
+	"apps.devs.ai": true, // Private suffixes are also considered public for matching purposes
 	"siiites.com": true, // Private suffixes are also considered public for matching purposes
 	"int.apple": true, // Private suffixes are also considered public for matching purposes
 	"appspacehosted.com": true, // Private suffixes are also considered public for matching purposes
@@ -7863,6 +7864,7 @@ var publicSuffixList = map[string]bool{
 	"c.cdn77.org": true, // Private suffixes are also considered public for matching purposes
 	"rsc.cdn77.org": true, // Private suffixes are also considered public for matching purposes
 	"ssl.origin.cdn77-secure.org": true, // Private suffixes are also considered public for matching purposes
+	"ceero.site": true, // Private suffixes are also considered public for matching purposes
 	"za.bz": true, // Private suffixes are also considered public for matching purposes
 	"br.com": true, // Private suffixes are also considered public for matching purposes
 	"cn.com": true, // Private suffixes are also considered public for matching purposes
@@ -8663,6 +8665,7 @@ var publicSuffixList = map[string]bool{
 	"gentlentapis.com": true, // Private suffixes are also considered public for matching purposes
 	"cdn-edges.net": true, // Private suffixes are also considered public for matching purposes
 	"gsj.bz": true, // Private suffixes are also considered public for matching purposes
+	"ginta.page": true, // Private suffixes are also considered public for matching purposes
 	"gitbook.io": true, // Private suffixes are also considered public for matching purposes
 	"github.app": true, // Private suffixes are also considered public for matching purposes
 	"githubusercontent.com": true, // Private suffixes are also considered public for matching purposes
@@ -9848,6 +9851,7 @@ var publicSuffixList = map[string]bool{
 	"try-snowplow.com": true, // Private suffixes are also considered public for matching purposes
 	"mafelo.net": true, // Private suffixes are also considered public for matching purposes
 	"sol.site": true, // Private suffixes are also considered public for matching purposes
+	"solidres.page": true, // Private suffixes are also considered public for matching purposes
 	"playstation-cloud.com": true, // Private suffixes are also considered public for matching purposes
 	"srht.site": true, // Private suffixes are also considered public for matching purposes
 	"apps.lair.io": true, // Private suffixes are also considered public for matching purposes
@@ -10115,6 +10119,7 @@ var publicSuffixList = map[string]bool{
 	"sourcecraft.site": true, // Private suffixes are also considered public for matching purposes
 	"official.academy": true, // Private suffixes are also considered public for matching purposes
 	"yolasite.com": true, // Private suffixes are also considered public for matching purposes
+	"loc.cc": true, // Private suffixes are also considered public for matching purposes
 	"ynh.fr": true, // Private suffixes are also considered public for matching purposes
 	"nohost.me": true, // Private suffixes are also considered public for matching purposes
 	"noho.st": true, // Private suffixes are also considered public for matching purposes
@@ -10971,6 +10976,7 @@ var privateSuffixList = map[string]bool{
 	"frame.claudeusercontent.com": true,
 	"apigee.io": true,
 	"panel.dev": true,
+	"apps.devs.ai": true,
 	"siiites.com": true,
 	"int.apple": true,
 	"appspacehosted.com": true,
@@ -11066,6 +11072,7 @@ var privateSuffixList = map[string]bool{
 	"c.cdn77.org": true,
 	"rsc.cdn77.org": true,
 	"ssl.origin.cdn77-secure.org": true,
+	"ceero.site": true,
 	"za.bz": true,
 	"br.com": true,
 	"cn.com": true,
@@ -11866,6 +11873,7 @@ var privateSuffixList = map[string]bool{
 	"gentlentapis.com": true,
 	"cdn-edges.net": true,
 	"gsj.bz": true,
+	"ginta.page": true,
 	"gitbook.io": true,
 	"github.app": true,
 	"githubusercontent.com": true,
@@ -13051,6 +13059,7 @@ var privateSuffixList = map[string]bool{
 	"try-snowplow.com": true,
 	"mafelo.net": true,
 	"sol.site": true,
+	"solidres.page": true,
 	"playstation-cloud.com": true,
 	"srht.site": true,
 	"apps.lair.io": true,
@@ -13318,6 +13327,7 @@ var privateSuffixList = map[string]bool{
 	"sourcecraft.site": true,
 	"official.academy": true,
 	"yolasite.com": true,
+	"loc.cc": true,
 	"ynh.fr": true,
 	"nohost.me": true,
 	"noho.st": true,
