@@ -7967,6 +7967,7 @@ var publicSuffixList = map[string]bool{
 	"hosting-cluster.nl": true, // Private suffixes are also considered public for matching purposes
 	"site.hosting-cluster.nl": true, // Private suffixes are also considered public for matching purposes
 	"ctfcloud.net": true, // Private suffixes are also considered public for matching purposes
+	"prod.enter.pro": true, // Private suffixes are also considered public for matching purposes
 	"convex.app": true, // Private suffixes are also considered public for matching purposes
 	"convex.cloud": true, // Private suffixes are also considered public for matching purposes
 	"eu-west-1.convex.cloud": true, // Private suffixes are also considered public for matching purposes
@@ -8650,6 +8651,8 @@ var publicSuffixList = map[string]bool{
 	"futuremailing.at": true, // Private suffixes are also considered public for matching purposes
 	"gadget.app": true, // Private suffixes are also considered public for matching purposes
 	"gadget.host": true, // Private suffixes are also considered public for matching purposes
+	"fastedge.app": true, // Private suffixes are also considered public for matching purposes
+	"gcorecdn.com": true, // Private suffixes are also considered public for matching purposes
 	"campaign.gov.uk": true, // Private suffixes are also considered public for matching purposes
 	"service.gov.uk": true, // Private suffixes are also considered public for matching purposes
 	"independent-commission.uk": true, // Private suffixes are also considered public for matching purposes
@@ -9047,6 +9050,7 @@ var publicSuffixList = map[string]bool{
 	"kiloapps.io": true, // Private suffixes are also considered public for matching purposes
 	"kinghost.net": true, // Private suffixes are also considered public for matching purposes
 	"uni5.net": true, // Private suffixes are also considered public for matching purposes
+	"kliv.site": true, // Private suffixes are also considered public for matching purposes
 	"koobin.events": true, // Private suffixes are also considered public for matching purposes
 	"webthings.io": true, // Private suffixes are also considered public for matching purposes
 	"krellian.net": true, // Private suffixes are also considered public for matching purposes
@@ -9147,6 +9151,8 @@ var publicSuffixList = map[string]bool{
 	"magicpatterns.app": true, // Private suffixes are also considered public for matching purposes
 	"magicpatternsapp.com": true, // Private suffixes are also considered public for matching purposes
 	"hb.cldmail.ru": true, // Private suffixes are also considered public for matching purposes
+	"mailerpage.io": true, // Private suffixes are also considered public for matching purposes
+	"subscribepage.io": true, // Private suffixes are also considered public for matching purposes
 	"matlab.cloud": true, // Private suffixes are also considered public for matching purposes
 	"modelscape.com": true, // Private suffixes are also considered public for matching purposes
 	"mwcloudnonprod.com": true, // Private suffixes are also considered public for matching purposes
@@ -9384,6 +9390,7 @@ var publicSuffixList = map[string]bool{
 	"nh-serv.co.uk": true, // Private suffixes are also considered public for matching purposes
 	"nimsite.uk": true, // Private suffixes are also considered public for matching purposes
 	"ninjaneer-sites.com": true, // Private suffixes are also considered public for matching purposes
+	"nippy.site": true, // Private suffixes are also considered public for matching purposes
 	"mmafan.biz": true, // Private suffixes are also considered public for matching purposes
 	"myftp.biz": true, // Private suffixes are also considered public for matching purposes
 	"no-ip.biz": true, // Private suffixes are also considered public for matching purposes
@@ -10023,6 +10030,7 @@ var publicSuffixList = map[string]bool{
 	"hk.org": true, // Private suffixes are also considered public for matching purposes
 	"it.com": true, // Private suffixes are also considered public for matching purposes
 	"umso.co": true, // Private suffixes are also considered public for matching purposes
+	"uncld.dev": true, // Private suffixes are also considered public for matching purposes
 	"unison-services.cloud": true, // Private suffixes are also considered public for matching purposes
 	"virtual-user.de": true, // Private suffixes are also considered public for matching purposes
 	"virtualuser.de": true, // Private suffixes are also considered public for matching purposes
@@ -11175,6 +11183,7 @@ var privateSuffixList = map[string]bool{
 	"hosting-cluster.nl": true,
 	"site.hosting-cluster.nl": true,
 	"ctfcloud.net": true,
+	"prod.enter.pro": true,
 	"convex.app": true,
 	"convex.cloud": true,
 	"eu-west-1.convex.cloud": true,
@@ -11858,6 +11867,8 @@ var privateSuffixList = map[string]bool{
 	"futuremailing.at": true,
 	"gadget.app": true,
 	"gadget.host": true,
+	"fastedge.app": true,
+	"gcorecdn.com": true,
 	"campaign.gov.uk": true,
 	"service.gov.uk": true,
 	"independent-commission.uk": true,
@@ -12255,6 +12266,7 @@ var privateSuffixList = map[string]bool{
 	"kiloapps.io": true,
 	"kinghost.net": true,
 	"uni5.net": true,
+	"kliv.site": true,
 	"koobin.events": true,
 	"webthings.io": true,
 	"krellian.net": true,
@@ -12355,6 +12367,8 @@ var privateSuffixList = map[string]bool{
 	"magicpatterns.app": true,
 	"magicpatternsapp.com": true,
 	"hb.cldmail.ru": true,
+	"mailerpage.io": true,
+	"subscribepage.io": true,
 	"matlab.cloud": true,
 	"modelscape.com": true,
 	"mwcloudnonprod.com": true,
@@ -12592,6 +12606,7 @@ var privateSuffixList = map[string]bool{
 	"nh-serv.co.uk": true,
 	"nimsite.uk": true,
 	"ninjaneer-sites.com": true,
+	"nippy.site": true,
 	"mmafan.biz": true,
 	"myftp.biz": true,
 	"no-ip.biz": true,
@@ -13231,6 +13246,7 @@ var privateSuffixList = map[string]bool{
 	"hk.org": true,
 	"it.com": true,
 	"umso.co": true,
+	"uncld.dev": true,
 	"unison-services.cloud": true,
 	"virtual-user.de": true,
 	"virtualuser.de": true,
