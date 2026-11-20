@@ -8629,6 +8629,9 @@ var publicSuffixList = map[string]bool{
 	"freebox-os.fr": true, // Private suffixes are also considered public for matching purposes
 	"freeboxos.fr": true, // Private suffixes are also considered public for matching purposes
 	"freedesktop.org": true, // Private suffixes are also considered public for matching purposes
+	"pvf.cc": true, // Private suffixes are also considered public for matching purposes
+	"kz.ci": true, // Private suffixes are also considered public for matching purposes
+	"xyz.ci": true, // Private suffixes are also considered public for matching purposes
 	"freemyip.com": true, // Private suffixes are also considered public for matching purposes
 	"wien.funkfeuer.at": true, // Private suffixes are also considered public for matching purposes
 	"xwx.me": true, // Private suffixes are also considered public for matching purposes
@@ -11845,6 +11848,9 @@ var privateSuffixList = map[string]bool{
 	"freebox-os.fr": true,
 	"freeboxos.fr": true,
 	"freedesktop.org": true,
+	"pvf.cc": true,
+	"kz.ci": true,
+	"xyz.ci": true,
 	"freemyip.com": true,
 	"wien.funkfeuer.at": true,
 	"xwx.me": true,
