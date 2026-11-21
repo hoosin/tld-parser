@@ -9606,6 +9606,11 @@ var publicSuffixList = map[string]bool{
 	"httpbin.org": true, // Private suffixes are also considered public for matching purposes
 	"prequalifyme.today": true, // Private suffixes are also considered public for matching purposes
 	"xen.prgmr.com": true, // Private suffixes are also considered public for matching purposes
+	"ec.cc": true, // Private suffixes are also considered public for matching purposes
+	"eu.cc": true, // Private suffixes are also considered public for matching purposes
+	"gu.cc": true, // Private suffixes are also considered public for matching purposes
+	"uk.cc": true, // Private suffixes are also considered public for matching purposes
+	"us.cc": true, // Private suffixes are also considered public for matching purposes
 	"priv.at": true, // Private suffixes are also considered public for matching purposes
 	"c01.kr": true, // Private suffixes are also considered public for matching purposes
 	"eliv-api.kr": true, // Private suffixes are also considered public for matching purposes
@@ -9973,11 +9978,6 @@ var publicSuffixList = map[string]bool{
 	"tche.br": true, // Private suffixes are also considered public for matching purposes
 	"site.tb-hosting.com": true, // Private suffixes are also considered public for matching purposes
 	"directwp.eu": true, // Private suffixes are also considered public for matching purposes
-	"ec.cc": true, // Private suffixes are also considered public for matching purposes
-	"eu.cc": true, // Private suffixes are also considered public for matching purposes
-	"gu.cc": true, // Private suffixes are also considered public for matching purposes
-	"uk.cc": true, // Private suffixes are also considered public for matching purposes
-	"us.cc": true, // Private suffixes are also considered public for matching purposes
 	"edugit.io": true, // Private suffixes are also considered public for matching purposes
 	"s3.teckids.org": true, // Private suffixes are also considered public for matching purposes
 	"telebit.app": true, // Private suffixes are also considered public for matching purposes
@@ -10117,6 +10117,8 @@ var publicSuffixList = map[string]bool{
 	"affinitylottery.org.uk": true, // Private suffixes are also considered public for matching purposes
 	"raffleentry.org.uk": true, // Private suffixes are also considered public for matching purposes
 	"weeklylottery.org.uk": true, // Private suffixes are also considered public for matching purposes
+	"wordsmithmcpcontent.com": true, // Private suffixes are also considered public for matching purposes
+	"staging.wordsmithmcpcontent.com": true, // Private suffixes are also considered public for matching purposes
 	"wpenginepowered.com": true, // Private suffixes are also considered public for matching purposes
 	"js.wpenginepowered.com": true, // Private suffixes are also considered public for matching purposes
 	"half.host": true, // Private suffixes are also considered public for matching purposes
@@ -10138,6 +10140,7 @@ var publicSuffixList = map[string]bool{
 	"za.org": true, // Private suffixes are also considered public for matching purposes
 	"zap.cloud": true, // Private suffixes are also considered public for matching purposes
 	"zeabur.app": true, // Private suffixes are also considered public for matching purposes
+	"fj.kg": true, // Private suffixes are also considered public for matching purposes
 	"prg1-zerops.zone": true, // Private suffixes are also considered public for matching purposes
 	"bss.design": true, // Private suffixes are also considered public for matching purposes
 	"basicserver.io": true, // Private suffixes are also considered public for matching purposes
@@ -12825,6 +12828,11 @@ var privateSuffixList = map[string]bool{
 	"httpbin.org": true,
 	"prequalifyme.today": true,
 	"xen.prgmr.com": true,
+	"ec.cc": true,
+	"eu.cc": true,
+	"gu.cc": true,
+	"uk.cc": true,
+	"us.cc": true,
 	"priv.at": true,
 	"c01.kr": true,
 	"eliv-api.kr": true,
@@ -13192,11 +13200,6 @@ var privateSuffixList = map[string]bool{
 	"tche.br": true,
 	"site.tb-hosting.com": true,
 	"directwp.eu": true,
-	"ec.cc": true,
-	"eu.cc": true,
-	"gu.cc": true,
-	"uk.cc": true,
-	"us.cc": true,
 	"edugit.io": true,
 	"s3.teckids.org": true,
 	"telebit.app": true,
@@ -13336,6 +13339,8 @@ var privateSuffixList = map[string]bool{
 	"affinitylottery.org.uk": true,
 	"raffleentry.org.uk": true,
 	"weeklylottery.org.uk": true,
+	"wordsmithmcpcontent.com": true,
+	"staging.wordsmithmcpcontent.com": true,
 	"wpenginepowered.com": true,
 	"js.wpenginepowered.com": true,
 	"half.host": true,
@@ -13357,6 +13362,7 @@ var privateSuffixList = map[string]bool{
 	"za.org": true,
 	"zap.cloud": true,
 	"zeabur.app": true,
+	"fj.kg": true,
 	"prg1-zerops.zone": true,
 	"bss.design": true,
 	"basicserver.io": true,
