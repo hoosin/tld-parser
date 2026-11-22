@@ -6821,7 +6821,6 @@ var publicSuffixList = map[string]bool{
 	"wtf": true,
 	"xbox": true,
 	"xerox": true,
-	"xihuan": true,
 	"xin": true,
 	"कॉम": true,
 	"セール": true,
