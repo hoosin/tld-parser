@@ -7782,6 +7782,7 @@ var publicSuffixList = map[string]bool{
 	"gv.vc": true, // Private suffixes are also considered public for matching purposes
 	"d.gv.vc": true, // Private suffixes are also considered public for matching purposes
 	"user.party.eus": true, // Private suffixes are also considered public for matching purposes
+	"sites.aspirethemes.com": true, // Private suffixes are also considered public for matching purposes
 	"pimienta.org": true, // Private suffixes are also considered public for matching purposes
 	"poivron.org": true, // Private suffixes are also considered public for matching purposes
 	"potager.org": true, // Private suffixes are also considered public for matching purposes
@@ -11004,6 +11005,7 @@ var privateSuffixList = map[string]bool{
 	"gv.vc": true,
 	"d.gv.vc": true,
 	"user.party.eus": true,
+	"sites.aspirethemes.com": true,
 	"pimienta.org": true,
 	"poivron.org": true,
 	"potager.org": true,
