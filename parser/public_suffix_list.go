@@ -583,10 +583,13 @@ var publicSuffixList = map[string]bool{
 	"bv": true,
 	"bw": true,
 	"ac.bw": true,
+	"agric.bw": true,
 	"co.bw": true,
 	"gov.bw": true,
+	"me.bw": true,
 	"net.bw": true,
 	"org.bw": true,
+	"shop.bw": true,
 	"by": true,
 	"gov.by": true,
 	"mil.by": true,
@@ -7820,6 +7823,7 @@ var publicSuffixList = map[string]bool{
 	"prod.page": true, // Private suffixes are also considered public for matching purposes
 	"square.site": true, // Private suffixes are also considered public for matching purposes
 	"bluebite.io": true, // Private suffixes are also considered public for matching purposes
+	"bonto.page": true, // Private suffixes are also considered public for matching purposes
 	"boomla.net": true, // Private suffixes are also considered public for matching purposes
 	"boutir.com": true, // Private suffixes are also considered public for matching purposes
 	"boxfuse.io": true, // Private suffixes are also considered public for matching purposes
@@ -8435,6 +8439,7 @@ var publicSuffixList = map[string]bool{
 	"api.lp.dev": true, // Private suffixes are also considered public for matching purposes
 	"objects.lp.dev": true, // Private suffixes are also considered public for matching purposes
 	"eu.encoway.cloud": true, // Private suffixes are also considered public for matching purposes
+	"entrypages.net": true, // Private suffixes are also considered public for matching purposes
 	"eu.org": true, // Private suffixes are also considered public for matching purposes
 	"al.eu.org": true, // Private suffixes are also considered public for matching purposes
 	"asso.eu.org": true, // Private suffixes are also considered public for matching purposes
@@ -8640,6 +8645,7 @@ var publicSuffixList = map[string]bool{
 	"freemyip.com": true, // Private suffixes are also considered public for matching purposes
 	"wien.funkfeuer.at": true, // Private suffixes are also considered public for matching purposes
 	"xwx.me": true, // Private suffixes are also considered public for matching purposes
+	"fusebase.site": true, // Private suffixes are also considered public for matching purposes
 	"daemon.asia": true, // Private suffixes are also considered public for matching purposes
 	"dix.asia": true, // Private suffixes are also considered public for matching purposes
 	"mydns.bz": true, // Private suffixes are also considered public for matching purposes
@@ -8871,6 +8877,8 @@ var publicSuffixList = map[string]bool{
 	"ngo.ng": true, // Private suffixes are also considered public for matching purposes
 	"plc.ng": true, // Private suffixes are also considered public for matching purposes
 	"hstgr.cloud": true, // Private suffixes are also considered public for matching purposes
+	"hostney.app": true, // Private suffixes are also considered public for matching purposes
+	"hostney.cloud": true, // Private suffixes are also considered public for matching purposes
 	"hostyhosting.io": true, // Private suffixes are also considered public for matching purposes
 	"hf.space": true, // Private suffixes are also considered public for matching purposes
 	"static.hf.space": true, // Private suffixes are also considered public for matching purposes
@@ -8899,6 +8907,7 @@ var publicSuffixList = map[string]bool{
 	"in-vpn.org": true, // Private suffixes are also considered public for matching purposes
 	"oninferno.net": true, // Private suffixes are also considered public for matching purposes
 	"info.cx": true, // Private suffixes are also considered public for matching purposes
+	"infusion-ai.cloud": true, // Private suffixes are also considered public for matching purposes
 	"ac.leg.br": true, // Private suffixes are also considered public for matching purposes
 	"al.leg.br": true, // Private suffixes are also considered public for matching purposes
 	"am.leg.br": true, // Private suffixes are also considered public for matching purposes
@@ -9180,6 +9189,8 @@ var publicSuffixList = map[string]bool{
 	"custom.metacentrum.cz": true, // Private suffixes are also considered public for matching purposes
 	"flt.cloud.muni.cz": true, // Private suffixes are also considered public for matching purposes
 	"usr.cloud.muni.cz": true, // Private suffixes are also considered public for matching purposes
+	"atoms.world": true, // Private suffixes are also considered public for matching purposes
+	"pub.atoms.world": true, // Private suffixes are also considered public for matching purposes
 	"meteorapp.com": true, // Private suffixes are also considered public for matching purposes
 	"eu.meteorapp.com": true, // Private suffixes are also considered public for matching purposes
 	"co.pl": true, // Private suffixes are also considered public for matching purposes
@@ -9314,6 +9325,7 @@ var publicSuffixList = map[string]bool{
 	"org.ru": true, // Private suffixes are also considered public for matching purposes
 	"pp.ru": true, // Private suffixes are also considered public for matching purposes
 	"my.be": true, // Private suffixes are also considered public for matching purposes
+	"mythex.app": true, // Private suffixes are also considered public for matching purposes
 	"hostedpi.com": true, // Private suffixes are also considered public for matching purposes
 	"caracal.mythic-beasts.com": true, // Private suffixes are also considered public for matching purposes
 	"customer.mythic-beasts.com": true, // Private suffixes are also considered public for matching purposes
@@ -9625,11 +9637,15 @@ var publicSuffixList = map[string]bool{
 	"e.id": true, // Private suffixes are also considered public for matching purposes
 	"chirurgiens-dentistes-en-france.fr": true, // Private suffixes are also considered public for matching purposes
 	"byen.site": true, // Private suffixes are also considered public for matching purposes
+	"fs.kg": true, // Private suffixes are also considered public for matching purposes
+	"bg5.net": true, // Private suffixes are also considered public for matching purposes
+	"is-a.si": true, // Private suffixes are also considered public for matching purposes
 	"nyc.mn": true, // Private suffixes are also considered public for matching purposes
 	"pubtls.org": true, // Private suffixes are also considered public for matching purposes
 	"puter.app": true, // Private suffixes are also considered public for matching purposes
 	"puter.site": true, // Private suffixes are also considered public for matching purposes
 	"puter.work": true, // Private suffixes are also considered public for matching purposes
+	"pymaia.app": true, // Private suffixes are also considered public for matching purposes
 	"pythonanywhere.com": true, // Private suffixes are also considered public for matching purposes
 	"eu.pythonanywhere.com": true, // Private suffixes are also considered public for matching purposes
 	"qa2.com": true, // Private suffixes are also considered public for matching purposes
@@ -9932,6 +9948,7 @@ var publicSuffixList = map[string]bool{
 	"atl.jelastic.vps-host.net": true, // Private suffixes are also considered public for matching purposes
 	"njs.jelastic.vps-host.net": true, // Private suffixes are also considered public for matching purposes
 	"ric.jelastic.vps-host.net": true, // Private suffixes are also considered public for matching purposes
+	"strw.app": true, // Private suffixes are also considered public for matching purposes
 	"streak-link.com": true, // Private suffixes are also considered public for matching purposes
 	"streaklinks.com": true, // Private suffixes are also considered public for matching purposes
 	"streakusercontent.com": true, // Private suffixes are also considered public for matching purposes
@@ -10098,6 +10115,7 @@ var publicSuffixList = map[string]bool{
 	"localcert.net": true, // Private suffixes are also considered public for matching purposes
 	"windsurf.app": true, // Private suffixes are also considered public for matching purposes
 	"windsurf.build": true, // Private suffixes are also considered public for matching purposes
+	"wirechunk.site": true, // Private suffixes are also considered public for matching purposes
 	"drive-platform.com": true, // Private suffixes are also considered public for matching purposes
 	"drive-platform.io": true, // Private suffixes are also considered public for matching purposes
 	"panel.gg": true, // Private suffixes are also considered public for matching purposes
@@ -11045,6 +11063,7 @@ var privateSuffixList = map[string]bool{
 	"prod.page": true,
 	"square.site": true,
 	"bluebite.io": true,
+	"bonto.page": true,
 	"boomla.net": true,
 	"boutir.com": true,
 	"boxfuse.io": true,
@@ -11660,6 +11679,7 @@ var privateSuffixList = map[string]bool{
 	"api.lp.dev": true,
 	"objects.lp.dev": true,
 	"eu.encoway.cloud": true,
+	"entrypages.net": true,
 	"eu.org": true,
 	"al.eu.org": true,
 	"asso.eu.org": true,
@@ -11865,6 +11885,7 @@ var privateSuffixList = map[string]bool{
 	"freemyip.com": true,
 	"wien.funkfeuer.at": true,
 	"xwx.me": true,
+	"fusebase.site": true,
 	"daemon.asia": true,
 	"dix.asia": true,
 	"mydns.bz": true,
@@ -12096,6 +12117,8 @@ var privateSuffixList = map[string]bool{
 	"ngo.ng": true,
 	"plc.ng": true,
 	"hstgr.cloud": true,
+	"hostney.app": true,
+	"hostney.cloud": true,
 	"hostyhosting.io": true,
 	"hf.space": true,
 	"static.hf.space": true,
@@ -12124,6 +12147,7 @@ var privateSuffixList = map[string]bool{
 	"in-vpn.org": true,
 	"oninferno.net": true,
 	"info.cx": true,
+	"infusion-ai.cloud": true,
 	"ac.leg.br": true,
 	"al.leg.br": true,
 	"am.leg.br": true,
@@ -12405,6 +12429,8 @@ var privateSuffixList = map[string]bool{
 	"custom.metacentrum.cz": true,
 	"flt.cloud.muni.cz": true,
 	"usr.cloud.muni.cz": true,
+	"atoms.world": true,
+	"pub.atoms.world": true,
 	"meteorapp.com": true,
 	"eu.meteorapp.com": true,
 	"co.pl": true,
@@ -12539,6 +12565,7 @@ var privateSuffixList = map[string]bool{
 	"org.ru": true,
 	"pp.ru": true,
 	"my.be": true,
+	"mythex.app": true,
 	"hostedpi.com": true,
 	"caracal.mythic-beasts.com": true,
 	"customer.mythic-beasts.com": true,
@@ -12850,11 +12877,15 @@ var privateSuffixList = map[string]bool{
 	"e.id": true,
 	"chirurgiens-dentistes-en-france.fr": true,
 	"byen.site": true,
+	"fs.kg": true,
+	"bg5.net": true,
+	"is-a.si": true,
 	"nyc.mn": true,
 	"pubtls.org": true,
 	"puter.app": true,
 	"puter.site": true,
 	"puter.work": true,
+	"pymaia.app": true,
 	"pythonanywhere.com": true,
 	"eu.pythonanywhere.com": true,
 	"qa2.com": true,
@@ -13157,6 +13188,7 @@ var privateSuffixList = map[string]bool{
 	"atl.jelastic.vps-host.net": true,
 	"njs.jelastic.vps-host.net": true,
 	"ric.jelastic.vps-host.net": true,
+	"strw.app": true,
 	"streak-link.com": true,
 	"streaklinks.com": true,
 	"streakusercontent.com": true,
@@ -13323,6 +13355,7 @@ var privateSuffixList = map[string]bool{
 	"localcert.net": true,
 	"windsurf.app": true,
 	"windsurf.build": true,
+	"wirechunk.site": true,
 	"drive-platform.com": true,
 	"drive-platform.io": true,
 	"panel.gg": true,
