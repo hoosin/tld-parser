@@ -6963,9 +6963,11 @@ var publicSuffixList = map[string]bool{
 	"adobeio-static.net": true, // Private suffixes are also considered public for matching purposes
 	"adobeioruntime.net": true, // Private suffixes are also considered public for matching purposes
 	"africa.com": true, // Private suffixes are also considered public for matching purposes
+	"agental.site": true, // Private suffixes are also considered public for matching purposes
 	"agilevibes.app": true, // Private suffixes are also considered public for matching purposes
 	"beep.pl": true, // Private suffixes are also considered public for matching purposes
 	"aiven.app": true, // Private suffixes are also considered public for matching purposes
+	"aiwebinfra.app": true, // Private suffixes are also considered public for matching purposes
 	"akadns.net": true, // Private suffixes are also considered public for matching purposes
 	"akamai.net": true, // Private suffixes are also considered public for matching purposes
 	"akamai-staging.net": true, // Private suffixes are also considered public for matching purposes
@@ -9071,6 +9073,7 @@ var publicSuffixList = map[string]bool{
 	"webthings.io": true, // Private suffixes are also considered public for matching purposes
 	"krellian.net": true, // Private suffixes are also considered public for matching purposes
 	"co.de": true, // Private suffixes are also considered public for matching purposes
+	"lambforge.app": true, // Private suffixes are also considered public for matching purposes
 	"shiptoday.app": true, // Private suffixes are also considered public for matching purposes
 	"shiptoday.build": true, // Private suffixes are also considered public for matching purposes
 	"laravel.cloud": true, // Private suffixes are also considered public for matching purposes
@@ -9545,6 +9548,7 @@ var publicSuffixList = map[string]bool{
 	"omgs.page": true, // Private suffixes are also considered public for matching purposes
 	"omg.lol": true, // Private suffixes are also considered public for matching purposes
 	"cloudycluster.net": true, // Private suffixes are also considered public for matching purposes
+	"eureka.zone": true, // Private suffixes are also considered public for matching purposes
 	"omniwe.site": true, // Private suffixes are also considered public for matching purposes
 	"123webseite.at": true, // Private suffixes are also considered public for matching purposes
 	"123website.be": true, // Private suffixes are also considered public for matching purposes
@@ -10006,6 +10010,7 @@ var publicSuffixList = map[string]bool{
 	"telebit.app": true, // Private suffixes are also considered public for matching purposes
 	"telebit.io": true, // Private suffixes are also considered public for matching purposes
 	"teleport.sh": true, // Private suffixes are also considered public for matching purposes
+	"tnas.online": true, // Private suffixes are also considered public for matching purposes
 	"terramind.io": true, // Private suffixes are also considered public for matching purposes
 	"reservd.com": true, // Private suffixes are also considered public for matching purposes
 	"thingdustdata.com": true, // Private suffixes are also considered public for matching purposes
@@ -10210,9 +10215,11 @@ var privateSuffixList = map[string]bool{
 	"adobeio-static.net": true,
 	"adobeioruntime.net": true,
 	"africa.com": true,
+	"agental.site": true,
 	"agilevibes.app": true,
 	"beep.pl": true,
 	"aiven.app": true,
+	"aiwebinfra.app": true,
 	"akadns.net": true,
 	"akamai.net": true,
 	"akamai-staging.net": true,
@@ -12318,6 +12325,7 @@ var privateSuffixList = map[string]bool{
 	"webthings.io": true,
 	"krellian.net": true,
 	"co.de": true,
+	"lambforge.app": true,
 	"shiptoday.app": true,
 	"shiptoday.build": true,
 	"laravel.cloud": true,
@@ -12792,6 +12800,7 @@ var privateSuffixList = map[string]bool{
 	"omgs.page": true,
 	"omg.lol": true,
 	"cloudycluster.net": true,
+	"eureka.zone": true,
 	"omniwe.site": true,
 	"123webseite.at": true,
 	"123website.be": true,
@@ -13253,6 +13262,7 @@ var privateSuffixList = map[string]bool{
 	"telebit.app": true,
 	"telebit.io": true,
 	"teleport.sh": true,
+	"tnas.online": true,
 	"terramind.io": true,
 	"reservd.com": true,
 	"thingdustdata.com": true,
